@@ -4,6 +4,7 @@ export default defineNuxtConfig({
    srcDir: "./src/",
    telemetry: false,
    ssr: true,
+   builder: "vite",
 
    sourcemap: {
       server: isDev ? true : false,
@@ -12,7 +13,7 @@ export default defineNuxtConfig({
 
    app: {
       head: {
-         title: "Arsenijs Fabrica |",
+         title: "Arsenijs Fabrica",
          charset: "utf-8",
          viewport: "width=device-width, initial-scale=1",
       },
@@ -54,7 +55,7 @@ export default defineNuxtConfig({
       enabled: isDev ? false : true,
       content: ["./src/**/*.vue"],
       safelist: {
-         standard: ["body", "html", "a", ":before", ":after", /\w+-(?:\[\d+(px|deg)\])?/],
+         standard: ["body", "html", "a", /\w+-(?:\[\d+(px|deg)\])?/],
       },
       fontFace: true,
       variables: true,
