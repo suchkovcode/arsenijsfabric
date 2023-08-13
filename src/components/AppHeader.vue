@@ -8,7 +8,7 @@
             SHOP NOW
          </NuxtLink>
       </p>
-      <div class="container py-6 flex justify-between items-center bg-white">
+      <div class="container py-3 flex justify-between items-center bg-white lg:py-6">
          <button class="burger relative cursor-pointer flex flex-col items-start justify-start gap-[6px] h-auto lg:hidden" aria-label="Menu button">
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
