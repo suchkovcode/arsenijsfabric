@@ -59,10 +59,10 @@ export default defineNuxtConfig({
    },
 
    purgecss: {
-      enabled: isDev ? false : true,
+      enabled: true,
       content: ["./src/**/*.vue"],
       safelist: {
-         standard: ["body", "html", /\w+-\[\d+px\]/],
+         standard: ["body", "html", "a", ":before", ":after", /\w+-(?:\[\d+(px|deg)\])?/],
       },
       fontFace: true,
       variables: true,
