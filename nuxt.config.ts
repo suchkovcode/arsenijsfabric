@@ -40,14 +40,6 @@ export default defineNuxtConfig({
       lintOnStart: false,
    },
 
-   image: {
-      inject: true,
-      quality: 80,
-      format: ["webp"],
-      provider: "ipx",
-      dir: "assets/img",
-   },
-
    postcss: {
       plugins: {
          "tailwindcss": {},
@@ -74,5 +66,5 @@ export default defineNuxtConfig({
    },
 
    css: ["~/assets/css/app.css"],
-   modules: ["@nuxt/image", "@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots"],
+   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots"],
 });

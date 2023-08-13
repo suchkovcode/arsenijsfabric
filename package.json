@@ -17,7 +17,6 @@
    },
    "devDependencies": {
       "@nuxt/devtools": "latest",
-      "@nuxt/image": "^1.0.0-rc.1",
       "@nuxtjs/eslint-module": "^4.1.0",
       "@pinia/nuxt": "^0.4.11",
       "@types/node": "^20.4.9",
