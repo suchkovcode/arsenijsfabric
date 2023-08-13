@@ -9,7 +9,7 @@
          </NuxtLink>
       </p>
       <div class="container py-6 flex justify-between items-center bg-white">
-         <button class="burger relative cursor-pointer flex flex-col items-start justify-start gap-[6px] h-auto lg:hidden">
+         <button class="burger relative cursor-pointer flex flex-col items-start justify-start gap-[6px] h-auto lg:hidden" aria-label="Menu button">
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
@@ -50,6 +50,7 @@
                               <img
                                  class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="~/assets/img/header__link-1.png"
+                                 alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
@@ -64,6 +65,7 @@
                               <img
                                  class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="~/assets/img/header__link-2.png"
+                                 alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
@@ -76,6 +78,7 @@
                               <img
                                  class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="~/assets/img/header__link-3.png"
+                                 alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
@@ -90,6 +93,7 @@
                               <img
                                  class="w-44 h-[140px]‰ hover:scale-125 transition-all duration-30 object-cover xl:w-60 xl:h-488"
                                  src="~/assets/img/header__link-4.png"
+                                 alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
