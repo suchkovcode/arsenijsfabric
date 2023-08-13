@@ -4,7 +4,7 @@
          Free delivery in Latvia - on order from 50 € &nbsp;
          <NuxtLink
             class="text-[10px] text-secondary no-underline transition-all duration-500 ease-linear hover:underline whitespace-nowrap"
-            to="/catalog">
+            to="/">
             SHOP NOW
          </NuxtLink>
       </p>
