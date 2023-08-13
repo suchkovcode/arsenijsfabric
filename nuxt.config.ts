@@ -41,10 +41,10 @@ export default defineNuxtConfig({
    },
 
    image: {
-      inject: false,
+      inject: true,
       quality: 80,
-      domains: ["localhost"],
-      provider: "ipx",
+      domains: ["arsenijsfabric.suchkov.cc"],
+      provider: "netlify",
       dir: "assets/img",
    },
 
@@ -59,7 +59,7 @@ export default defineNuxtConfig({
    },
 
    purgecss: {
-      enabled: true,
+      enabled: isDev ? false : true,
       content: ["./src/**/*.vue"],
       safelist: {
          standard: ["body", "html", "a", ":before", ":after", /\w+-(?:\[\d+(px|deg)\])?/],
