@@ -43,6 +43,7 @@ export default defineNuxtConfig({
    image: {
       inject: true,
       quality: 80,
+      format: ["webp"],
       domains: ["arsenijsfabric.suchkov.cc"],
       provider: "netlify",
       dir: "assets/img",
