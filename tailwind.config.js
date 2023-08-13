@@ -27,6 +27,7 @@ module.exports = {
        },
       fontFamily: {
          Giga: ["Giga Sans"],
+         Beret: ["Beret LT Std"],
       },
       container: {
          center: true,
