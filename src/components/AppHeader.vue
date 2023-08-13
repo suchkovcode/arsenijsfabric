@@ -114,7 +114,7 @@
             <nav class="relative hidden xl:block mr-8">
                <ul class="relative lg:flex gap-9 items-center text-sm text-tertiary">
                   <li
-                     class="header__arrow absolute top-0 -left-[80px] cursor-pointer flex items-start gap-2 hover:text-secondary transition-all leading-none"
+                     class="absolute top-0 -left-[80px] cursor-pointer flex items-start gap-2 hover:text-secondary transition-all leading-none"
                      :class="{ 'h-[140px]': infoHover }"
                      @mouseover="infoHover = true"
                      @mouseout="infoHover = false">
