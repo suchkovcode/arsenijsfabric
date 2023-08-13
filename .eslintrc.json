@@ -1,0 +1,62 @@
+{
+   "root": true,
+   "env": {
+      "es6": true,
+      "browser": true,
+      "commonjs": true,
+      "node": true
+   },
+   "extends": ["plugin:vue/vue3-essential", "plugin:vue/vue3-recommended"],
+   "plugins": ["import"],
+   "parserOptions": {
+      "ecmaVersion": 13,
+      "sourceType": "module"
+   },
+
+   "rules": {
+      "vue/html-indent": ["error", 3],
+      "vue/multi-word-component-names": [
+         "error",
+         {
+            "ignores": ["index", "default", "catalog"]
+         }
+      ],
+      "vue/max-attributes-per-line": [
+         "error",
+         {
+            "singleline": {
+               "max": 6
+            }
+         }
+      ],
+      "vue/html-closing-bracket-newline": [
+         "error",
+         {
+            "singleline": "never",
+            "multiline": "never"
+         }
+      ],
+
+      "vue/html-self-closing": [
+         "error",
+         {
+            "html": {
+               "void": "any",
+               "normal": "any",
+               "component": "any"
+            },
+            "svg": "never",
+            "math": "always"
+         }
+      ],
+
+      "vue/singleline-html-element-content-newline": [
+         "error",
+         {
+            "ignoreWhenNoAttributes": true,
+            "ignoreWhenEmpty": true,
+            "ignores": ["pre", "textarea", "NuxtLink"]
+         }
+      ]
+   }
+}
