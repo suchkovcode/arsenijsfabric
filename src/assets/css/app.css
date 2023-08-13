@@ -101,6 +101,10 @@ html {
    @apply h-full min-w-[340px];
 }
 
+body {
+   @apply max-w-[1800px] mx-auto;
+}
+
 .burger:hover span {
    @apply bg-[#F98076];
 }
