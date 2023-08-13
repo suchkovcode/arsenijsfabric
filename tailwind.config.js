@@ -1,12 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-   content: [
-      "./src/components/**/*.{js,vue,ts}",
-      "./src/layouts/**/*.vue",
-      "./src/pages/**/*.vue",
-      "./src/plugins/**/*.{js,ts}",
-      "./src/app.vue",
-   ],
+   content: ["./src/components/**/*.{js,vue,ts}", "./src/layouts/**/*.vue", "./src/pages/**/*.vue", "./src/plugins/**/*.{js,ts}", "./src/app.vue"],
    theme: {
       screens: {
          "sm": "576px",
@@ -17,21 +11,23 @@ module.exports = {
          "3xl": "1566px",
       },
       colors: {
-         "white": "#fff",
-         "primary": "#514EB7",
-         "secondary": "#F98076",
-         "tertiary": "#211747",
-         "border": "#EAEAEA",
-         "transparent": "transparent",
-
-       },
+         white: "#fff",
+         primary: "#514EB7",
+         secondary: "#F98076",
+         tertiary: "#211747",
+         border: "#EAEAEA",
+         transparent: "transparent",
+      },
       fontFamily: {
          Giga: ["Giga Sans"],
          Beret: ["Beret LT Std"],
       },
       container: {
          center: true,
-         padding: '20px',
+         padding: {
+            DEFAULT: "20px",
+            xl: "30px",
+         },
          screens: {
             "sm": "576px",
             "md": "768px",
