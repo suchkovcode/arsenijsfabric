@@ -105,7 +105,7 @@
                </div>
             </div>
          </nav>
-         <NuxtLink to="/" aria-label="Logo link" class="ml-11 sm:ml-[52px] lg:ml-0 lg:mr-[100px] xl:mr-0 xl:ml-[105px]">
+         <NuxtLink to="/" aria-label="Logo link" class="ml-11 sm:ml-[52px] lg:ml-0 lg:mr-[100px] xl:mr-0 xl:ml-[20px]">
             <svg class="w-24 h-10 md:w-32 md:h-11 lg:w-36 lg:h-12">
                <use xlink:href="@/assets/img/sprite.svg#logo"></use>
             </svg>
