@@ -1,6 +1,6 @@
 <template>
    <section class="relative bg-primary font-Giga overflow-hidden">
-      <div class="container pt-32 lg:pt-40 xl:pt-56">
+      <div class="container pt-32 lg:pt-40 xl:pt-52">
          <svg
             class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px]"
             fill="none">
@@ -20,7 +20,7 @@
                      <use xlink:href="@/assets/img/sprite.svg#indexIcon-1"></use>
                   </svg>
                </h1>
-               <p class="relative z-[1]font-Giga text-white text-center leading-snug max-w-[350px] mx-auto mb-6 lg:mx-0 lg:text-left">
+               <p class="relative z-[1]font-Giga text-white text-center leading-snug max-w-[350px] mx-auto mb-6 lg:mb-8 lg:mx-0 lg:text-left">
                   Our natural and perfects products. We are here to show you that natural is perfect. <br />
                   This is what our products are.
                </p>
