@@ -12,7 +12,7 @@ export default {
             lang: "lt",
          },
          titleTemplate: (titleChunk) => {
-            return titleChunk ? `${titleChunk} Site Title` : "Site Title";
+            return `${titleChunk} | Home`;
          },
       });
    },
