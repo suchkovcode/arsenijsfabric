@@ -4,8 +4,8 @@
    "description": "",
    "author": "Nikita Suchkov",
    "license": "MIT",
-   "repository": "",
-   "homepage": "",
+   "repository": "https://github.com/suchkovcode/arsenijsfabric",
+   "homepage": "https://arsenijsfabric.suchkov.cc/",
    "private": true,
    "type": "module",
    "scripts": {
