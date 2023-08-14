@@ -1,6 +1,6 @@
 <template>
    <AppHeader />
-   <main>
+   <main class="overflow-hidden">
       <slot />
    </main>
 </template>
