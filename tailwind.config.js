@@ -16,6 +16,7 @@ module.exports = {
          secondary: "#F98076",
          tertiary: "#211747",
          border: "#EAEAEA",
+         violet: "#f6f5ff",
          transparent: "transparent",
       },
       fontFamily: {
