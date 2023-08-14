@@ -92,17 +92,17 @@
    font-display: swap;
 }
 
-#__nuxt {
-   @apply h-full font-Giga relative;
-}
-
 body,
 html {
-   @apply h-full min-w-[340px];
+   @apply min-w-[340px];
 }
 
 body {
    @apply max-w-[1800px] mx-auto;
+}
+
+#__nuxt {
+   @apply relative font-Giga overflow-x-hidden;
 }
 
 .burger:hover span {
