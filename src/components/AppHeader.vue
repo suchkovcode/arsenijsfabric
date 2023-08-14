@@ -1,5 +1,5 @@
 <template>
-   <header class="fixed top-0 z-50 font-Giga bg-white w-full">
+   <header class="fixed top-0 z-50 font-Giga bg-white w-full max-w-[1800px] mx-auto">
       <p class="text-center p-1 bg-primary text-white text-xs leading-light">
          Free delivery in Latvia - on order from 50 € &nbsp;
          <NuxtLink
