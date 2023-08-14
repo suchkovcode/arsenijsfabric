@@ -1,5 +1,5 @@
 <template>
-   <section class="relative bg-primary font-Giga overflow-hidden">
+   <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:44">
       <div class="container pt-32 lg:pt-40 xl:pt-52">
          <svg
             class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px]"
@@ -32,7 +32,7 @@
             </div>
             <div class="relative">
                <img
-                  class="relative block z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-32 xl:-left-5 xl:-top-44 xl:w-[900px] xl:max-w-[900px] 2xl:left-10"
+                  class="relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10"
                   src="@/assets/img/index__img-1.png"
                   alt="picture"
                   loading="lazy"
