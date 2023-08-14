@@ -26,7 +26,8 @@ module.exports = {
       container: {
          center: true,
          padding: {
-            DEFAULT: "20px",
+            DEFAULT: "15px",
+            sm: "20px",
             xl: "30px",
          },
          screens: {
@@ -37,6 +38,11 @@ module.exports = {
             "2xl": "1366px",
          },
       },
+      extend: {
+         gridTemplateRows: {
+           'mini-2': 'min-content min-content',
+         }
+       }
    },
    plugins: [],
 };
