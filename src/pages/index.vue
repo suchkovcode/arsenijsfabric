@@ -93,11 +93,11 @@
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Cosmetics</span>
                      </span>
-                     <img
-                        class="w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="@/assets/img//header__link-1.png"
+                     <nuxt-picture
+                        src="/header__link-1.png"
                         alt="picture"
-                        loading="lazy" />
+                        loading="lazy"
+                        :img-attrs="{ class: 'w-full h-full hover:scale-125 transition-all duration-300 object-cover' }" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
@@ -115,11 +115,11 @@
                            </svg>
                         </span>
                      </span>
-                     <img
-                        class="w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="@/assets/img/product__item-2.png"
+                     <nuxt-picture
+                        src="/product__item-2.png"
                         alt="picture"
-                        loading="lazy" />
+                        loading="lazy"
+                        :img-attrs="{ class: 'w-full h-full hover:scale-125 transition-all duration-300 object-cover' }" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
@@ -138,11 +138,11 @@
                            </svg>
                         </span>
                      </span>
-                     <img
-                        class="w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="@/assets/img/header__link-3.png"
+                     <nuxt-picture
+                        src="/header__link-3.png"
                         alt="picture"
-                        loading="lazy" />
+                        loading="lazy"
+                        :img-attrs="{ class: 'w-full h-full hover:scale-125 transition-all duration-300 object-cover' }" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
@@ -155,11 +155,11 @@
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Bath bombs</span>
                      </span>
-                     <img
-                        class="w-full h-full hover:scale-125 transition-all duration-30 object-cover 8"
-                        src="@/assets/img/header__link-4.png"
+                     <nuxt-picture
+                        src="/header__link-4.png"
                         alt="picture"
-                        loading="lazy" />
+                        loading="lazy"
+                        :img-attrs="{ class: 'w-full h-full hover:scale-125 transition-all duration-300 object-cover' }" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
