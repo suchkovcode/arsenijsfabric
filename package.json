@@ -16,15 +16,16 @@
       "postinstall": "nuxt prepare"
    },
    "devDependencies": {
+      "nuxt": "^3.6.5",
       "@nuxt/devtools": "latest",
       "@nuxtjs/eslint-module": "^4.1.0",
+      "@nuxt/image": "^1.0.0-rc.1",
       "@pinia/nuxt": "^0.4.11",
       "@types/node": "^20.4.9",
       "nuxt-purgecss": "^2.0.0",
       "nuxt-simple-sitemap": "^3.1.5",
       "nuxt-simple-robots": "^3.1.0",
 
-      "nuxt": "^3.6.5",
       "tailwindcss": "^3.3.3",
       "postcss": "^8.4.27",
       "postcss-combine-duplicated-selectors": "^10.0.3",

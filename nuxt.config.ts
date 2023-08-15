@@ -61,11 +61,17 @@ export default defineNuxtConfig({
       variables: true,
    },
 
+   image: {
+      format: ["avif", "webp"],
+      quality: 80,
+      dir: "assets/img",
+   },
+
    experimental: {
       inlineSSRStyles: false,
       payloadExtraction: false,
    },
 
    css: ["~/assets/css/app.css"],
-   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots"],
+   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots", "@nuxt/image"],
 });
