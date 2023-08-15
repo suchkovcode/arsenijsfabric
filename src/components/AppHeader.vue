@@ -7,7 +7,10 @@
          </NuxtLink>
       </p>
       <div class="container py-3 flex justify-between items-center bg-white lg:py-6">
-         <button class="burger relative cursor-pointer flex flex-col items-start justify-start gap-[6px] h-auto lg:hidden" aria-label="Menu button">
+         <button
+            class="burger relative cursor-pointer flex flex-col items-start justify-start gap-[6px] h-auto lg:hidden"
+            type="button"
+            aria-label="Menu button">
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
@@ -120,7 +123,9 @@
                      <span class="pt-[6px] pb-0" :class="[infoHover ? arrowActive : arrowDefault]"></span>
                   </li>
                   <li class="lg:relative lg:hover:text-secondary transition-all leading-none">
-                     <button>CONTACTS</button>
+                     <button type="button">
+                        CONTACTS
+                     </button>
                   </li>
                </ul>
                <div
@@ -140,7 +145,7 @@
                   </nav>
                </div>
             </nav>
-            <button class="cursor-pointer relative">
+            <button class="cursor-pointer relative" type="button">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconFavorite"></use>
                </svg>
@@ -149,7 +154,7 @@
                   0
                </span>
             </button>
-            <button class="cursor-pointer relative">
+            <button class="cursor-pointer relative" type="button">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconBacket"></use>
                </svg>
