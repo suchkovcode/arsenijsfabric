@@ -74,21 +74,28 @@
                   <li class="border border-[#342470] rounded-full hover:border-secondary transition-all">
                      <a
                         class="flex justify-center items-center w-11 h-11"
-                        href="https://m.facebook.com/pages/category/Health-Beauty/arsenijs_fabrica-107780641046133/posts/">
-                        <svg class="block w-5 h-5 opacity-80">
+                        href="https://m.facebook.com/pages/category/Health-Beauty/arsenijs_fabrica-107780641046133/posts/"
+                        aria-label="Social link">
+                        <svg class="block w-5 h-5 opacity-80" aria-label="Social link">
                            <use xlink:href="@/assets/img/sprite.svg#iconFacebook"></use>
                         </svg>
                      </a>
                   </li>
                   <li class="border border-[#342470] rounded-full hover:border-secondary transition-all">
-                     <a class="flex justify-center items-center w-11 h-11" href="https://www.instagram.com/arsenijs_fabrica/?igshid=1gpw8a87oqahf">
+                     <a
+                        class="flex justify-center items-center w-11 h-11"
+                        href="https://www.instagram.com/arsenijs_fabrica/?igshid=1gpw8a87oqahf"
+                        aria-label="Social link">
                         <svg class="block w-5 h-5 opacity-80">
                            <use xlink:href="@/assets/img/sprite.svg#iconInstagram"></use>
                         </svg>
                      </a>
                   </li>
                   <li class="border border-[#342470] rounded-full hover:border-secondary transition-all">
-                     <a class="flex justify-center items-center w-11 h-11" href="https://www.tiktok.com/@arsenijsfabrica?_t=8UzCTnU8AXV&_r=1">
+                     <a
+                        class="flex justify-center items-center w-11 h-11"
+                        href="https://www.tiktok.com/@arsenijsfabrica?_t=8UzCTnU8AXV&_r=1"
+                        aria-label="Social link">
                         <svg class="block w-5 h-5 opacity-80">
                            <use xlink:href="@/assets/img/sprite.svg#iconTikTok"></use>
                         </svg>
