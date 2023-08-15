@@ -46,7 +46,7 @@
                            <NuxtLink class="relative" to="/">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Cosmetics</span>
                               <nuxt-img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
+                                 class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="/header__link-1.png"
                                  alt="picture"
                                  loading="lazy" />
@@ -61,7 +61,7 @@
                                  Soap bouquets
                               </span>
                               <nuxt-img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
+                                 class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="/header__link-2.png"
                                  alt="picture"
                                  loading="lazy" />
@@ -74,7 +74,7 @@
                            <NuxtLink class="relative" to="/">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Soap</span>
                               <nuxt-img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
+                                 class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="/header__link-3.png"
                                  alt="picture"
                                  loading="lazy" />
@@ -89,7 +89,7 @@
                                  Bath bombs
                               </span>
                               <nuxt-img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
+                                 class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
                                  src="/header__link-4.png"
                                  alt="picture"
                                  loading="lazy" />
