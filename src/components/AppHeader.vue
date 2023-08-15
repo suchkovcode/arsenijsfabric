@@ -2,9 +2,7 @@
    <header class="fixed top-0 z-50 font-Giga bg-white w-full max-w-[1800px] mx-auto">
       <p class="text-center p-1 bg-primary text-white text-xs leading-light">
          Free delivery in Latvia - on order from 50 € &nbsp;
-         <NuxtLink
-            class="text-[10px] text-secondary no-underline transition-all duration-500 ease-linear hover:underline whitespace-nowrap"
-            to="/">
+         <NuxtLink class="text-[10px] text-secondary no-underline transition-all duration-500 ease-linear hover:underline whitespace-nowrap" to="/">
             SHOP NOW
          </NuxtLink>
       </p>
@@ -47,11 +45,11 @@
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
                            <NuxtLink class="relative" to="/">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Cosmetics</span>
-                              <img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img//header__link-1.png"
+                              <nuxt-picture
+                                 src="/header__link-1.png"
                                  alt="picture"
-                                 loading="lazy" />
+                                 loading="lazy"
+                                 :img-attrs="{ class: 'w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48' }" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                               </svg>
@@ -62,11 +60,11 @@
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Soap bouquets
                               </span>
-                              <img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img/header__link-2.png"
+                              <nuxt-picture
+                                 src="/header__link-2.png"
                                  alt="picture"
-                                 loading="lazy" />
+                                 loading="lazy"
+                                 :img-attrs="{ class: 'w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48' }" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                               </svg>
@@ -75,11 +73,11 @@
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
                            <NuxtLink class="relative" to="/">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Soap</span>
-                              <img
-                                 class="w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img/header__link-3.png"
+                              <nuxt-picture
+                                 src="/header__link-3.png"
                                  alt="picture"
-                                 loading="lazy" />
+                                 loading="lazy"
+                                 :img-attrs="{ class: 'w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48' }" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                               </svg>
@@ -90,11 +88,11 @@
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Bath bombs
                               </span>
-                              <img
-                                 class="w-44 h-[140px]‰ hover:scale-125 transition-all duration-30 object-cover xl:w-60 xl:h-488"
-                                 src="@/assets/img/header__link-4.png"
+                              <nuxt-picture
+                                 src="/header__link-4.png"
                                  alt="picture"
-                                 loading="lazy" />
+                                 loading="lazy"
+                                 :img-attrs="{ class: 'w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48' }" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
                                  <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                               </svg>
