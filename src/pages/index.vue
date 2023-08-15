@@ -169,4 +169,7 @@
          </nav>
       </div>
    </section>
+   <section class="py-16 sm:py-24">
+      <v-about></v-about>
+   </section>
 </template>
