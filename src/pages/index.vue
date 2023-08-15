@@ -31,13 +31,13 @@
                </NuxtLink>
             </div>
             <div class="relative">
-               <img
-                  class="relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10"
-                  src="@/assets/img/index__img-1.png"
+               <nuxt-picture
+                  src="/index__img-1.png"
                   alt="picture"
                   loading="lazy"
-                  width="200"
-                  height="200" />
+                  :img-attrs="{
+                     class: 'relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10',
+                  }" />
                <svg
                   class="absolute bottom-[-280px] left-[-100px] z-0 w-[600px] h-[600px] sm:left-[-20px] sm:bottom-[-150px] md:left-[30px] md:w-[700px] md:h-[700px] md:bottom-[-300px] xl:left-40 2xl:left-64 2xl:bottom-[-250px]"
                   fill="none">
@@ -55,33 +55,25 @@
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-1"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Natural Ingredients
-               </span>
+               <span class="text-center lg:text-left leading-none"> Natural Ingredients </span>
             </div>
             <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-2"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Cruelty free
-               </span>
+               <span class="text-center lg:text-left leading-none"> Cruelty free </span>
             </div>
             <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-3"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Handmade
-               </span>
+               <span class="text-center lg:text-left leading-none"> Handmade </span>
             </div>
             <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-4"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Vegan cosmetics
-               </span>
+               <span class="text-center lg:text-left leading-none"> Vegan cosmetics </span>
             </div>
          </div>
          <nav>
