@@ -33,6 +33,11 @@ export default defineNuxtConfig({
       port: 3000,
    },
 
+   experimental: {
+      inlineSSRStyles: false,
+      payloadExtraction: false,
+   },
+
    nitro: {
       serveStatic: true,
    },
@@ -67,11 +72,20 @@ export default defineNuxtConfig({
       dir: "assets/img",
    },
 
-   experimental: {
-      inlineSSRStyles: false,
-      payloadExtraction: false,
+   htmlValidator: {
+      usePrettier: false,
+      logLevel: "verbose",
+      failOnError: false,
    },
 
    css: ["~/assets/css/app.css"],
-   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots", "@nuxt/image"],
+   modules: [
+      "@nuxtjs/eslint-module",
+      "@pinia/nuxt",
+      "nuxt-purgecss",
+      "nuxt-simple-sitemap",
+      "nuxt-simple-robots",
+      "@nuxt/image",
+      "@nuxtjs/html-validator",
+   ],
 });
