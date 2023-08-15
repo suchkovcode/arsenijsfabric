@@ -89,7 +89,7 @@
                <li
                   class="overflow-hidden col-span-7 relative h-[200px] rounded-3xl sm:h-[250px] md:h-[300px] lg:h-[355px] lg:col-span-5 lg:row-span-2 xl:h-[460px]">
                   <NuxtLink class="relative" to="/">
-                     <span class="absolute top-3 left-3 z-50 text-white font-Giga eading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
+                     <span class="absolute top-3 left-3 z-10 text-white font-Giga eading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Cosmetics</span>
                      </span>
@@ -106,7 +106,7 @@
                <li class="overflow-hidden col-span-5 relative h-[200px] rounded-3xl sm:h-[250px] md:h-[300px] lg:h-full lg:col-span-3 lg:row-span-2">
                   <NuxtLink class="relative" to="/">
                      <span
-                        class="absolute top-3 left-3 z-50 w-[85%] text-white font-Giga leading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
+                        class="absolute top-3 left-3 z-10 w-[85%] text-white font-Giga leading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret relative flex justify-between items-center uppercase md:text-xl xl:text-2xl">
                            Soap bouquets
@@ -129,7 +129,7 @@
                   class="overflow-hidden col-span-6 relative h-[120px] rounded-3xl sm:h-[180px] md:h-[200px] lg:h-[170px] lg:col-span-4 lg:row-span-1 xl:h-[220px]">
                   <NuxtLink class="relative" to="/">
                      <span
-                        class="absolute top-3 left-3 z-50 w-[85%] text-white font-Giga leading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
+                        class="absolute top-3 left-3 z-10 w-[85%] text-white font-Giga leading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret relative flex justify-between items-centeruppercase md:text-xl xl:text-2xl">
                            Soap
@@ -151,7 +151,7 @@
                <li
                   class="overflow-hidden col-span-6 relative h-[120px] rounded-3xl sm:h-[180px] md:h-[200px] lg:h-[170px] lg:col-span-4 lg:row-span-1 xl:h-[220px]">
                   <NuxtLink class="relative" to="/">
-                     <span class="absolute top-3 left-3 z-50 text-white font-Giga eading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
+                     <span class="absolute top-3 left-3 z-10 text-white font-Giga eading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Bath bombs</span>
                      </span>
