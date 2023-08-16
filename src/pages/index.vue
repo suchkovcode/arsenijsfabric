@@ -49,7 +49,7 @@
          </div>
       </div>
    </section>
-   <section class="relative bg-violet pb-12 lg:pb-14 xl:pb-16">
+   <section class="relative bg-violet pb-12 lg:pb-14 xl:pb-12">
       <div class="container">
          <div
             class="grid grid-cols-2 items-center justify-items-center gap-6 max-w-[400px] mx-auto py-10 lg:py-12 xl:py-13 md:grid-cols-4 md:max-w-none">
@@ -171,9 +171,77 @@
          </nav>
       </div>
    </section>
+   <section class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
+      <svg
+         class="absolute -top-72 -left-[330px] block w-[600px] h-[820px] rotate-12 sm:-left-[280px] sm:w-[700px] lg:-left-[200px] lg:top-[-350px] xl:w-[700px] 2xl:-left-[50px] 2xl:top-[-300px] 2xl:rotate-0">
+         <use xlink:href="@/assets/img/sprite.svg#about-bg"></use>
+      </svg>
+      <div class="relative container z-20 xl:mb-12">
+         <div class="lg:flex">
+            <div class="mb-7 text-center lg:text-left lg:mb-0">
+               <h2 class="relative font-Beret text-[50px] text-primary leading-none mb-2">
+                  <svg class="absolute -top-6 left-1/2 -translate-x-1/2 w-16 h-9 lg:translate-x-0 lg:left-10" fill="none">
+                     <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-3"></use>
+                  </svg>
+                  ARSENIJS FABRICA
+               </h2>
+               <div class="text-sm mx-auto text-tertiary opacity-60 leading-snug font-Giga tracking-wide sm:text-lg sm:max-w-[460px]">
+                  <p class="mb-5 xl:mb-10">
+                     is a natural and modern cosmetics.
+                  </p>
+                  <p class="mb-5">
+                     The story on which the Arsenijs fabrica brand is based is about a 12-year-old redheaded boy, who in the evenings on the first
+                     floor of his house was doing his favorite thing - making soap!
+                  </p>
+                  <p>Every night he dreamed that one day he would have his own factory.</p>
+               </div>
+            </div>
+            <nuxt-img
+               class="block w-full max-w-[440px] mx-auto h-auto mb-12 sm:mb-16 lg:mb-0 lg:mx-0 lg:ml-auto xl:max-w-[560px] xl:-mt-16"
+               src="/about__hero.png"
+               loading="lazy"
+               alt="picture"
+               width="1030"
+               height="1190" />
+         </div>
+         <div class="justify-center gap-6 sm:flex lg:justify-start lg:-mt-28 xl:-mt-48 xl:mb-5">
+            <div class="relative">
+               <svg
+                  class="absolute -top-14 left-1/2 -translate-x-1/2 w-20 h-20 rotate-[26deg] sm:left-[30%] sm:-top-12 sm:rotate-[20deg]"
+                  fill="none">
+                  <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-4"></use>
+               </svg>
+               <nuxt-img class="hidden w-40 h-40 sm:block" src="/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
+            </div>
+            <div>
+               <p class="hidden mb-2 text-xs font-medium text-[#8b91a6] sm:block">
+                  @yanaabruk
+               </p>
+               <nuxt-img
+                  class="block w-52 h-auto mx-auto mb-5 sm:hidden"
+                  src="/about__logo.png"
+                  alt="picture"
+                  loading="lazy"
+                  width="400"
+                  height="100" />
+               <nuxt-img
+                  class="hidden w-52 h-auto mx-auto mb-5 sm:block sm:mx-0 md:w-56"
+                  src="/about__logo--left.png"
+                  alt="picture"
+                  loading="lazy"
+                  width="400"
+                  height="100" />
+               <p
+                  class="text-sm text-center opacity-60 text-tertiary leading-snug font-Giga tracking-wide max-w-[300px] mx-auto sm:text-left sm:mx-0 md:text-base md:max-w-[350px]">
+                  this is the first and unique collaboration in Latvia with a famous blogger and influencer Yana Bruk
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
    <section class="pt-14 sm:pt-24">
       <div class="container">
-         <h2 class="mb-9 font-Beret text-primary text-[50px] leading-none text-center md:mb-12 lg:mb-16 lg:text-left ">
+         <h2 class="mb-9 font-Beret text-primary text-[50px] leading-none text-center md:mb-12 lg:mb-16 lg:text-left">
             <span>
                We work
                <svg class="inline w-14 h-14 rotate-12" fill="none">
@@ -182,7 +250,8 @@
             </span>
             <span> with love</span>
          </h2>
-         <div class="flex flex-col items-center gap-5 mb-8 sm:grid sm:grid-cols-2 sm:gap-7 sm:justify-items-center lg:grid-cols-4 lg:justify-items-start lg:mb-20">
+         <div
+            class="flex flex-col items-center gap-5 mb-8 sm:grid sm:grid-cols-2 sm:gap-7 sm:justify-items-center lg:grid-cols-4 lg:justify-items-start lg:mb-20">
             <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
                <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-1"></use>
@@ -229,8 +298,10 @@
             </div>
          </div>
          <hr class="mb-9 border-secondary opacity-50 md:mb-12 lg:mb-20" />
-         <div class="flex flex-col items-center gap-9 sm:flex-row sm:justify-center md:grid md:grid-cols-2 md:justify-items-center lg:justify-items-start">
-            <div class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
+         <div
+            class="flex flex-col items-center gap-9 sm:flex-row sm:justify-center md:grid md:grid-cols-2 md:justify-items-center lg:justify-items-start">
+            <div
+               class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
                <svg class="block w-20 h-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2248_49)">
                      <mask
@@ -296,7 +367,8 @@
                   </p>
                </div>
             </div>
-            <div class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
+            <div
+               class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
                <svg class="block w-20 h-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2248_60)">
                      <mask
