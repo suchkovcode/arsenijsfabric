@@ -1,5 +1,5 @@
 <template>
-   <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:pt-44">
+   <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:pt-44 2xl:pt-48">
       <div class="container pt-32 lg:pt-40 xl:pt-52">
          <svg
             class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px]"
@@ -25,7 +25,7 @@
                   This is what our products are.
                </p>
                <NuxtLink
-                  class="flex justify-center items-center w-40 h-20 bg-white text-tertiary rounded-[55px] font-bold border border-tertiary hover:bg-secondary hover:text-white transition-all mx-auto mb-10 lg:mx-0 lg:mb-20 xl:mb-24"
+                  class="flex justify-center items-center w-40 h-20 bg-white text-tertiary rounded-[55px] font-bold border border-tertiary hover:bg-secondary hover:text-white transition-all mx-auto mb-10 lg:mx-0 lg:mb-20 xl:mb-24 2xl:mb-28"
                   to="/">
                   <span>SHOP NOW</span>
                </NuxtLink>
@@ -38,7 +38,7 @@
                   width="750"
                   height="580"
                   :img-attrs="{
-                     class: 'relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10',
+                     class: 'relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10 2xl:-top-[150px]',
                   }" />
                <svg
                   class="absolute bottom-[-280px] left-[-100px] z-0 w-[600px] h-[600px] sm:left-[-20px] sm:bottom-[-150px] md:left-[30px] md:w-[700px] md:h-[700px] md:bottom-[-300px] xl:left-40 2xl:left-64 2xl:bottom-[-250px]"
