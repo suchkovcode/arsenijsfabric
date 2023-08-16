@@ -35,6 +35,8 @@
                   src="/index__img-1.png"
                   alt="picture"
                   loading="lazy"
+                  width="750"
+                  height="580"
                   :img-attrs="{
                      class: 'relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10',
                   }" />
