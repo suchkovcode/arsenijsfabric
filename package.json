@@ -16,6 +16,8 @@
       "postinstall": "nuxt prepare"
    },
    "devDependencies": {
+      "netlify-cli": "^16.1.0",
+      
       "nuxt": "^3.6.5",
       "@nuxt/devtools": "latest",
       "@nuxtjs/eslint-module": "^4.1.0",
