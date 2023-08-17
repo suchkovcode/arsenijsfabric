@@ -41,6 +41,9 @@ module.exports = {
       extend: {
          gridTemplateRows: {
            'mini-2': 'min-content min-content',
+         },
+         gridTemplateColumns: {
+            "catalog": "repeat(auto-fit, minmax(240px, 1fr))"
          }
        }
    },
