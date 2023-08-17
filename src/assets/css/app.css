@@ -94,7 +94,7 @@
 
 body,
 html {
-   @apply min-w-[340px];
+   @apply min-w-[340px] h-full;
 }
 
 body {
