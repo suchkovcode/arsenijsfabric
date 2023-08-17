@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-   content: ["./src/components/**/*.{js,vue,ts}", "./src/layouts/**/*.vue", "./src/pages/**/*.vue", "./src/plugins/**/*.{js,ts}", "./src/app.vue"],
+   content: [
+      "./src/components/**/*.{js,vue,ts}",
+      "./src/layouts/**/*.vue",
+      "./src/pages/**/*.vue",
+      "./src/plugins/**/*.{js,ts}",
+      "./src/app.vue",
+      "./src/error.vue",
+   ],
    theme: {
       screens: {
          "sm": "576px",
@@ -14,6 +21,7 @@ module.exports = {
          white: "#fff",
          primary: "#514EB7",
          secondary: "#F98076",
+         orange: "#feecea",
          tertiary: "#211747",
          border: "#EAEAEA",
          violet: "#f6f5ff",
@@ -40,12 +48,12 @@ module.exports = {
       },
       extend: {
          gridTemplateRows: {
-           'mini-2': 'min-content min-content',
+            "mini-2": "min-content min-content",
          },
          gridTemplateColumns: {
-            "catalog": "repeat(auto-fit, minmax(240px, 1fr))"
-         }
-       }
+            catalog: "repeat(auto-fit, minmax(240px, 1fr))",
+         },
+      },
    },
    plugins: [],
 };
