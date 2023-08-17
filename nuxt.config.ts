@@ -72,12 +72,6 @@ export default defineNuxtConfig({
       dir: "assets/img",
    },
 
-   htmlValidator: {
-      usePrettier: false,
-      logLevel: "verbose",
-      failOnError: false,
-   },
-
    css: ["~/assets/css/app.css"],
    modules: [
       "@nuxtjs/eslint-module",
@@ -86,6 +80,5 @@ export default defineNuxtConfig({
       "nuxt-simple-sitemap",
       "nuxt-simple-robots",
       "@nuxt/image",
-      "@nuxtjs/html-validator",
    ],
 });
