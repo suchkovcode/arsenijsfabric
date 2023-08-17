@@ -18,14 +18,14 @@
       "vue/multi-word-component-names": [
          "error",
          {
-            "ignores": ["index", "default", "catalog"]
+            "ignores": ["index", "default", "catalog", "error", "rating", "favorite", "card"]
          }
       ],
       "vue/max-attributes-per-line": [
          "error",
          {
             "singleline": {
-               "max": 6
+               "max": 8
             }
          }
       ],
@@ -55,7 +55,7 @@
          {
             "ignoreWhenNoAttributes": true,
             "ignoreWhenEmpty": true,
-            "ignores": ["pre", "textarea", "NuxtLink"]
+            "ignores": ["pre", "textarea", "NuxtLink", "p", "span", "h3", "h2", "h1"]
          }
       ]
    }
