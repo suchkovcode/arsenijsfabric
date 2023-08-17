@@ -57,33 +57,25 @@
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-1"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Natural Ingredients
-               </span>
+               <span class="text-center lg:text-left leading-none"> Natural Ingredients </span>
             </div>
             <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-2"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Cruelty free
-               </span>
+               <span class="text-center lg:text-left leading-none"> Cruelty free </span>
             </div>
             <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-3"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Handmade
-               </span>
+               <span class="text-center lg:text-left leading-none"> Handmade </span>
             </div>
             <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
                <svg class="w-12 h-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-4"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none">
-                  Vegan cosmetics
-               </span>
+               <span class="text-center lg:text-left leading-none"> Vegan cosmetics </span>
             </div>
          </div>
          <nav>
@@ -171,6 +163,24 @@
          </nav>
       </div>
    </section>
+   <section class="py-16 sm:py-20 md:py-24 lg:py-28">
+      <div class="container">
+         <div class="mb-8 sm:mb-10 md:mb-12 lg:mb-14 lg:flex lg:justify-between lg:items-center">
+            <h2 class="relative text-center lg:text-left">
+               <svg class="absolute -top-6 left-1/2 -translate-x-1/2 w-16 h-9 lg:translate-x-0 lg:left-10" fill="none">
+                  <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-5"></use>
+               </svg>
+               <span class="font-Beret text-primary text-[50px] leading-none lg:text-[55px]"> Bestsellers </span>
+            </h2>
+            <nuxt-link
+               class="hidden lg:flex justify-center items-center w-40 h-20 font-Beret bg-orange text-secondary rounded-[55px] uppercase hover:bg-secondary hover:border hover:border-tertiary hover:text-white transition-all"
+               to="/">
+               ALL PRODUCTS
+            </nuxt-link>
+         </div>
+         <app-catalog :data-item="products" />
+      </div>
+   </section>
    <section class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
       <svg
          class="absolute -top-72 -left-[330px] block w-[600px] h-[820px] rotate-12 sm:-left-[280px] sm:w-[700px] lg:-left-[200px] lg:top-[-350px] xl:w-[700px] 2xl:-left-[50px] 2xl:top-[-300px] 2xl:rotate-0">
@@ -186,9 +196,7 @@
                   ARSENIJS FABRICA
                </h2>
                <div class="text-sm mx-auto text-tertiary opacity-60 leading-snug font-Giga tracking-wide sm:text-lg sm:max-w-[460px]">
-                  <p class="mb-5 xl:mb-10">
-                     is a natural and modern cosmetics.
-                  </p>
+                  <p class="mb-5 xl:mb-10">is a natural and modern cosmetics.</p>
                   <p class="mb-5">
                      The story on which the Arsenijs fabrica brand is based is about a 12-year-old redheaded boy, who in the evenings on the first
                      floor of his house was doing his favorite thing - making soap!
@@ -214,9 +222,7 @@
                <nuxt-img class="hidden w-40 h-40 sm:block" src="/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
             </div>
             <div>
-               <p class="hidden mb-2 text-xs font-medium text-[#8b91a6] sm:block">
-                  @yanaabruk
-               </p>
+               <p class="hidden mb-2 text-xs font-medium text-[#8b91a6] sm:block">@yanaabruk</p>
                <nuxt-img
                   class="block w-52 h-auto mx-auto mb-5 sm:hidden"
                   src="/about__logo.png"
@@ -256,45 +262,29 @@
                <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-1"></use>
                </svg>
-               <h3 class="font-semibold text-xl">
-                  Quality
-               </h3>
-               <p class="opacity-70">
-                  We are the #1 firm by handmade soap and value to our clients. We like what we do.
-               </p>
+               <h3 class="font-semibold text-xl">Quality</h3>
+               <p class="opacity-70">We are the #1 firm by handmade soap and value to our clients. We like what we do.</p>
             </div>
             <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
                <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-2"></use>
                </svg>
-               <h3 class="font-semibold text-xl">
-                  Efficiency
-               </h3>
-               <p class="opacity-70">
-                  We take care about our clients time. Just call us — and we will help you with all the questions.
-               </p>
+               <h3 class="font-semibold text-xl">Efficiency</h3>
+               <p class="opacity-70">We take care about our clients time. Just call us — and we will help you with all the questions.</p>
             </div>
             <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
                <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-3"></use>
                </svg>
-               <h3 class="font-semibold text-xl">
-                  Experience
-               </h3>
-               <p class="opacity-70">
-                  All our professionals have more than 5 years experiences. They use their knowledge in work.
-               </p>
+               <h3 class="font-semibold text-xl">Experience</h3>
+               <p class="opacity-70">All our professionals have more than 5 years experiences. They use their knowledge in work.</p>
             </div>
             <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
                <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-4"></use>
                </svg>
-               <h3 class="font-semibold text-xl">
-                  Presents
-               </h3>
-               <p class="opacity-70">
-                  We like to make people happy. We ask our clients about their wishes and prepare cool presents.
-               </p>
+               <h3 class="font-semibold text-xl">Presents</h3>
+               <p class="opacity-70">We like to make people happy. We ask our clients about their wishes and prepare cool presents.</p>
             </div>
          </div>
          <hr class="mb-9 border-secondary opacity-50 md:mb-12 lg:mb-20" />
@@ -304,14 +294,7 @@
                class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
                <svg class="block w-20 h-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2248_49)">
-                     <mask
-                        id="mask0_2248_49"
-                        style="mask-type: luminance"
-                        maskUnits="userSpaceOnUse"
-                        x="0"
-                        y="0"
-                        width="100"
-                        height="100">
+                     <mask id="mask0_2248_49" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
                         <path
                            d="M100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100C77.6142 100 100 77.6142 100 50Z"
                            fill="white"></path>
@@ -354,16 +337,12 @@
                   </defs>
                </svg>
                <div>
-                  <p class="font-Beret text-lg leading-light mb-3 lg:mb-0">
-                     "Great patches, very helpful in the morning"
-                  </p>
+                  <p class="font-Beret text-lg leading-light mb-3 lg:mb-0">"Great patches, very helpful in the morning"</p>
                   <p class="lg:flex lg:items-center lg:gap-3">
                      <svg class="block w-24 h-5 mb-1 mx-auto lg:mx-0" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#workStar"></use>
                      </svg>
-                     <span class="text-secondary text-xs uppercase">
-                        SOFIA
-                     </span>
+                     <span class="text-secondary text-xs uppercase"> SOFIA </span>
                   </p>
                </div>
             </div>
@@ -371,14 +350,7 @@
                class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
                <svg class="block w-20 h-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2248_60)">
-                     <mask
-                        id="mask0_2248_60"
-                        style="mask-type: luminance"
-                        maskUnits="userSpaceOnUse"
-                        x="0"
-                        y="0"
-                        width="100"
-                        height="100">
+                     <mask id="mask0_2248_60" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
                         <path
                            d="M100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100C77.6142 100 100 77.6142 100 50Z"
                            fill="white"></path>
@@ -426,16 +398,12 @@
                   </defs>
                </svg>
                <div>
-                  <p class="font-Beret text-lg leading-light mb-3 lg:mb-0">
-                     "Just an amazing smell of soap. I will definitely order more"
-                  </p>
+                  <p class="font-Beret text-lg leading-light mb-3 lg:mb-0">"Just an amazing smell of soap. I will definitely order more"</p>
                   <p class="lg:flex lg:items-center lg:gap-3">
                      <svg class="block w-24 h-5 mb-1 mx-auto lg:mx-0" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#workStar"></use>
                      </svg>
-                     <span class="text-secondary text-xs uppercase">
-                        DIANNE
-                     </span>
+                     <span class="text-secondary text-xs uppercase"> DIANNE </span>
                   </p>
                </div>
             </div>
@@ -446,3 +414,30 @@
       <v-about></v-about>
    </section>
 </template>
+
+<script>
+export default {
+   data() {
+      return {
+         products: [
+            {
+               id: 1,
+               name: "card-text",
+            },
+            {
+               id: 2,
+               name: "card-text",
+            },
+            {
+               id: 3,
+               name: "card-text",
+            },
+            {
+               id: 4,
+               name: "card-text",
+            },
+         ],
+      };
+   },
+};
+</script>
