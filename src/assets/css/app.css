@@ -4,7 +4,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Medium Italic"), local("GigaSans-MediumItalic"), url("~/assets/fonts/GigaSans-MediumItalic.woff2") format("woff2"),
+   src:
+      local("Giga Sans Medium Italic"),
+      local("GigaSans-MediumItalic"),
+      url("~/assets/fonts/GigaSans-MediumItalic.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-MediumItalic.woff") format("woff");
    font-weight: 500;
    font-style: italic;
@@ -13,7 +16,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Bold Italic"), local("GigaSans-BoldItalic"), url("~/assets/fonts/GigaSans-BoldItalic.woff2") format("woff2"),
+   src:
+      local("Giga Sans Bold Italic"),
+      local("GigaSans-BoldItalic"),
+      url("~/assets/fonts/GigaSans-BoldItalic.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-BoldItalic.woff") format("woff");
    font-weight: 700;
    font-style: italic;
@@ -22,7 +28,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Semi Bold Italic"), local("GigaSans-SemiBoldItalic"), url("~/assets/fonts/GigaSans-SemiBoldItalic.woff2") format("woff2"),
+   src:
+      local("Giga Sans Semi Bold Italic"),
+      local("GigaSans-SemiBoldItalic"),
+      url("~/assets/fonts/GigaSans-SemiBoldItalic.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-SemiBoldItalic.woff") format("woff");
    font-weight: 600;
    font-style: italic;
@@ -31,7 +40,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans"), local("GigaSans-Regular"), url("~/assets/fonts/GigaSans-Regular.woff2") format("woff2"),
+   src:
+      local("Giga Sans"),
+      local("GigaSans-Regular"),
+      url("~/assets/fonts/GigaSans-Regular.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-Regular.woff") format("woff");
    font-weight: normal;
    font-style: normal;
@@ -40,7 +52,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Bold"), local("GigaSans-Bold"), url("~/assets/fonts/GigaSans-Bold.woff2") format("woff2"),
+   src:
+      local("Giga Sans Bold"),
+      local("GigaSans-Bold"),
+      url("~/assets/fonts/GigaSans-Bold.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-Bold.woff") format("woff");
    font-weight: 700;
    font-style: normal;
@@ -49,7 +64,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Medium"), local("GigaSans-Medium"), url("~/assets/fonts/GigaSans-Medium.woff2") format("woff2"),
+   src:
+      local("Giga Sans Medium"),
+      local("GigaSans-Medium"),
+      url("~/assets/fonts/GigaSans-Medium.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-Medium.woff") format("woff");
    font-weight: 500;
    font-style: normal;
@@ -58,7 +76,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Italic"), local("GigaSans-Italic"), url("~/assets/fonts/GigaSans-Italic.woff2") format("woff2"),
+   src:
+      local("Giga Sans Italic"),
+      local("GigaSans-Italic"),
+      url("~/assets/fonts/GigaSans-Italic.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-Italic.woff") format("woff");
    font-weight: normal;
    font-style: italic;
@@ -67,7 +88,10 @@
 
 @font-face {
    font-family: "Giga Sans";
-   src: local("Giga Sans Semi Bold"), local("GigaSans-SemiBold"), url("~/assets/fonts/GigaSans-SemiBold.woff2") format("woff2"),
+   src:
+      local("Giga Sans Semi Bold"),
+      local("GigaSans-SemiBold"),
+      url("~/assets/fonts/GigaSans-SemiBold.woff2") format("woff2"),
       url("~/assets/fonts/GigaSans-SemiBold.woff") format("woff");
    font-weight: 600;
    font-style: normal;
@@ -76,7 +100,10 @@
 
 @font-face {
    font-family: "Beret LT Std";
-   src: local("Beret LT Std Bold"), local("BeretLTStd-Bold"), url("~/assets/fonts/BeretLTStd-Bold.woff2") format("woff2"),
+   src:
+      local("Beret LT Std Bold"),
+      local("BeretLTStd-Bold"),
+      url("~/assets/fonts/BeretLTStd-Bold.woff2") format("woff2"),
       url("~/assets/fonts/BeretLTStd-Bold.woff") format("woff");
    font-weight: 700;
    font-style: normal;
@@ -85,7 +112,10 @@
 
 @font-face {
    font-family: "Beret LT Std";
-   src: local("Beret LT Std Bold Italic"), local("BeretLTStd-BoldItalic"), url("~/assets/fonts/BeretLTStd-BoldItalic.woff2") format("woff2"),
+   src:
+      local("Beret LT Std Bold Italic"),
+      local("BeretLTStd-BoldItalic"),
+      url("~/assets/fonts/BeretLTStd-BoldItalic.woff2") format("woff2"),
       url("~/assets/fonts/BeretLTStd-BoldItalic.woff") format("woff");
    font-weight: 700;
    font-style: italic;
@@ -107,4 +137,16 @@ body {
 
 .burger:hover span {
    @apply bg-[#F98076];
+}
+
+.breadcrumbs__item:not(.breadcrumbs__item.active)::after {
+   @apply content-['/'] inline-block mx-[10px] text-sm leading-normal text-border;
+}
+
+.breadcrumbs__item:hover > .breadcrumbs__link {
+   @apply text-tertiary;
+}
+
+.breadcrumbs__item.active > .breadcrumbs__link {
+   @apply font-Giga text-secondary;
 }
