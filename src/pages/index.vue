@@ -1,5 +1,5 @@
 <template>
-   <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:pt-44 2xl:pt-48">
+   <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:pt-44">
       <div class="container pt-32 lg:pt-40 xl:pt-52">
          <svg
             class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px]"
@@ -178,7 +178,12 @@
                ALL PRODUCTS
             </nuxt-link>
          </div>
-         <app-catalog :data-item="products" />
+         <app-catalog class="mb-10" :data-item="products" />
+         <button
+            class="flex justify-center items-center w-full h-11 max-w-[180px] mx-auto rounded-[55px] border border-tertiary font-Beret bg-secondary text-white tracking-wide"
+            type="button">
+            Load more
+         </button>
       </div>
    </section>
    <section class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
@@ -186,7 +191,7 @@
          class="absolute -top-72 -left-[330px] block w-[600px] h-[820px] rotate-12 sm:-left-[280px] sm:w-[700px] lg:-left-[200px] lg:top-[-350px] xl:w-[700px] 2xl:-left-[50px] 2xl:top-[-300px] 2xl:rotate-0">
          <use xlink:href="@/assets/img/sprite.svg#about-bg"></use>
       </svg>
-      <div class="relative container z-20 xl:mb-12">
+      <div class="relative container z-20 mb-16 lg:mb-20 xl:mb-28">
          <div class="lg:flex">
             <div class="mb-7 text-center lg:text-left lg:mb-0">
                <h2 class="relative font-Beret text-[50px] text-primary leading-none mb-2">
@@ -242,6 +247,45 @@
                   this is the first and unique collaboration in Latvia with a famous blogger and influencer Yana Bruk
                </p>
             </div>
+         </div>
+      </div>
+      <div class="relative container">
+         <div
+            class="overflow-hidden relative flex justify-center items-center w-full p-5 bg-primary rounded-[35px] text-white text-center max-w-[480px] h-[500px] mx-auto sm:max-w-[640px] lg:max-w-none">
+            <svg class="absolute -top-9 -left-3 w-[150px] sm:w-[180px] sm:-top-7 sm:-left-10 md:w-[230px] md:-top-3 md:-left-16 lg:w-[260px] lg:-top-1 lg:-left-2" fill="none">
+               <use xlink:href="@/assets/img/sprite.svg#about-img-1"></use>
+            </svg>
+            <svg class="absolute -top-8 -right-4 z-10 w-[150px] md:w-[250px] md:-right-20 md:-top-2 lg:w-[300px] lg:-right-12 lg:top-10" fill="none">
+               <use xlink:href="@/assets/img/sprite.svg#about-img-2"></use>
+            </svg>
+
+            <nuxt-img class="hidden sm:block absolute z-0 top-16 -right-20 opacity-25 w-full md:-right-40 md:top-12 lg:max-w-[600px] lg:-right-24 xl:-right-20" src="about__hero-1.png" alt="picture" loading="lazy" />
+
+            <div class="relative z-20">
+               <h2 class="mb-5 font-Beret text-[50px] leading-none md:text-[60px]">
+                  GREENING <br />
+                  THE PLANET
+               </h2>
+               <p class="mb-5 font-Giga lg:text-lg">
+                  Every 5% we donate to charity <br />
+                  for the greening of the planet
+               </p>
+               <nuxt-link
+                  class="flex justify-center items-center w-40 h-20 bg-secondary text-white rounded-[55px] font-bold border border-tertiary hover:bg-white hover:text-primary transition-all mx-auto text-sm"
+                  to="/">
+                  SHOP NOW
+               </nuxt-link>
+            </div>
+
+            <svg class="absolute -left-12 bottom-0 md:w-[300px] md:h-[210px] lg:w-[350px] lg:h-[260px] lg:-left-10 xl:h-[290px] xl:-left-0" fill="none">
+               <use xlink:href="@/assets/img/sprite.svg#about-img-3"></use>
+            </svg>
+            <svg class="hidden absolute left-7 -bottom-10 sm:block md:-bottom-4 md:left-16 lg:w-[200px] lg:h-[180px] lg:left-40 xl:left-60 xl:h-[220px]" fill="none">
+               <use xlink:href="@/assets/img/sprite.svg#about-img-5"></use>
+            </svg>
+            <svg class="absolute right-10 -bottom-10 w-[100px] md:w-[150px] md:-bottom-0 lg:w-[220px] lg:h-[170px] xl:h-[190px]" fill="none">
+               <use xlink:href="@/assets/img/sprite.svg#about-img-4"></use>
+            </svg>
          </div>
       </div>
    </section>
