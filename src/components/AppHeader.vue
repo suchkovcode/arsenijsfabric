@@ -25,7 +25,7 @@
                   <span :class="[shopHover ? arrowActive : arrowDefault]"></span>
                </li>
                <li class="lg:relative lg:hover:text-secondary transition-all">
-                  <NuxtLink to="/">ABOUT US</NuxtLink>
+                  <NuxtLink to="/" @click="scrollToAboutUs">ABOUT US</NuxtLink>
                </li>
             </ul>
             <div
@@ -184,6 +184,15 @@ export default {
          setTimeout(() => {
             document.querySelector("#about").scrollIntoView({
                block: "center",
+               behavior: "smooth",
+            });
+         }, 200);
+      },
+
+      scrollToAboutUs() {
+         setTimeout(() => {
+            document.querySelector("#aboutUs").scrollIntoView({
+               block: "start",
                behavior: "smooth",
             });
          }, 200);

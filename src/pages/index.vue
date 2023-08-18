@@ -184,7 +184,7 @@
          </button>
       </div>
    </section>
-   <section class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
+   <section id="aboutUs" class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
       <svg
          class="absolute -top-72 -left-[330px] block w-[600px] h-[820px] rotate-12 sm:-left-[280px] sm:w-[700px] lg:-left-[200px] lg:top-[-350px] xl:w-[700px] 2xl:-left-[50px] 2xl:top-[-300px] 2xl:rotate-0">
          <use xlink:href="@/assets/img/sprite.svg#about-bg"></use>
