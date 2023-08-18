@@ -252,14 +252,20 @@
       <div class="relative container">
          <div
             class="overflow-hidden relative flex justify-center items-center w-full p-5 bg-primary rounded-[35px] text-white text-center max-w-[480px] h-[500px] mx-auto sm:max-w-[640px] lg:max-w-none">
-            <svg class="absolute -top-9 -left-3 w-[150px] sm:w-[180px] sm:-top-7 sm:-left-10 md:w-[230px] md:-top-3 md:-left-16 lg:w-[260px] lg:-top-1 lg:-left-2" fill="none">
+            <svg
+               class="absolute -top-9 -left-3 w-[150px] sm:w-[180px] sm:-top-7 sm:-left-10 md:w-[230px] md:-top-3 md:-left-16 lg:w-[260px] lg:-top-1 lg:-left-2"
+               fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-1"></use>
             </svg>
             <svg class="absolute -top-8 -right-4 z-10 w-[150px] md:w-[250px] md:-right-20 md:-top-2 lg:w-[300px] lg:-right-12 lg:top-10" fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-2"></use>
             </svg>
 
-            <nuxt-img class="hidden sm:block absolute z-0 top-16 -right-20 opacity-25 w-full md:-right-40 md:top-12 lg:max-w-[600px] lg:-right-24 xl:-right-20" src="about__hero-1.png" alt="picture" loading="lazy" />
+            <nuxt-img
+               class="hidden sm:block absolute z-0 top-16 -right-20 opacity-25 w-full md:-right-40 md:top-12 lg:max-w-[600px] lg:-right-24 xl:-right-20"
+               src="about__hero-1.png"
+               alt="picture"
+               loading="lazy" />
 
             <div class="relative z-20">
                <h2 class="mb-5 font-Beret text-[50px] leading-none md:text-[60px]">
@@ -277,10 +283,14 @@
                </nuxt-link>
             </div>
 
-            <svg class="absolute -left-12 bottom-0 md:w-[300px] md:h-[210px] lg:w-[350px] lg:h-[260px] lg:-left-10 xl:h-[290px] xl:-left-0" fill="none">
+            <svg
+               class="absolute -left-12 bottom-0 md:w-[300px] md:h-[210px] lg:w-[350px] lg:h-[260px] lg:-left-10 xl:h-[290px] xl:-left-0"
+               fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-3"></use>
             </svg>
-            <svg class="hidden absolute left-7 -bottom-10 sm:block md:-bottom-4 md:left-16 lg:w-[200px] lg:h-[180px] lg:left-40 xl:left-60 xl:h-[220px]" fill="none">
+            <svg
+               class="hidden absolute left-7 -bottom-10 sm:block md:-bottom-4 md:left-16 lg:w-[200px] lg:h-[180px] lg:left-40 xl:left-60 xl:h-[220px]"
+               fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-5"></use>
             </svg>
             <svg class="absolute right-10 -bottom-10 w-[100px] md:w-[150px] md:-bottom-0 lg:w-[220px] lg:h-[170px] xl:h-[190px]" fill="none">
@@ -454,7 +464,7 @@
          </div>
       </div>
    </section>
-   <section class="py-16 sm:py-24" id="about">
+   <section id="about" class="py-16 sm:py-24">
       <block-v-about></block-v-about>
    </section>
 </template>

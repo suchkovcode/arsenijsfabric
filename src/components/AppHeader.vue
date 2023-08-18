@@ -1,5 +1,5 @@
 <template>
-   <header class="fixed top-0 z-50 font-Giga bg-white w-full max-w-[1800px] mx-auto" :class="{'border-b border-border': $route.fullPath !== '/'}">
+   <header class="fixed top-0 z-50 font-Giga bg-white w-full max-w-[1800px] mx-auto" :class="{ 'border-b border-border': $route.fullPath !== '/' }">
       <p class="text-center p-1 bg-primary text-white text-xs leading-light">
          Free delivery in Latvia - on order from 50 € &nbsp;
          <NuxtLink class="text-[10px] text-secondary no-underline transition-all duration-500 ease-linear hover:underline whitespace-nowrap" to="/">
@@ -123,9 +123,7 @@
                      <span class="pt-[6px] pb-0" :class="[infoHover ? arrowActive : arrowDefault]"></span>
                   </li>
                   <li class="lg:relative lg:hover:text-secondary transition-all leading-none">
-                     <button type="button">
-                        CONTACTS
-                     </button>
+                     <button type="button" @click="scrollToContact">CONTACTS</button>
                   </li>
                </ul>
                <div
@@ -139,7 +137,7 @@
                            <NuxtLink class="whitespace-nowrap" to="/policy">Privacy policy</NuxtLink>
                         </li>
                         <li class="text-center hover:text-secondary transition-all">
-                           <NuxtLink class="whitespace-nowrap" to="/">Delivery</NuxtLink>
+                           <NuxtLink class="whitespace-nowrap" to="/" @click="scrollToAbout">Delivery</NuxtLink>
                         </li>
                      </ul>
                   </nav>
@@ -179,6 +177,24 @@ export default {
          shopHover: false,
          infoHover: false,
       };
+   },
+
+   methods: {
+      scrollToAbout() {
+         setTimeout(() => {
+            document.querySelector("#about").scrollIntoView({
+               block: "center",
+               behavior: "smooth",
+            });
+         }, 200);
+      },
+
+      scrollToContact() {
+         document.querySelector("#footer").scrollIntoView({
+            block: "end",
+            behavior: "smooth",
+         });
+      },
    },
 };
 </script>

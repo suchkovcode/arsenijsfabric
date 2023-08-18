@@ -1,5 +1,5 @@
 <template>
-   <footer class="rounded-tr-[70px] rounded-tl-[70px] bg-tertiary">
+   <footer id="footer" class="rounded-tr-[70px] rounded-tl-[70px] bg-tertiary">
       <div class="container py-12 xl:grid xl:grid-cols-12 xl:py-20 2xl:py-24">
          <div class="mb-9 md:mb-12 xl:col-span-2">
             <NuxtLink class="block mb-3 text-white" to="/" aria-label="Logo link">
@@ -10,16 +10,12 @@
                   <use xlink:href="@/assets/img/sprite.svg#logoFooter"></use>
                </svg>
             </NuxtLink>
-            <p class="text-xs text-center text-white opacity-50 xl:text-left">
-               2019 ARSENIJS FABRIC
-            </p>
+            <p class="text-xs text-center text-white opacity-50 xl:text-left">2019 ARSENIJS FABRIC</p>
          </div>
          <div
             class="text-white font-Giga grid grid-cols-2 grid-rows-mini-2 justify-items-center gap-8 text-center max-w-[500px] mx-auto lg:max-w-none lg:grid-cols-3 lg:grid-rows-1 lg:text-left xl:col-span-10 xl:justify-items-start">
             <nav class="col-span-1 row-span-1 lg:col-span-1">
-               <span class="block mb-4 uppercase font-Beret text-xl text-white opacity-30 lg:mb-6">
-                  CATALOG
-               </span>
+               <span class="block mb-4 uppercase font-Beret text-xl text-white opacity-30 lg:mb-6"> CATALOG </span>
                <ul class="flex flex-col gap-2">
                   <li>
                      <NuxtLink class="uppercase text-xs font-Giga hover:text-secondary transition-all" to="/">Bestseller</NuxtLink>
@@ -39,9 +35,7 @@
                </ul>
             </nav>
             <nav class="col-span-1 row-span-1 lg:col-span-1">
-               <span class="block mb-4 uppercase font-Beret text-xl text-white opacity-30 lg:mb-6">
-                  INFO
-               </span>
+               <span class="block mb-4 uppercase font-Beret text-xl text-white opacity-30 lg:mb-6"> INFO </span>
                <ul class="flex flex-col gap-2">
                   <li>
                      <NuxtLink class="uppercase text-xs font-Giga hover:text-secondary transition-all" to="/">About Us</NuxtLink>
@@ -55,15 +49,11 @@
                </ul>
             </nav>
             <div class="col-span-2 row-span-1 lg:col-span-1">
-               <p class="block mb-4 uppercase font-Beret text-xl text-white opacity-30 lg:mb-6">
-                  CONTACTS
-               </p>
+               <p class="block mb-4 uppercase font-Beret text-xl text-white opacity-30 lg:mb-6">CONTACTS</p>
                <a class="block font-Giga font-medium text-xl hover:text-secondary transition-all" href="mailto:arsenijsfabrica@inbox.lv">
                   arsenijsfabrica@inbox.lv
                </a>
-               <a class="block mb-6 font-Giga text-secondary" href="mailto:arsenijsfabrica@inbox.lv">
-                  send message
-               </a>
+               <a class="block mb-6 font-Giga text-secondary" href="mailto:arsenijsfabrica@inbox.lv"> send message </a>
                <p class="opacity-60 text-xs mb-8">
                   ARSENIJS FABRICA SIA <br />
                   REG.NUMBER. 50203415881 <br />
@@ -107,9 +97,7 @@
       </div>
       <div class="bg-[#2b1e59] w-full py-3">
          <div class="container flex flex-col gap-2 text-center md:flex-row md:justify-between">
-            <p class="text-xs text-white opacity-70">
-               © Copyrighted. Copying materials is prohibited
-            </p>
+            <p class="text-xs text-white opacity-70">© Copyrighted. Copying materials is prohibited</p>
             <a class="text-xs text-white opacity-70 hover:text-secondary transition-all" href="https://github.com/suchkovcode/">
                Website development
             </a>
