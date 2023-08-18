@@ -2,7 +2,7 @@
    <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:pt-44">
       <div class="container pt-32 lg:pt-40 xl:pt-52">
          <svg
-            class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px]"
+            class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px] 2xl:left-[-150px] 2xl:top-[-200px]"
             fill="none">
             <use xlink:href="@/assets/img/sprite.svg#indexStain-1"></use>
          </svg>
