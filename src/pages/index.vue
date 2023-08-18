@@ -454,7 +454,7 @@
          </div>
       </div>
    </section>
-   <section class="py-16 sm:py-24">
+   <section class="py-16 sm:py-24" id="about">
       <block-v-about></block-v-about>
    </section>
 </template>
