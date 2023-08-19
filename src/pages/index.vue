@@ -172,7 +172,7 @@
             </h2>
             <nuxt-link
                class="hidden lg:flex justify-center items-center w-40 h-20 font-Beret bg-orange text-secondary rounded-[55px] uppercase hover:bg-secondary hover:border hover:border-tertiary hover:text-white transition-all"
-               to="/">
+               to="/catalog">
                ALL PRODUCTS
             </nuxt-link>
          </div>
