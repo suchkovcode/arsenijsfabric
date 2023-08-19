@@ -177,11 +177,7 @@
             </nuxt-link>
          </div>
          <app-catalog class="mb-10" :data-item="products" />
-         <button
-            class="flex justify-center items-center w-full h-11 max-w-[180px] mx-auto rounded-[55px] border border-tertiary font-Beret bg-secondary text-white tracking-wide"
-            type="button">
-            Load more
-         </button>
+         <ui-btn-load />
       </div>
    </section>
    <section id="aboutUs" class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
