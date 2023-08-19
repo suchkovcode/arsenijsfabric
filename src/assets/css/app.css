@@ -150,3 +150,46 @@ body {
 .breadcrumbs__item.active > .breadcrumbs__link {
    @apply font-Giga text-secondary;
 }
+
+.hidden:checked + * {
+   @apply font-medium text-secondary;
+}
+
+.filter__sort-btn::before {
+   @apply content-[''] absolute top-1/2 right-0 block w-2 h-px bg-tertiary rotate-[40deg] translate-y-[-3px] transition-all lg:content-none lg:hidden;
+}
+
+.filter__sort-btn::after {
+   @apply content-[''] absolute top-1/2 right-0 block w-2 h-px bg-tertiary rotate-[320deg] translate-y-[2px] transition-all lg:content-none lg:hidden;
+}
+
+.filter__sort:hover .filter__sort-btn::before,
+.filter__sort:hover .filter__sort-btn::after {
+   @apply bg-secondary;
+}
+
+.filter__sort.active .filter__sort-btn::before,
+.filter__sort.active .filter__sort-btn::after {
+   @apply bg-secondary;
+}
+
+.filter__sort.active .filter__sort-drobdown {
+   @apply flex;
+}
+
+.filter__sort.active .filter__sort-btn::before {
+   @apply rotate-[130deg] translate-x-[3px] translate-y-[1px];
+}
+
+.filter__sort.active .filter__sort-btn::after {
+   @apply rotate-[410deg] translate-x-[-2px] translate-y-[1px];
+}
+
+.filter__label:hover > span {
+   @apply text-secondary transition-all;
+}
+
+.filter__sort:nth-child(3),
+.filter__sort:nth-child(4) {
+   @apply border-t-0
+}
