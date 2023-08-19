@@ -2,7 +2,7 @@
    <section class="pt-28 pb-10 lg:pt-36">
       <div class="container">
          <block-v-breadcrumbs class="mb-8" :roter-link="roterData" />
-         <h1 class="relative flex items-center gap-3 mb-5 text-[50px] text-primary font-Beret leading-none">
+         <h1 class="relative flex items-center gap-4 mb-5 text-[50px] text-primary font-Beret leading-none">
             <ui-btn-back />
             Privatuma politika
          </h1>
