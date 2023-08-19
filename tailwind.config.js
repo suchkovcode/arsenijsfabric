@@ -39,10 +39,10 @@ module.exports = {
             xl: "30px",
          },
          screens: {
-            "sm": "576px",
-            "md": "768px",
-            "lg": "992px",
-            "xl": "1280px",
+            sm: "576px",
+            md: "768px",
+            lg: "992px",
+            xl: "1280px",
          },
       },
       extend: {
@@ -54,5 +54,5 @@ module.exports = {
          },
       },
    },
-   plugins: [],
+   plugins: [require("@tailwindcss/forms")],
 };
