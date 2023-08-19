@@ -73,12 +73,5 @@ export default defineNuxtConfig({
    },
 
    css: ["~/assets/css/app.css"],
-   modules: [
-      "@nuxtjs/eslint-module",
-      "@pinia/nuxt",
-      "nuxt-purgecss",
-      "nuxt-simple-sitemap",
-      "nuxt-simple-robots",
-      "@nuxt/image",
-   ],
+   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots", "@nuxt/image"],
 });
