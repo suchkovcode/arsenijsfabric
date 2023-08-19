@@ -104,4 +104,5 @@
          </div>
       </div>
    </footer>
+   <canvas-favorite />
 </template>

@@ -193,3 +193,34 @@ body {
 .filter__sort:nth-child(4) {
    @apply border-t-0
 }
+
+.favoriteItem {
+   display: grid;
+   grid-template-areas:
+      "img options remove"
+      "count count count";
+   grid-template-columns: 70px 1fr 15%;
+}
+
+.favoriteItem__img {
+   grid-area: img;
+}
+
+.favoriteItem__option {
+   grid-area: options;
+}
+
+.favoriteItem__count {
+   grid-area: count;
+}
+
+.favoriteItem__remove {
+   grid-area: remove;
+}
+
+@media (min-width: 576px) {
+   .favoriteItem {
+      grid-template-areas: "img options count remove";
+      grid-template-columns: 70px 1fr 100px 50px;
+   }
+}

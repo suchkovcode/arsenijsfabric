@@ -2,10 +2,16 @@ import { defineStore } from "pinia";
 
 export const useFavoriteStore = defineStore("favorite", {
    state: () => {
-      return {};
+      return {
+         isActive: true,
+      };
    },
 
    getters: {},
 
-   actions: {},
+   actions: {
+      updateStateActiveCanvas(state) {
+         this.isActive = state
+      },
+   },
 });

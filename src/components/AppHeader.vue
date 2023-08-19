@@ -143,7 +143,7 @@
                   </nav>
                </div>
             </nav>
-            <button class="cursor-pointer relative" type="button">
+            <button class="cursor-pointer relative" type="button" @click="updateStateActiveCanvas(true)">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconFavorite"></use>
                </svg>
@@ -167,6 +167,9 @@
 </template>
 
 <script>
+import { mapActions, mapState } from 'pinia';
+import { useFavoriteStore } from '@/store/favorite';
+
 export default {
    data() {
       return {
@@ -180,6 +183,8 @@ export default {
    },
 
    methods: {
+      ...mapActions(useFavoriteStore, ["updateStateActiveCanvas"]),
+
       scrollToAbout() {
          setTimeout(() => {
             document.querySelector("#about").scrollIntoView({
