@@ -464,28 +464,12 @@
 </template>
 
 <script>
+import { mapState } from "pinia";
+import { useProductStore } from "@/store/product";
+
 export default {
-   data() {
-      return {
-         products: [
-            {
-               id: 1,
-               name: "card-text",
-            },
-            {
-               id: 2,
-               name: "card-text",
-            },
-            {
-               id: 3,
-               name: "card-text",
-            },
-            {
-               id: 4,
-               name: "card-text",
-            },
-         ],
-      };
+   computed: {
+      ...mapState(useProductStore, ["products"])
    },
 };
 </script>
