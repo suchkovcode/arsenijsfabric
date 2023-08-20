@@ -6,7 +6,7 @@
          Your order:
       </canvas-header>
       <div v-if="false" class="overflow-y-scroll flex flex-col gap-5 h-full mb-5 p-6 pb-32">
-         <!-- <canvas-baket-item v-for="item in cards" :key="item.id" backetItem="item" /> -->
+         <canvas-backet-item />
       </div>
       <p v-else class="m-6 p-6 rounded-xl text-tertiary bg-violet opacity-70">Your order list is empty</p>
    </div>

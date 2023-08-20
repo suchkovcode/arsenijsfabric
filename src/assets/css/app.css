@@ -191,7 +191,7 @@ body {
 
 .filter__sort:nth-child(3),
 .filter__sort:nth-child(4) {
-   @apply border-t-0
+   @apply border-t-0;
 }
 
 .favoriteItem {
@@ -234,4 +234,28 @@ body {
    border-right: 4px solid transparent;
    border-bottom: 6px solid #f98076;
    border-left: 4px solid transparent;
+}
+
+.backetItem {
+   grid-template-areas: "img name remove" "count count count";
+   grid-template-columns: 70px 1fr 15%;
+}
+.backetItem__img {
+   grid-area: img;
+}
+.backetItem__name {
+   grid-area: name;
+}
+.backetItem__count {
+   grid-area: count;
+}
+.backetItem__remove {
+   grid-area: remove;
+}
+
+@media (min-width: 992px) {
+   .backetItem {
+      grid-template-areas: "img name count remove";
+      grid-template-columns: 70px 1fr 0.9fr 80px;
+   }
 }

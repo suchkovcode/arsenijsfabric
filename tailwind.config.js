@@ -25,6 +25,7 @@ module.exports = {
          tertiary: "#211747",
          border: "#EAEAEA",
          violet: "#f6f5ff",
+         backet: "#1d1d1d99",
          transparent: "transparent",
       },
       fontFamily: {
