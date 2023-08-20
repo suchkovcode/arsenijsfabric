@@ -10,7 +10,8 @@
          <button
             class="burger relative cursor-pointer flex flex-col items-start justify-start gap-[6px] h-auto lg:hidden"
             type="button"
-            aria-label="Menu button">
+            aria-label="Menu button"
+            @click="updateStateActiveCanvasMenu(true)">
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
             <span class="relative block h-[2px] w-7 bg-tertiary transition-all"></span>
@@ -41,7 +42,9 @@
                         </svg>
                         Bestsellers
                      </p>
-                     <NuxtLink class="text-xs underline leading-none transition-all hover:text-secondary" to="/catalog" @click="shopHover = false">ALL PRODUCTS</NuxtLink>
+                     <NuxtLink class="text-xs underline leading-none transition-all hover:text-secondary" to="/catalog" @click="shopHover = false"
+                        >ALL PRODUCTS</NuxtLink
+                     >
                   </div>
                   <nav>
                      <ul class="flex gap-3 justify-end">
@@ -167,9 +170,10 @@
 </template>
 
 <script>
-import { mapActions, mapState } from "pinia";
+import { mapActions } from "pinia";
 import { useFavoriteStore } from "@/store/favorite";
 import { useBacketStore } from "@/store/backet";
+import { useProductStore } from "@/store/product";
 
 export default {
    data() {
@@ -186,6 +190,7 @@ export default {
    methods: {
       ...mapActions(useFavoriteStore, { updateStateActiveCanvasFavorite: "updateStateActiveCanvas" }),
       ...mapActions(useBacketStore, { updateStateActiveCanvasBacket: "updateStateActiveCanvas" }),
+      ...mapActions(useProductStore, { updateStateActiveCanvasMenu: "updateStateActiveCanvas" }),
 
       scrollToAbout() {
          setTimeout(() => {

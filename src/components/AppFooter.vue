@@ -106,4 +106,5 @@
    </footer>
    <canvas-favorite />
    <canvas-backet />
+   <canvas-menu />
 </template>

@@ -3,6 +3,8 @@ import { defineStore } from "pinia";
 export const useProductStore = defineStore("product", {
    state: () => {
       return {
+         isActive: false,
+
          products: [
             {
                id: 1,
@@ -42,5 +44,9 @@ export const useProductStore = defineStore("product", {
 
    getters: {},
 
-   actions: {},
+   actions: {
+      updateStateActiveCanvas(state) {
+         this.isActive = state
+      },
+   },
 });

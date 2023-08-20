@@ -224,3 +224,14 @@ body {
       grid-template-columns: 70px 1fr 100px 50px;
    }
 }
+
+.menu__drobdown-title.active + .menu__drobdown-submenu {
+   @apply flex;
+}
+
+.menu__drobdown-title.active::before {
+   border-top: 0 solid transparent;
+   border-right: 4px solid transparent;
+   border-bottom: 6px solid #f98076;
+   border-left: 4px solid transparent;
+}
