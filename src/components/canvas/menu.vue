@@ -2,7 +2,9 @@
    <div
       class="favorite fixed top-0 -right-full z-50 block w-full h-screen max-w-[350px] bg-tertiary transition-[right] duration-500 lg:hidden"
       :class="{ 'overflow-hidden right-0': isActive }">
-      <canvas-header class="text-white" @close-canvas="updateStateActiveCanvas($event)"> Menu </canvas-header>
+      <canvas-header class="text-white" @close-canvas="updateStateActiveCanvas($event)">
+         Menu
+      </canvas-header>
       <div class="flex flex-col justify-between gap-8 w-full h-[550px] p-6 lg:p-8">
          <nav>
             <ul class="flex flex-col gap-4">
