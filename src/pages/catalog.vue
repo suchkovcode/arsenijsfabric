@@ -26,11 +26,12 @@
             </div>
             <button class="goods__search-btn cursor-pointer relative flex justify-center items-center w-full h-[60px] rounded-[50px] font-Beret text-white bg-primary transition-all md:max-w-[170px] border border-tertiary hover:bg-secondary">SEARCH</button>
          </div>
-         <div class="grid gap-8 lg:grid-cols-12">
+         <div class="grid gap-6 lg:grid-cols-12">
             <div class="lg:col-span-4 xl:col-span-3">
                <app-filter />
             </div>
-            <app-catalog class="mb-10 lg:col-span-8 xl:col-span-9" :data-item="products" />
+            <app-catalog class="lg:col-span-8 xl:col-span-9" :data-item="products" />
+            <app-pagination class="lg:col-start-5 lg:col-end-12 xl:col-start-4" />
          </div>
       </div>
    </section>
