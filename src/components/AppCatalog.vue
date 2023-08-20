@@ -1,5 +1,5 @@
 <template>
-   <div class="grid grid-cols-catalog justify-items-center gap-5">
+   <div class="grid grid-cols-catalog justify-items-center gap-6">
       <card v-for="item in dataItem" :key="item.id" :card-data="item"></card>
    </div>
 </template>
