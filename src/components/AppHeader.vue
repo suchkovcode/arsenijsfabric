@@ -41,7 +41,7 @@
                         </svg>
                         Bestsellers
                      </p>
-                     <NuxtLink class="text-xs underline leading-none transition-all hover:text-secondary" to="/catalog">ALL PRODUCTS</NuxtLink>
+                     <NuxtLink class="text-xs underline leading-none transition-all hover:text-secondary" to="/catalog" @click="shopHover = false">ALL PRODUCTS</NuxtLink>
                   </div>
                   <nav>
                      <ul class="flex gap-3 justify-end">
