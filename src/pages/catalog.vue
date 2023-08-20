@@ -16,15 +16,18 @@
          <div class="relative flex flex-col gap-3 mb-7 md:flex-row md:gap-5 md:max-w-[600px] lg:mb-12">
             <div class="goods__search-container relative block w-full lg:max-w-[270px] xl:max-w-[340px]">
                <input
+                  v-model="searchQuery"
                   class="relative w-full h-[60px] px-[50px] py-[15px] border-border rounded-[50px] bg-violet focus:border-gray-500 focus:bg-white focus:ring-0"
                   type="text"
-                  placeholder="What to find?"
-                  v-model="searchQuery" />
+                  placeholder="What to find?" />
                <svg class="absolute top-1/2 left-[15px] w-5 h-5 -translate-y-1/2 fill-none text-primary">
                   <use xlink:href="@/assets/img/sprite.svg#iconSearch-1"></use>
                </svg>
             </div>
-            <button class="goods__search-btn cursor-pointer relative flex justify-center items-center w-full h-[60px] rounded-[50px] font-Beret text-white bg-primary transition-all md:max-w-[170px] border border-tertiary hover:bg-secondary">SEARCH</button>
+            <button
+               class="goods__search-btn cursor-pointer relative flex justify-center items-center w-full h-[60px] rounded-[50px] font-Beret text-white bg-primary transition-all md:max-w-[170px] border border-tertiary hover:bg-secondary">
+               SEARCH
+            </button>
          </div>
          <div class="grid gap-6 lg:grid-cols-12">
             <div class="lg:col-span-4 xl:col-span-3">
