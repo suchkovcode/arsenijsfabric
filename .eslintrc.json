@@ -18,7 +18,7 @@
       "vue/multi-word-component-names": [
          "error",
          {
-            "ignores": ["index", "default", "catalog", "error", "rating", "favorite", "card", "policy", "header", "favorite" ,"backet"]
+            "ignores": ["index", "default", "catalog", "error", "rating", "card", "policy", "header", "favorite", "backet", "menu"]
          }
       ],
       "vue/max-attributes-per-line": [
