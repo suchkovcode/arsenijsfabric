@@ -1,5 +1,5 @@
 <template>
-   <section class="pt-28 pb-10 lg:pt-36">
+   <section class="pt-28 pb-10 lg:pt-36 lg:pb-14 xl:pb-16">
       <div class="container">
          <block-v-breadcrumbs class="mb-8 lg:mb-12 xl:mb-16" :roter-link="roterData" />
          <div class="flex flex-col items-center mb-5 lg:flex-row lg:justify-between lg:mb-10">
