@@ -5,7 +5,7 @@
       <canvas-header @close-canvas="updateStateActiveCanvas($event)">
          Favorites:
       </canvas-header>
-      <div v-if="true" class="overflow-y-scroll flex flex-col gap-5 h-full mb-5 p-6 pb-32">
+      <div v-if="false" class="overflow-y-scroll flex flex-col gap-5 h-full mb-5 p-6 pb-32">
          <!-- <v-canvas-favorite-item v-for="item in cards" :key="item.id" favoriteItem="item" /> -->
       </div>
       <p v-else class="m-6 p-6 rounded-xl text-tertiary bg-violet opacity-70">Favorites list is empty</p>
