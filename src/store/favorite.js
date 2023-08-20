@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useFavoriteStore = defineStore("favorite", {
    state: () => {
       return {
-         isActive: true,
+         isActive: false,
       };
    },
 
