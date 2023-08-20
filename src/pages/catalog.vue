@@ -19,7 +19,7 @@
                   class="relative w-full h-[60px] px-[50px] py-[15px] border-border rounded-[50px] bg-violet focus:border-gray-500 focus:bg-white focus:ring-0"
                   type="text"
                   placeholder="What to find?"
-                  @input="searchQuery = $event.target.value" />
+                  v-model="searchQuery" />
                <svg class="absolute top-1/2 left-[15px] w-5 h-5 -translate-y-1/2 fill-none text-primary">
                   <use xlink:href="@/assets/img/sprite.svg#iconSearch-1"></use>
                </svg>
