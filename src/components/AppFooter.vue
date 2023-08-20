@@ -105,4 +105,5 @@
       </div>
    </footer>
    <canvas-favorite />
+   <canvas-backet />
 </template>

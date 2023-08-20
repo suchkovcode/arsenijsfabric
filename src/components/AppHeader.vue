@@ -143,7 +143,7 @@
                   </nav>
                </div>
             </nav>
-            <button class="cursor-pointer relative" type="button" @click="updateStateActiveCanvas(true)">
+            <button class="cursor-pointer relative" type="button" @click="updateStateActiveCanvasFavorite(true)">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconFavorite"></use>
                </svg>
@@ -152,7 +152,7 @@
                   0
                </span>
             </button>
-            <button class="cursor-pointer relative" type="button">
+            <button class="cursor-pointer relative" type="button" @click="updateStateActiveCanvasBacket(true)">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconBacket"></use>
                </svg>
@@ -167,8 +167,9 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'pinia';
-import { useFavoriteStore } from '@/store/favorite';
+import { mapActions, mapState } from "pinia";
+import { useFavoriteStore } from "@/store/favorite";
+import { useBacketStore } from "@/store/backet";
 
 export default {
    data() {
@@ -183,7 +184,8 @@ export default {
    },
 
    methods: {
-      ...mapActions(useFavoriteStore, ["updateStateActiveCanvas"]),
+      ...mapActions(useFavoriteStore, { updateStateActiveCanvasFavorite: "updateStateActiveCanvas" }),
+      ...mapActions(useBacketStore, { updateStateActiveCanvasBacket: "updateStateActiveCanvas" }),
 
       scrollToAbout() {
          setTimeout(() => {

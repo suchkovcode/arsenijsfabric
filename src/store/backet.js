@@ -2,10 +2,16 @@ import { defineStore } from "pinia";
 
 export const useBacketStore = defineStore("backet", {
    state: () => {
-      return {};
+      return {
+         isActive: false,
+      };
    },
 
    getters: {},
 
-   actions: {},
+   actions: {
+      updateStateActiveCanvas(state) {
+         this.isActive = state;
+      },
+   },
 });
