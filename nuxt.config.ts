@@ -39,7 +39,7 @@ export default defineNuxtConfig({
    },
 
    nitro: {
-      preset: "cloudflare-pages",
+      preset: "cloudflare",
       serveStatic: true,
    },
 
@@ -68,8 +68,9 @@ export default defineNuxtConfig({
    },
 
    image: {
+      provider: "cloudflare",
       cloudflare: {
-         baseURL: "https://arsenijsfabric.pages.dev",
+         baseURL: "https://assets.arsenijsfabric.net",
       },
       format: ["webp"],
       quality: 80,
