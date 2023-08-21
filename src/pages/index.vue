@@ -31,7 +31,7 @@
                </NuxtLink>
             </div>
             <div class="relative">
-               <nuxt-img
+               <img
                   class="relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10 2xl:-top-[150px]"
                   src="/index__img-1.png"
                   alt="picture"
@@ -85,7 +85,7 @@
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Cosmetics</span>
                      </h2>
-                     <nuxt-img
+                     <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
                         src="/header__link-1.png"
                         alt="picture"
@@ -107,7 +107,7 @@
                            </svg>
                         </span>
                      </h2>
-                     <nuxt-img
+                     <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
                         src="/product__item-2.png"
                         alt="picture"
@@ -130,7 +130,7 @@
                            </svg>
                         </span>
                      </h2>
-                     <nuxt-img
+                     <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
                         src="/header__link-3.png"
                         alt="picture"
@@ -147,7 +147,7 @@
                         <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Bath bombs</span>
                      </h2>
-                     <nuxt-img
+                     <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
                         src="/header__link-4.png"
                         alt="picture"
@@ -203,7 +203,7 @@
                   <p>Every night he dreamed that one day he would have his own factory.</p>
                </div>
             </div>
-            <nuxt-img
+            <img
                class="block w-full max-w-[440px] mx-auto h-auto mb-12 sm:mb-16 lg:mb-0 lg:mx-0 lg:ml-auto xl:max-w-[560px] xl:-mt-16"
                src="/about__hero.png"
                loading="lazy"
@@ -218,18 +218,18 @@
                   fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-4"></use>
                </svg>
-               <nuxt-img class="hidden w-40 h-40 sm:block" src="/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
+               <img class="hidden w-40 h-40 sm:block" src="/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
             </div>
             <div>
                <p class="hidden mb-2 text-xs font-medium text-[#8b91a6] sm:block">@yanaabruk</p>
-               <nuxt-img
+               <img
                   class="block w-52 h-auto mx-auto mb-5 sm:hidden"
                   src="/about__logo.png"
                   alt="picture"
                   loading="lazy"
                   width="400"
                   height="100" />
-               <nuxt-img
+               <img
                   class="hidden w-52 h-auto mx-auto mb-5 sm:block sm:mx-0 md:w-56"
                   src="/about__logo--left.png"
                   alt="picture"
@@ -255,7 +255,7 @@
                <use xlink:href="@/assets/img/sprite.svg#about-img-2"></use>
             </svg>
 
-            <nuxt-img
+            <img
                class="hidden sm:block absolute z-0 top-16 -right-20 opacity-25 w-full md:-right-40 md:top-12 lg:max-w-[600px] lg:-right-24 xl:-right-20"
                src="about__hero-1.png"
                alt="picture"
