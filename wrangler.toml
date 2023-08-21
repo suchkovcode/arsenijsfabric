@@ -1,6 +1,0 @@
-account_id = "36a2981c3bc580f9f6e8227f8af45f4d"
-
-[redirects]
-  from = "/*"
-  to = "/index.html"
-  status = 200
