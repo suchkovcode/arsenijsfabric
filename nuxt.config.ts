@@ -68,10 +68,12 @@ export default defineNuxtConfig({
    },
 
    image: {
+      domains: ["assets.arsenijsfabric.net"],
       provider: "cloudflare",
       cloudflare: {
-         baseURL: "https://assets.arsenijsfabric.net",
+         baseURL: "https://assets.arsenijsfabric.net/",
       },
+      inject: true,
       format: ["webp"],
       quality: 80,
       dir: "assets/img",
