@@ -51,9 +51,9 @@
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
                            <NuxtLink class="relative" to="/">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Cosmetics</span>
-                              <nuxt-img
+                              <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="/header__link-1.png"
+                                 src="@/assets/img/header__link-1.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -66,9 +66,9 @@
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Soap bouquets
                               </span>
-                              <nuxt-img
+                              <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="/header__link-2.png"
+                                 src="@/assets/img/header__link-2.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -79,9 +79,9 @@
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
                            <NuxtLink class="relative" to="/">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Soap</span>
-                              <nuxt-img
+                              <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="/header__link-3.png"
+                                 src="@/assets/img/header__link-3.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -94,9 +94,9 @@
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Bath bombs
                               </span>
-                              <nuxt-img
+                              <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="/header__link-4.png"
+                                 src="@/assets/img/header__link-4.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">

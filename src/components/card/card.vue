@@ -2,9 +2,9 @@
    <article class="overflow-hidden rounded-3xl w-full max-w-[340px]">
       <header class="relative">
          <card-favorite />
-         <nuxt-img
+         <img
             class="block w-full h-[230px] object-cover md:h-[250px]"
-            src="/hero__card-1.jpeg"
+            src="@/assets/img/hero__card-1.jpeg"
             alt="card picture"
             loading="lazy"
             width="400"

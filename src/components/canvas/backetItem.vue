@@ -1,8 +1,8 @@
 <template>
    <div class="backetItem grid gap-4 pb-5 border-b border-b-border">
-      <nuxt-img
+      <img
          class="backetItem__img w-[70px] h-[70px] rounded-lg object-cover"
-         src="/hero__card-1.jpeg"
+         src=""
          alt="Картинка товара"
          width="70"
          height="70" />

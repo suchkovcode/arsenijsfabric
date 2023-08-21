@@ -33,7 +33,7 @@
             <div class="relative">
                <img
                   class="relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10 2xl:-top-[150px]"
-                  src="/index__img-1.png"
+                  src="@/assets/img/index__img-1.png"
                   alt="picture"
                   loading="lazy"
                   width="750"
@@ -87,7 +87,7 @@
                      </h2>
                      <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="/header__link-1.png"
+                        src="@/assets/img/header__link-1.png"
                         alt="picture"
                         loading="lazy" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -109,7 +109,7 @@
                      </h2>
                      <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="/product__item-2.png"
+                        src="@/assets/img/product__item-2.png"
                         alt="picture"
                         loading="lazy" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -132,7 +132,7 @@
                      </h2>
                      <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="/header__link-3.png"
+                        src="@/assets/img/header__link-3.png"
                         alt="picture"
                         loading="lazy" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -149,7 +149,7 @@
                      </h2>
                      <img
                         class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
-                        src="/header__link-4.png"
+                        src="@/assets/img/header__link-4.png"
                         alt="picture"
                         loading="lazy" />
                      <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
@@ -205,7 +205,7 @@
             </div>
             <img
                class="block w-full max-w-[440px] mx-auto h-auto mb-12 sm:mb-16 lg:mb-0 lg:mx-0 lg:ml-auto xl:max-w-[560px] xl:-mt-16"
-               src="/about__hero.png"
+               src="@/assets/img/about__hero.png"
                loading="lazy"
                alt="picture"
                width="1030"
@@ -218,20 +218,20 @@
                   fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-4"></use>
                </svg>
-               <img class="hidden w-40 h-40 sm:block" src="/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
+               <img class="hidden w-40 h-40 sm:block" src="@/assets/img/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
             </div>
             <div>
                <p class="hidden mb-2 text-xs font-medium text-[#8b91a6] sm:block">@yanaabruk</p>
                <img
                   class="block w-52 h-auto mx-auto mb-5 sm:hidden"
-                  src="/about__logo.png"
+                  src="@/assets/img/about__logo.png"
                   alt="picture"
                   loading="lazy"
                   width="400"
                   height="100" />
                <img
                   class="hidden w-52 h-auto mx-auto mb-5 sm:block sm:mx-0 md:w-56"
-                  src="/about__logo--left.png"
+                  src="@/assets/img/about__logo--left.png"
                   alt="picture"
                   loading="lazy"
                   width="400"
@@ -257,7 +257,7 @@
 
             <img
                class="hidden sm:block absolute z-0 top-16 -right-20 opacity-25 w-full md:-right-40 md:top-12 lg:max-w-[600px] lg:-right-24 xl:-right-20"
-               src="about__hero-1.png"
+               src="@/assets/img/about__hero-1.png"
                alt="picture"
                loading="lazy" />
 
