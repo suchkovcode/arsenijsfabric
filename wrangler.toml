@@ -1,9 +1,6 @@
-name = "playground"
-main = "./.output/server/index.mjs"
-workers_dev = true
-compatibility_date = "2022-09-10"
 account_id = "36a2981c3bc580f9f6e8227f8af45f4d"
-route = "<mainly useful when you want to setup custom domains (optional too)>"
 
-[site]
-bucket = ".output/public"
+[redirects]
+  from = "/*"
+  to = "/index.html"
+  status = 200
