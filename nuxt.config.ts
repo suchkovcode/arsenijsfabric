@@ -68,6 +68,9 @@ export default defineNuxtConfig({
    },
 
    image: {
+      cloudflare: {
+         baseURL: "https://arsenijsfabric.pages.dev",
+      },
       format: ["webp"],
       quality: 80,
       dir: "assets/img",
