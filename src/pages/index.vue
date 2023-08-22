@@ -469,7 +469,7 @@ import { useProductStore } from "@/store/product";
 
 export default {
    computed: {
-      ...mapState(useProductStore, ["products"])
+      ...mapState(useProductStore, ["products"]),
    },
 };
 </script>
