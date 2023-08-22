@@ -11,7 +11,6 @@ export default defineNuxtConfig({
          title: "Arsenijs Fabrica",
          charset: "utf-8",
          viewport: "width=device-width, initial-scale=1",
-         link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
       },
       pageTransition: false,
       layoutTransition: false,
@@ -91,5 +90,5 @@ export default defineNuxtConfig({
    },
 
    css: ["~/assets/css/app.css"],
-   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "@nuxt/image", "nuxt-purgecss", "nuxt-simple-robots", "nuxt-simple-sitemap"],
+   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "@nuxt/image", "@nuxtjs/strapi", "nuxt-purgecss", "nuxt-simple-robots", "nuxt-simple-sitemap"],
 });
