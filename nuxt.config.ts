@@ -11,6 +11,7 @@ export default defineNuxtConfig({
          title: "Arsenijs Fabrica",
          charset: "utf-8",
          viewport: "width=device-width, initial-scale=1",
+         link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
       },
       pageTransition: false,
       layoutTransition: false,
