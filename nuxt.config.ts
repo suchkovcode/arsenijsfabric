@@ -83,6 +83,12 @@ export default defineNuxtConfig({
       credits: false,
    },
 
+   sitemap: {
+      xsl: false,
+      xslTips: false,
+      discoverImages: true,
+   },
+
    css: ["~/assets/css/app.css"],
    modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "@nuxt/image", "nuxt-purgecss", "nuxt-simple-robots", "nuxt-simple-sitemap"],
 });
