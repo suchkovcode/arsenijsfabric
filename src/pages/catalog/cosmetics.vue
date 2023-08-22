@@ -50,7 +50,7 @@ export default {
             {
                id: 3,
                name: "Cosmetics",
-               to: "/cosmetics",
+               to: "/catalog/cosmetics",
                last: true,
             },
          ],

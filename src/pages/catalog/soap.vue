@@ -50,7 +50,7 @@ export default {
             {
                id: 3,
                name: "Soap",
-               to: "/soap",
+               to: "/catalog/soap",
                last: true,
             },
          ],
