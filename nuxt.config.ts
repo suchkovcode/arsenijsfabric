@@ -6,11 +6,6 @@ export default defineNuxtConfig({
    ssr: true,
    builder: "vite",
 
-   sourcemap: {
-      server: isDev ? true : false,
-      client: isDev ? true : false,
-   },
-
    app: {
       head: {
          title: "Arsenijs Fabrica",
@@ -19,6 +14,11 @@ export default defineNuxtConfig({
       },
       pageTransition: false,
       layoutTransition: false,
+   },
+
+   sourcemap: {
+      server: isDev ? true : false,
+      client: isDev ? true : false,
    },
 
    devtools: {
@@ -74,6 +74,15 @@ export default defineNuxtConfig({
       dir: "assets/img",
    },
 
+   site: {
+      url: process.env.NUXT_SITE_URL || "https://arsenijsfabric.net/",
+   },
+
+   robots: {
+      sitemap: ["/sitemap.xml"],
+      credits: false,
+   },
+
    css: ["~/assets/css/app.css"],
-   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-sitemap", "nuxt-simple-robots", "@nuxt/image"],
+   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "@nuxt/image", "nuxt-purgecss", "nuxt-simple-robots", "nuxt-simple-sitemap"],
 });

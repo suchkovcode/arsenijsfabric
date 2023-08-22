@@ -12,6 +12,7 @@ export default {
             lang: "lt",
          },
       });
+      defineRobotMeta();
    },
 };
 </script>
