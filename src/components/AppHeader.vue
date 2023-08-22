@@ -49,7 +49,7 @@
                   <nav>
                      <ul class="flex gap-3 justify-end">
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
-                           <NuxtLink class="relative" to="/">
+                           <NuxtLink class="relative" to="/catalog/cosmetics">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Cosmetics</span>
                               <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
@@ -62,7 +62,7 @@
                            </NuxtLink>
                         </li>
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
-                           <NuxtLink class="relative" to="/">
+                           <NuxtLink class="relative" to="/catalog/bouquets">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Soap bouquets
                               </span>
@@ -77,7 +77,7 @@
                            </NuxtLink>
                         </li>
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
-                           <NuxtLink class="relative" to="/">
+                           <NuxtLink class="relative" to="/catalog/soap">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Soap</span>
                               <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
@@ -90,7 +90,7 @@
                            </NuxtLink>
                         </li>
                         <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
-                           <NuxtLink class="relative" to="/">
+                           <NuxtLink class="relative" to="/catalog/bombs">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Bath bombs
                               </span>
