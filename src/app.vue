@@ -11,9 +11,6 @@ export default {
          htmlAttrs: {
             lang: "lt",
          },
-         titleTemplate: (titleChunk) => {
-            return `${titleChunk} | Home`;
-         },
       });
    },
 };
