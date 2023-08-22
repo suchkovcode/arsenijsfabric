@@ -7,7 +7,7 @@
                class="relative flex justify-center items-center gap-4 mb-5 text-[50px] text-primary font-Beret leading-none lg:justify-start lg:mb-0">
                <ui-btn-back class="hidden lg:flex" />
                <svg class="absolute -top-5 left-1/2 -translate-x-1/2 w-24 h-9 lg:translate-x-0 lg:left-11" fill="none">
-                  <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-7"></use>
+                  <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-8"></use>
                </svg>
                Bombs
             </h1>
