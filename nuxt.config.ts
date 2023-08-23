@@ -7,11 +7,6 @@ export default defineNuxtConfig({
    builder: "vite",
 
    app: {
-      head: {
-         title: "Arsenijs Fabrica",
-         charset: "utf-8",
-         viewport: "width=device-width, initial-scale=1",
-      },
       pageTransition: false,
       layoutTransition: false,
    },
