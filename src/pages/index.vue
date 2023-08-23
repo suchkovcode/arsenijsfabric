@@ -471,7 +471,6 @@ export default {
    setup() {
       useHead({
          title: "Arsenijs Fabric | Home",
-         meta: [{ name: "description", content: "My amazing site." }],
       });
    },
    computed: {
