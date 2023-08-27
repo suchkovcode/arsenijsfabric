@@ -169,7 +169,7 @@
 <script>
 export default {
    setup() {
-      useHead({
+      useSeoMeta({
          title: "Arsenijs Fabric | Privacy policy",
       });
    },

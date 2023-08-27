@@ -33,7 +33,7 @@ import { useProductStore } from "@/store/product";
 
 export default {
    setup() {
-      useHead({
+      useSeoMeta({
          title: "Arsenijs Fabric | Cosmetics",
       });
    },
