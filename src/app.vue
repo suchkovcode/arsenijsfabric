@@ -8,7 +8,7 @@
 import ogImage from "~/assets/img/preview.png";
 export default {
    setup() {
-      useHead({
+      useSeoMeta({
          htmlAttrs: {
             lang: "en",
          },
