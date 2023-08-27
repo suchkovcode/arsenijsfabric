@@ -31,6 +31,7 @@ export default defineNuxtConfig({
    experimental: {
       inlineSSRStyles: false,
       payloadExtraction: false,
+      headNext: true
    },
 
    nitro: {
