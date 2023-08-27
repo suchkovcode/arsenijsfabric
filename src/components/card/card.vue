@@ -10,7 +10,7 @@
             width="400"
             height="400" />
       </header>
-      <main class="flex flex-col gap-3 p-5 bg-violet">
+      <div class="flex flex-col gap-3 p-5 bg-violet">
          <card-rating :rating-storage="currentCardData" @rating-data="addRatingData" />
          <h2 class="font-Beret text-tertiary text-lg leading-none max-w-[230px]">HOT SETTING ANTI AGING Alginate Face mask</h2>
          <p class="text-sm text-tertiary mb-3 min-h-[30px] opacity-60">with Tea Tree Leaf oil; Sea Silt Extract and Burdock Root Extract</p>
@@ -18,7 +18,7 @@
             <p class="text-[#b4b3bd] line-through text-xl">9,95 €</p>
             <p class="text-tertiary font-medium text-xl">5,95 €</p>
          </div>
-      </main>
+      </div>
       <footer class="flex flex-col gap-3 p-5 bg-violet">
          <nuxt-link
             class="flex justify-center items-center w-full h-11 rounded-[55px] border border-tertiary font-Beret bg-secondary text-white tracking-wide"
