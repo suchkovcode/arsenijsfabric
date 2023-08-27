@@ -14,3 +14,12 @@
       </div>
    </section>
 </template>
+<script>
+export default {
+   setup() {
+      useHead({
+         title: "Arsenijs Fabric | 404",
+      });
+   },
+};
+</script>
