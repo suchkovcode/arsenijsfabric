@@ -48,7 +48,7 @@
                   </div>
                   <nav>
                      <ul class="flex gap-3 justify-end">
-                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
+                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl" @click="shopHover = false">
                            <NuxtLink class="relative" to="/catalog/cosmetics">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Cosmetics</span>
                               <img
@@ -61,7 +61,7 @@
                               </svg>
                            </NuxtLink>
                         </li>
-                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
+                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl" @click="shopHover = false">
                            <NuxtLink class="relative" to="/catalog/bouquets">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Soap bouquets
@@ -76,7 +76,7 @@
                               </svg>
                            </NuxtLink>
                         </li>
-                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
+                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl" @click="shopHover = false">
                            <NuxtLink class="relative" to="/catalog/soap">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Soap</span>
                               <img
@@ -89,7 +89,7 @@
                               </svg>
                            </NuxtLink>
                         </li>
-                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl">
+                        <li class="overflow-hidden relative rounded-xl xl:rounded-3xl" @click="shopHover = false">
                            <NuxtLink class="relative" to="/catalog/bombs">
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">
                                  Bath bombs
