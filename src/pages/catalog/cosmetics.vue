@@ -32,6 +32,12 @@ import { mapState } from "pinia";
 import { useProductStore } from "@/store/product";
 
 export default {
+   setup() {
+      useHead({
+         title: "Arsenijs Fabric | Cosmetics",
+      });
+   },
+
    data() {
       return {
          roterData: [

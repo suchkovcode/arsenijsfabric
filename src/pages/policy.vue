@@ -168,6 +168,11 @@
 
 <script>
 export default {
+   setup() {
+      useHead({
+         title: "Arsenijs Fabric | Privacy policy",
+      });
+   },
    data() {
       return {
          roterData: [
