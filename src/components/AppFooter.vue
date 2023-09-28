@@ -98,9 +98,11 @@
       <div class="bg-[#2b1e59] w-full py-3">
          <div class="container flex flex-col gap-2 text-center md:flex-row md:justify-between">
             <p class="text-xs text-white opacity-70">© Copyrighted. Copying materials is prohibited</p>
-            <a class="text-xs text-white opacity-70 hover:text-secondary transition-all" href="https://github.com/suchkovcode/">
-               Website development
-            </a>
+            <span class="cursor-pointer">
+               <a class="text-xs text-white opacity-70 hover:text-secondary transition-all" href="https://github.com/suchkovcode/"> Develop </a>
+               <span class="text-xs text-white opacity-70"> |</span>
+               <a class="text-xs text-white opacity-70 hover:text-secondary transition-all" href="https://mssg.me/d.purple"> Design </a>
+            </span>
          </div>
       </div>
    </footer>
