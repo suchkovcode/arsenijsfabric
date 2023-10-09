@@ -44,7 +44,7 @@ pnpm-debug.log*
 .stylelintcache
 
 # dotenv environment variables file(s)
-.env
+
 
 # Serverless generated files
 .serverless/
