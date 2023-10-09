@@ -1,19 +1,39 @@
 const isDev = process.env.NODE_ENV !== "production";
 
 export default defineNuxtConfig({
+   builder: "vite",
    srcDir: "./src/",
    telemetry: false,
    ssr: true,
-   builder: "vite",
+
+   hooks: {
+      "build:manifest": (manifest) => {
+         for (const key in manifest) {
+            const file = manifest[key];
+            if (file.assets) {
+               file.assets = file.assets.filter(
+                  (asset) =>
+                     !asset.endsWith(".webp") &&
+                     !asset.endsWith(".jpg") &&
+                     !asset.endsWith(".png") &&
+                     !asset.endsWith(".jpeg") &&
+                     !asset.endsWith(".svg"),
+               );
+            }
+         }
+      },
+   },
 
    app: {
+      rootId: "root",
       pageTransition: false,
       layoutTransition: false,
+      buildAssetsDir: "assets/",
    },
 
    sourcemap: {
-      server: isDev ? true : false,
-      client: isDev ? true : false,
+      server: false,
+      client: false,
    },
 
    devtools: {
@@ -31,11 +51,14 @@ export default defineNuxtConfig({
    experimental: {
       inlineSSRStyles: false,
       payloadExtraction: false,
-      headNext: true
+      headNext: false,
+      noScripts: false,
+      renderJsonPayloads: false,
+      crossOriginPrefetch: false,
    },
 
    nitro: {
-      preset: "cloudflare",
+      preset: "cloudflare-pages-static",
       serveStatic: true,
    },
 
@@ -80,6 +103,7 @@ export default defineNuxtConfig({
    },
 
    sitemap: {
+      sitemaps: false,
       xsl: false,
       xslTips: false,
       discoverImages: true,
