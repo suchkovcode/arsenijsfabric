@@ -46,7 +46,7 @@
          </div>
       </div>
    </section>
-   <section class="relative bg-violet pb-12 lg:pb-14 xl:pb-16 2xl:pb-20">
+   <div class="relative bg-violet pb-12 lg:pb-14 xl:pb-16 2xl:pb-20">
       <div class="container">
          <div
             class="grid grid-cols-2 items-center justify-items-center gap-6 max-w-[400px] mx-auto py-10 lg:py-12 xl:py-13 md:grid-cols-4 md:max-w-none">
@@ -159,7 +159,7 @@
             </ul>
          </nav>
       </div>
-   </section>
+   </div>
    <section class="py-16 sm:py-20 md:py-24 lg:py-28">
       <div class="container">
          <div class="mb-8 sm:mb-10 md:mb-12 lg:mb-14 lg:flex lg:justify-between lg:items-center">
