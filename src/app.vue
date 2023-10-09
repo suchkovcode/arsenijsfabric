@@ -8,14 +8,15 @@
 import ogImage from "~/assets/img/preview.png";
 export default {
    setup() {
-      useSeoMeta({
+      useHead({
          htmlAttrs: {
             lang: "en",
          },
-         charset: "utf-8",
-         viewport: "width=device-width, initial-scale=1",
          meta: [
-            { hid: "description", name: "description", content: "Our natural and perfects products. We are here to show you that natural is perfect. This is what our products are." },
+            { "http-equiv": "X-UA-Compatible", "content": "IE=edge" },
+            { name: "apple-mobile-web-app-title", content: "Arsenijs Fabric" },
+            { name: "apple-mobile-web-app-capable", content: "yes" },
+            { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
             { hid: "og:title", property: "og:title", content: "Arsenijs Fabric | Home" },
             { hid: "og:url", property: "og:url", content: "https://arsenijsfabric.net" },
             { hid: "og:description", property: "og:description", content: "Our natural and perfects products. We are here to show you that natural is perfect. This is what our products are." },
@@ -26,8 +27,16 @@ export default {
             { hid: "twitter:description", name: "twitter:description", content: "Our natural and perfects products. We are here to show you that natural is perfect. This is what our products are." },
             { hid: "twitter:image", name: "twitter:image", content: ogImage },
          ],
-         link: [{ hid: "canonical", rel: "canonical", href: "https://arsenijsfabric.net" }],
+         link: [
+            { hid: "canonical", rel: "canonical", href: "https://arsenijsfabric.net" },
+         ],
       });
+
+      useSeoMeta({
+         title: "Arsenijs Fabric | Home",
+         description: "Описание не длиннее 155 символов",
+      });
+
       defineRobotMeta();
    },
 };
