@@ -9,11 +9,11 @@
    "private": true,
    "type": "module",
    "scripts": {
-      "build": "nuxt build",
-      "dev": "nuxt dev",
-      "generate": "nuxt generate",
-      "preview": "nuxt preview",
-      "postinstall": "nuxt prepare"
+      "build:dev": "nuxt dev",
+      "build:prod": "nuxt build",
+      "build:ssr": "nuxt generate",
+      "build:preview": "nuxt preview",
+      "build:postinstall": "nuxt prepare"
    },
    "devDependencies": {
       "@nuxt/devtools": "latest",
