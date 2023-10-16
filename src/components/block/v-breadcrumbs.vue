@@ -13,7 +13,6 @@
             </nuxt-link>
             <meta itemprop="position" content="1" />
          </li>
-
          <li
             v-if="roterLink.catalog"
             class="breadcrumbs__item cursor-pointer text-base"
@@ -30,7 +29,6 @@
             </nuxt-link>
             <meta itemprop="position" content="2" />
          </li>
-
          <li
             v-if="roterLink.subpage"
             class="breadcrumbs__item cursor-pointer text-base"
@@ -47,7 +45,6 @@
             </nuxt-link>
             <meta itemprop="position" content="3" />
          </li>
-
          <li class="breadcrumbs__item cursor-pointer text-base active" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
             <nuxt-link
                class="breadcrumbs__link font-Giga text-tertiary text-sm"
