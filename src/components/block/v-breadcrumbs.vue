@@ -48,7 +48,7 @@
             <meta itemprop="position" content="3" />
          </li>
 
-         <li class="breadcrumbs__item cursor-pointer text-base active">
+         <li class="breadcrumbs__item cursor-pointer text-base active" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
             <nuxt-link
                class="breadcrumbs__link font-Giga text-tertiary text-sm"
                :to="roterLink.to"
