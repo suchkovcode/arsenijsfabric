@@ -22,7 +22,7 @@
       <footer class="flex flex-col gap-3 p-5 bg-violet">
          <nuxt-link
             class="flex justify-center items-center w-full h-11 rounded-[55px] border border-tertiary font-Beret bg-secondary text-white tracking-wide"
-            to="catalog/1">
+            :to="`/catalog/${1}`">
             Learn more
          </nuxt-link>
          <button
