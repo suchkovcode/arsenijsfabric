@@ -1,7 +1,7 @@
 <template>
    <section class="pt-28 pb-10 lg:pt-36">
       <div class="container">
-         <block-v-breadcrumbs class="mb-8" :roter-link="roterData" />
+         <block-v-breadcrumbs class="mb-8" :roter-link="{ name: 'Policy', to: '/policy' }" />
          <h1 class="relative flex items-center gap-4 mb-5 text-[50px] text-primary font-Beret leading-none">
             <ui-btn-back />
             Privatuma politika
@@ -172,24 +172,6 @@ export default {
       useSeoMeta({
          title: "Arsenijs Fabric | Privacy policy",
       });
-   },
-   data() {
-      return {
-         roterData: [
-            {
-               id: 1,
-               name: "Home",
-               to: "/",
-               last: false,
-            },
-            {
-               id: 2,
-               name: "Policy",
-               to: "/policy",
-               last: true,
-            },
-         ],
-      };
    },
 };
 </script>
