@@ -17,18 +17,22 @@
       </a>
    </p>
 
-   **Google page speed**
+   # Website speed and performance
 
-   <table>
-      <tr>
-         <td>
-            <img src="./src/assets/img/md/mob.jpg" alt="Картинка мобильного" title="Картинка" />
-         </td>
-         <td>
-            <img src="./src/assets/img/md/des.jpg" alt="Картинка компьютера" title="Картинка" />
-         </td>
+<table>
+       <tr>
+         <td><b>Google Page Speed - mob</b></td>
+         <td><b>Google Page Speed - des</b></td>
       </tr>
-   </table>
+   <tr>
+      <td>
+         <img src="./src/assets/img/md/mob.jpg" alt="Картинка мобильного" title="Картинка" />
+      </td>
+      <td>
+         <img src="./src/assets/img/md/des.jpg" alt="Картинка компьютера" title="Картинка" />
+      </td>
+   </tr>
+</table>
 
    <table>
       <tr>
