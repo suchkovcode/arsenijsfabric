@@ -18,7 +18,7 @@
    "devDependencies": {
       "nuxt": "^3.10.0",
       "nuxt-simple-robots": "^4.0.0-rc.14",
-      "nuxt-simple-sitemap": "^3.4.1",
+      "nuxt-simple-sitemap": "^4.4.1",
 
       "@types/node": "^20.8.9",
       "@nuxt/devtools": "1.0.0",
