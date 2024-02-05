@@ -5,6 +5,9 @@ export default defineNuxtConfig({
    srcDir: "./src/",
    telemetry: false,
    ssr: true,
+   devServer: {
+      port: 3000,
+   },
 
    hooks: {
       "build:manifest": (manifest) => {
@@ -24,12 +27,14 @@ export default defineNuxtConfig({
       },
    },
 
+
    app: {
       rootId: "root",
       pageTransition: false,
       layoutTransition: false,
-      buildAssetsDir: "assets/",
+      buildAssetsDir: isDev ? "_nuxt/" : "assets/",
    },
+
 
    sourcemap: {
       server: false,
@@ -44,22 +49,26 @@ export default defineNuxtConfig({
       },
    },
 
-   devServer: {
-      port: 3000,
-   },
-
    experimental: {
-      inlineSSRStyles: true,
       payloadExtraction: false,
       headNext: false,
-      noScripts: false,
+      appManifest: false,
       renderJsonPayloads: false,
       crossOriginPrefetch: false,
+      sharedPrerenderData: true,
+   },
+
+   features: {
+      inlineStyles: false,
+      noScripts: false,
    },
 
    nitro: {
       preset: "cloudflare-pages-static",
       serveStatic: true,
+      prerender: {
+         autoSubfolderIndex: false,
+      },
    },
 
    eslint: {
@@ -69,7 +78,6 @@ export default defineNuxtConfig({
    postcss: {
       plugins: {
          "tailwindcss": {},
-         "autoprefixer": {},
          "postcss-combine-media-query": {},
          "postcss-combine-duplicated-selectors": {},
          "cssnano": ["default", { discardComments: { removeAll: true }, discardEmpty: true, discardDuplicates: true, minifyFontValues: true }],
@@ -79,11 +87,10 @@ export default defineNuxtConfig({
    purgecss: {
       enabled: isDev ? false : true,
       content: ["./src/**/*.vue"],
-      safelist: {
-         standard: ["body", "html", "a", /\w+-(?:\[\d+(px|deg)\])?/],
-      },
+      safelist: ["html", "head", "body", "root", /\w+-(?:\[\d+(px|deg)\])?/],
       fontFace: true,
       variables: true,
+      keyframes: true,
    },
 
    image: {
