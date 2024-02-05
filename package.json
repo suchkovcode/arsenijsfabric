@@ -9,11 +9,14 @@
    "private": true,
    "type": "module",
    "scripts": {
-      "build:dev": "nuxt dev",
-      "build:prod": "nuxt build",
-      "build:ssr": "nuxt generate",
+      "build:dev": "npx nuxi dev --host",
+      "build:prod": "npx nuxi build",
+      "build:ssr": "npx nuxi generate",
       "build:preview": "nuxt preview",
-      "build:postinstall": "nuxt prepare"
+      "nuxt:analuze": "npx nuxi analyze",
+      "nuxt:clean": "npx nuxi cleanup",
+      "nuxt:info": "npx nuxi info",
+      "nuxt:upgrade": "npx nuxi upgrade"
    },
    "devDependencies": {
       "@types/node": "^20.11.16",
