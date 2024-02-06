@@ -7,8 +7,6 @@ export const useBacketStore = defineStore("backet", {
       };
    },
 
-   getters: {},
-
    actions: {
       updateStateActiveCanvas(state) {
          this.isActive = state;

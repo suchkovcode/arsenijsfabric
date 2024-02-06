@@ -42,8 +42,6 @@ export const useProductStore = defineStore("product", {
       };
    },
 
-   getters: {},
-
    actions: {
       updateStateActiveCanvas(state) {
          this.isActive = state

@@ -7,11 +7,9 @@ export const useFavoriteStore = defineStore("favorite", {
       };
    },
 
-   getters: {},
-
    actions: {
       updateStateActiveCanvas(state) {
-         this.isActive = state
+         this.isActive = state;
       },
    },
 });
