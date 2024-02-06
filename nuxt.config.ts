@@ -116,6 +116,6 @@ export default defineNuxtConfig({
 
    css: ["~/assets/css/app.css"],
    modules: isDev
-      ? ["@nuxtjs/eslint-module", "@pinia/nuxt", "@unlazy/nuxt", "nuxt-purgecss"]
-      : ["@pinia/nuxt", "@unlazy/nuxt", "nuxt-purgecss"],
+      ? ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss"]
+      : ["@pinia/nuxt", "nuxt-purgecss"],
 });
