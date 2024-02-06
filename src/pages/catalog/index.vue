@@ -33,26 +33,13 @@
             <div class="lg:col-span-4 xl:col-span-3">
                <app-filter />
             </div>
-            <app-catalog class="lg:col-span-8 xl:col-span-9" :data-item="products" />
+            <app-catalog class="lg:col-span-8 xl:col-span-9" :data-item="store.products" />
             <app-pagination class="lg:col-start-5 lg:col-end-12 xl:col-start-4" />
          </div>
       </div>
    </section>
 </template>
 
-<script>
-import { mapState } from "pinia";
-import { useProductStore } from "@/store/product";
-
-export default {
-   setup() {
-      useSeoMeta({
-         title: "Arsenijs Fabric | Catalog",
-      });
-   },
-
-   computed: {
-      ...mapState(useProductStore, ["products"]),
-   },
-};
+<script setup>
+const store = useProductStore();
 </script>

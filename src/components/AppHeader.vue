@@ -171,9 +171,9 @@
 
 <script>
 import { mapActions } from "pinia";
-import { useFavoriteStore } from "@/store/favorite";
-import { useBacketStore } from "@/store/backet";
-import { useProductStore } from "@/store/product";
+import { useFavoriteStore } from "@/stores/favorite";
+import { useBacketStore } from "@/stores/backet";
+import { useProductStore } from "@/stores/product";
 
 export default {
    data() {

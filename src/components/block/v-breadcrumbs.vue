@@ -1,9 +1,9 @@
 <template>
    <nav class="mb-30">
-      <ol class="flex flex-wrap justify-center items-center lg:justify-start" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <ol class="flex flex-wrap items-center justify-center lg:justify-start" itemscope itemtype="http://schema.org/BreadcrumbList">
          <li class="breadcrumbs__item cursor-pointer text-base" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
             <nuxt-link
-               class="breadcrumbs__link font-Giga text-tertiary text-sm"
+               class="breadcrumbs__link font-Giga text-sm text-tertiary"
                to="/"
                itemscope
                itemprop="item"
@@ -20,7 +20,7 @@
             itemprop="itemListElement"
             itemtype="http://schema.org/ListItem">
             <nuxt-link
-               class="breadcrumbs__link font-Giga text-tertiary text-sm"
+               class="breadcrumbs__link font-Giga text-sm text-tertiary"
                to="/catalog"
                itemscopeitemprop="item"
                itemtype="http://schema.org/Thing"
@@ -36,7 +36,7 @@
             itemprop="itemListElement"
             itemtype="http://schema.org/ListItem">
             <nuxt-link
-               class="breadcrumbs__link font-Giga text-tertiary text-sm"
+               class="breadcrumbs__link font-Giga text-sm text-tertiary"
                :to="roterLink.subpage.to"
                itemscopeitemprop="item"
                itemtype="http://schema.org/Thing"
@@ -45,9 +45,9 @@
             </nuxt-link>
             <meta itemprop="position" content="3" />
          </li>
-         <li class="breadcrumbs__item cursor-pointer text-base active" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+         <li class="breadcrumbs__item active cursor-pointer text-base" itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
             <nuxt-link
-               class="breadcrumbs__link font-Giga text-tertiary text-sm"
+               class="breadcrumbs__link font-Giga text-sm text-tertiary"
                :to="roterLink.to"
                itemscope
                itemprop="item"
@@ -63,13 +63,11 @@
    </nav>
 </template>
 
-<script>
-export default {
-   props: {
-      roterLink: {
-         type: Array,
-         required: true,
-      },
+<script setup>
+const props = defineProps({
+   roterLink: {
+      type: Array,
+      required: true,
    },
-};
+});
 </script>
