@@ -91,13 +91,6 @@ export default defineNuxtConfig({
       keyframes: true,
    },
 
-   image: {
-      inject: false,
-      format: ["webp"],
-      quality: 80,
-      dir: "assets/img",
-   },
-
    site: {
       url: process.env.NUXT_SITE_URL || "https://arsenijsfabric.net/",
    },
