@@ -165,13 +165,3 @@
       </div>
    </section>
 </template>
-
-<script>
-export default {
-   setup() {
-      useSeoMeta({
-         title: "Arsenijs Fabric | Privacy policy",
-      });
-   },
-};
-</script>
