@@ -1,44 +1,44 @@
 <template>
-   <section class="relative bg-primary font-Giga overflow-hidden pt-20 md:pt-24 lg:pt-36 xl:pt-44">
+   <section class="relative overflow-hidden bg-primary pt-20 font-Giga md:pt-24 lg:pt-36 xl:pt-44">
       <div class="container pt-32 lg:pt-40 xl:pt-52">
          <svg
-            class="absolute top-[-350px] left-[-340px] z-[-0] w-[700px] h-[700px] sm:top-[-300px] sm:left-[-300px] md:w-[800px] md:h-[800px] 2xl:left-[-150px] 2xl:top-[-200px]"
+            class="absolute left-[-340px] top-[-350px] z-[-0] h-[700px] w-[700px] sm:left-[-300px] sm:top-[-300px] md:h-[800px] md:w-[800px] 2xl:left-[-150px] 2xl:top-[-200px]"
             fill="none">
             <use xlink:href="@/assets/img/sprite.svg#indexStain-1"></use>
          </svg>
          <div class="relative lg:flex">
             <div>
                <h1
-                  class="relative z-[1] block w-fit font-Beret text-[48px] leading-tight text-white font-bold text-center uppercase mx-auto mb-6 sm:text-[54px] md:text-[68px] md:leading-none lg:text-left lg:mx-0 lg:mb-8 2xl:text-[72px]">
+                  class="relative z-[1] mx-auto mb-6 block w-fit text-center font-Beret text-[48px] font-bold uppercase leading-tight text-white sm:text-[54px] md:text-[68px] md:leading-none lg:mx-0 lg:mb-8 lg:text-left 2xl:text-[72px]">
                   All you need <br />
                   to glowy <br />
                   skin & body
-                  <svg class="absolute -top-8 left-1/2 -translate-x-1/2 w-32 h-12 sm:w-36 sm:h-16 sm:-top-12 lg:translate-x-0 lg:left-11" fill="none">
+                  <svg class="absolute -top-8 left-1/2 h-12 w-32 -translate-x-1/2 sm:-top-12 sm:h-16 sm:w-36 lg:left-11 lg:translate-x-0" fill="none">
                      <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-1"></use>
                   </svg>
-                  <svg class="absolute -top-16 -right-4 w-8 h-8 sm:-right-12 md:-right-20 lg:-right-14" fill="none">
+                  <svg class="absolute -right-4 -top-16 h-8 w-8 sm:-right-12 md:-right-20 lg:-right-14" fill="none">
                      <use xlink:href="@/assets/img/sprite.svg#indexIcon-1"></use>
                   </svg>
                </h1>
-               <p class="relative z-[1]font-Giga text-white text-center leading-snug max-w-[350px] mx-auto mb-6 lg:mb-8 lg:mx-0 lg:text-left">
+               <p class="z-[1]font-Giga relative mx-auto mb-6 max-w-[350px] text-center leading-snug text-white lg:mx-0 lg:mb-8 lg:text-left">
                   Our natural and perfects products. We are here to show you that natural is perfect. <br />
                   This is what our products are.
                </p>
                <NuxtLink
-                  class="flex justify-center items-center w-40 h-20 bg-white text-tertiary rounded-[55px] font-bold border border-tertiary hover:bg-secondary hover:text-white transition-all mx-auto mb-10 lg:mx-0 lg:mb-20 xl:mb-24 2xl:mb-28"
+                  class="mx-auto mb-10 flex h-20 w-40 items-center justify-center rounded-[55px] border border-tertiary bg-white font-bold text-tertiary transition-all hover:bg-secondary hover:text-white lg:mx-0 lg:mb-20 xl:mb-24 2xl:mb-28"
                   to="/">
                   <span>SHOP NOW</span>
                </NuxtLink>
             </div>
             <div class="relative">
                <img
-                  class="relative block top-1 z-[1] w-[180%] h-auto max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:translate-x-0 lg:absolute lg:-left-40 lg:w-[800px] lg:-top-28 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:left-10 2xl:-top-[150px]"
+                  class="relative top-1 z-[1] block h-auto w-[180%] max-w-[800px] translate-x-[-31%] md:translate-x-[-20%] lg:absolute lg:-left-40 lg:-top-28 lg:w-[800px] lg:translate-x-0 xl:-left-5 xl:-top-40 xl:w-[900px] xl:max-w-[900px] 2xl:-top-[150px] 2xl:left-10"
                   src="@/assets/img/index__img-1.png"
                   alt="picture"
                   width="750"
                   height="580" />
                <svg
-                  class="absolute bottom-[-280px] left-[-100px] z-0 w-[600px] h-[600px] sm:left-[-20px] sm:bottom-[-150px] md:left-[30px] md:w-[700px] md:h-[700px] md:bottom-[-300px] xl:left-40 2xl:left-64 2xl:bottom-[-250px]"
+                  class="absolute bottom-[-280px] left-[-100px] z-0 h-[600px] w-[600px] sm:bottom-[-150px] sm:left-[-20px] md:bottom-[-300px] md:left-[30px] md:h-[700px] md:w-[700px] xl:left-40 2xl:bottom-[-250px] 2xl:left-64"
                   fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#indexStain-2"></use>
                </svg>
@@ -49,109 +49,109 @@
    <div class="relative bg-violet pb-12 lg:pb-14 xl:pb-16 2xl:pb-20">
       <div class="container">
          <div
-            class="grid grid-cols-2 items-center justify-items-center gap-6 max-w-[400px] mx-auto py-10 lg:py-12 xl:py-13 md:grid-cols-4 md:max-w-none">
-            <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
-               <svg class="w-12 h-12" fill="none">
+            class="xl:py-13 mx-auto grid max-w-[400px] grid-cols-2 items-center justify-items-center gap-6 py-10 md:max-w-none md:grid-cols-4 lg:py-12">
+            <div class="inline-flex w-28 flex-col items-center gap-2 lg:w-auto lg:flex-row lg:gap-3">
+               <svg class="h-12 w-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-1"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none"> Natural Ingredients </span>
+               <span class="text-center leading-none lg:text-left"> Natural Ingredients </span>
             </div>
-            <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
-               <svg class="w-12 h-12" fill="none">
+            <div class="inline-flex w-28 flex-col items-center gap-2 lg:w-auto lg:flex-row lg:gap-3">
+               <svg class="h-12 w-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-2"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none"> Cruelty free </span>
+               <span class="text-center leading-none lg:text-left"> Cruelty free </span>
             </div>
-            <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
-               <svg class="w-12 h-12" fill="none">
+            <div class="inline-flex w-28 flex-col items-center gap-2 lg:w-auto lg:flex-row lg:gap-3">
+               <svg class="h-12 w-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-3"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none"> Handmade </span>
+               <span class="text-center leading-none lg:text-left"> Handmade </span>
             </div>
-            <div class="inline-flex flex-col items-center gap-2 w-28 lg:flex-row lg:w-auto lg:gap-3">
-               <svg class="w-12 h-12" fill="none">
+            <div class="inline-flex w-28 flex-col items-center gap-2 lg:w-auto lg:flex-row lg:gap-3">
+               <svg class="h-12 w-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconProduct-4"></use>
                </svg>
-               <span class="text-center lg:text-left leading-none"> Vegan cosmetics </span>
+               <span class="text-center leading-none lg:text-left"> Vegan cosmetics </span>
             </div>
          </div>
          <nav>
             <ul class="grid grid-cols-12 grid-rows-mini-2 gap-3 md:gap-4 xl:gap-5">
                <li
-                  class="overflow-hidden col-span-7 relative h-[200px] rounded-3xl sm:h-[250px] md:h-[300px] lg:h-[355px] lg:col-span-5 lg:row-span-2 xl:h-[460px]">
+                  class="relative col-span-7 h-[200px] overflow-hidden rounded-3xl sm:h-[250px] md:h-[300px] lg:col-span-5 lg:row-span-2 lg:h-[355px] xl:h-[460px]">
                   <NuxtLink class="relative" to="/catalog/cosmetics">
-                     <h2 class="absolute top-3 left-3 z-10 text-white font-Giga eading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
-                        <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
+                     <h2 class="eading-tight absolute left-3 top-3 z-10 font-Giga text-white sm:left-5 sm:top-5 xl:left-5 xl:top-5 xl:text-lg">
+                        <span class="mb-[2px] inline-block text-sm font-normal">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Cosmetics</span>
                      </h2>
                      <img
-                        class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
+                        class="block h-full w-full object-cover transition-all duration-300 hover:scale-125"
                         src="@/assets/img/header__link-1.png"
                         alt="picture"
                         loading="lazy" />
-                     <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
+                     <svg class="absolute bottom-3 left-3 h-7 w-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
                   </NuxtLink>
                </li>
-               <li class="overflow-hidden col-span-5 relative h-[200px] rounded-3xl sm:h-[250px] md:h-[300px] lg:h-full lg:col-span-3 lg:row-span-2">
+               <li class="relative col-span-5 h-[200px] overflow-hidden rounded-3xl sm:h-[250px] md:h-[300px] lg:col-span-3 lg:row-span-2 lg:h-full">
                   <NuxtLink class="relative" to="/catalog/bouquets">
                      <h2
-                        class="absolute top-3 left-3 z-10 w-[85%] text-white font-Giga leading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
-                        <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
-                        <span class="font-Beret relative flex justify-between items-center uppercase md:text-xl xl:text-2xl">
+                        class="absolute left-3 top-3 z-10 w-[85%] font-Giga leading-tight text-white sm:left-5 sm:top-5 xl:left-5 xl:top-5 xl:text-lg">
+                        <span class="mb-[2px] inline-block text-sm font-normal">The</span> <br />
+                        <span class="relative flex items-center justify-between font-Beret uppercase md:text-xl xl:text-2xl">
                            Soap bouquets
-                           <svg class="hidden w-6 h-6 md:block" fill="none">
+                           <svg class="hidden h-6 w-6 md:block" fill="none">
                               <use xlink:href="@/assets/img/sprite.svg#iconHand"></use>
                            </svg>
                         </span>
                      </h2>
                      <img
-                        class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
+                        class="block h-full w-full object-cover transition-all duration-300 hover:scale-125"
                         src="@/assets/img/product__item-2.png"
                         alt="picture"
                         loading="lazy" />
-                     <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
+                     <svg class="absolute bottom-3 left-3 h-7 w-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
                   </NuxtLink>
                </li>
                <li
-                  class="overflow-hidden col-span-6 relative h-[120px] rounded-3xl sm:h-[180px] md:h-[200px] lg:h-[170px] lg:col-span-4 lg:row-span-1 xl:h-[220px]">
+                  class="relative col-span-6 h-[120px] overflow-hidden rounded-3xl sm:h-[180px] md:h-[200px] lg:col-span-4 lg:row-span-1 lg:h-[170px] xl:h-[220px]">
                   <NuxtLink class="relative" to="/catalog/soap">
                      <h2
-                        class="absolute top-3 left-3 z-10 w-[85%] text-white font-Giga leading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
-                        <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
-                        <span class="font-Beret relative flex justify-between items-centeruppercase md:text-xl xl:text-2xl">
+                        class="absolute left-3 top-3 z-10 w-[85%] font-Giga leading-tight text-white sm:left-5 sm:top-5 xl:left-5 xl:top-5 xl:text-lg">
+                        <span class="mb-[2px] inline-block text-sm font-normal">The</span> <br />
+                        <span class="items-centeruppercase relative flex justify-between font-Beret md:text-xl xl:text-2xl">
                            Soap
-                           <svg class="hidden w-6 h-6 md:block" fill="none">
+                           <svg class="hidden h-6 w-6 md:block" fill="none">
                               <use xlink:href="@/assets/img/sprite.svg#iconHand"></use>
                            </svg>
                         </span>
                      </h2>
                      <img
-                        class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
+                        class="block h-full w-full object-cover transition-all duration-300 hover:scale-125"
                         src="@/assets/img/header__link-3.png"
                         alt="picture"
                         loading="lazy" />
-                     <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
+                     <svg class="absolute bottom-3 left-3 h-7 w-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
                   </NuxtLink>
                </li>
                <li
-                  class="overflow-hidden col-span-6 relative h-[120px] rounded-3xl sm:h-[180px] md:h-[200px] lg:h-[170px] lg:col-span-4 lg:row-span-1 xl:h-[220px]">
+                  class="relative col-span-6 h-[120px] overflow-hidden rounded-3xl sm:h-[180px] md:h-[200px] lg:col-span-4 lg:row-span-1 lg:h-[170px] xl:h-[220px]">
                   <NuxtLink class="relative" to="/catalog/bombs">
-                     <h2 class="absolute top-3 left-3 z-10 text-white font-Giga eading-tight sm:top-5 sm:left-5 xl:top-5 xl:left-5 xl:text-lg">
-                        <span class="inline-block font-normal text-sm mb-[2px]">The</span> <br />
+                     <h2 class="eading-tight absolute left-3 top-3 z-10 font-Giga text-white sm:left-5 sm:top-5 xl:left-5 xl:top-5 xl:text-lg">
+                        <span class="mb-[2px] inline-block text-sm font-normal">The</span> <br />
                         <span class="font-Beret uppercase md:text-xl xl:text-2xl">Bath bombs</span>
                      </h2>
                      <img
-                        class="block w-full h-full hover:scale-125 transition-all duration-300 object-cover"
+                        class="block h-full w-full object-cover transition-all duration-300 hover:scale-125"
                         src="@/assets/img/header__link-4.png"
                         alt="picture"
                         loading="lazy" />
-                     <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
+                     <svg class="absolute bottom-3 left-3 h-7 w-7 xl:bottom-5 xl:left-5" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
                      </svg>
                   </NuxtLink>
@@ -162,38 +162,38 @@
    </div>
    <section class="py-16 sm:py-20 md:py-24 lg:py-28">
       <div class="container">
-         <div class="mb-8 sm:mb-10 md:mb-12 lg:mb-14 lg:flex lg:justify-between lg:items-center">
+         <div class="mb-8 sm:mb-10 md:mb-12 lg:mb-14 lg:flex lg:items-center lg:justify-between">
             <h2 class="relative text-center lg:text-left">
-               <svg class="absolute -top-6 left-1/2 -translate-x-1/2 w-16 h-9 lg:translate-x-0 lg:left-10" fill="none">
+               <svg class="absolute -top-6 left-1/2 h-9 w-16 -translate-x-1/2 lg:left-10 lg:translate-x-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-5"></use>
                </svg>
-               <span class="font-Beret text-primary text-[50px] leading-none lg:text-[55px]"> Bestsellers </span>
+               <span class="font-Beret text-[50px] leading-none text-primary lg:text-[55px]"> Bestsellers </span>
             </h2>
             <nuxt-link
-               class="hidden lg:flex justify-center items-center w-40 h-20 font-Beret bg-orange text-secondary rounded-[55px] uppercase hover:bg-secondary hover:border hover:border-tertiary hover:text-white transition-all"
+               class="hidden h-20 w-40 items-center justify-center rounded-[55px] bg-orange font-Beret uppercase text-secondary transition-all hover:border hover:border-tertiary hover:bg-secondary hover:text-white lg:flex"
                to="/catalog">
                ALL PRODUCTS
             </nuxt-link>
          </div>
-         <app-catalog class="mb-10" :data-item="products" />
+         <app-catalog class="mb-10" :data-item="store.products" />
          <ui-btn-load />
       </div>
    </section>
-   <section id="aboutUs" class="overflow-hidden relative bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
+   <section id="aboutUs" class="relative overflow-hidden bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
       <svg
-         class="absolute -top-72 -left-[330px] block w-[600px] h-[820px] rotate-12 sm:-left-[280px] sm:w-[700px] lg:-left-[200px] lg:top-[-350px] xl:w-[700px] 2xl:-left-[50px] 2xl:top-[-300px] 2xl:rotate-0">
+         class="absolute -left-[330px] -top-72 block h-[820px] w-[600px] rotate-12 sm:-left-[280px] sm:w-[700px] lg:-left-[200px] lg:top-[-350px] xl:w-[700px] 2xl:-left-[50px] 2xl:top-[-300px] 2xl:rotate-0">
          <use xlink:href="@/assets/img/sprite.svg#about-bg"></use>
       </svg>
-      <div class="relative container z-20 mb-16 lg:mb-20 xl:mb-28">
+      <div class="container relative z-20 mb-16 lg:mb-20 xl:mb-28">
          <div class="lg:flex">
-            <div class="mb-7 text-center lg:text-left lg:mb-0">
-               <h2 class="relative font-Beret text-[50px] text-primary leading-none mb-2">
-                  <svg class="absolute -top-6 left-1/2 -translate-x-1/2 w-16 h-9 lg:translate-x-0 lg:left-10" fill="none">
+            <div class="mb-7 text-center lg:mb-0 lg:text-left">
+               <h2 class="relative mb-2 font-Beret text-[50px] leading-none text-primary">
+                  <svg class="absolute -top-6 left-1/2 h-9 w-16 -translate-x-1/2 lg:left-10 lg:translate-x-0" fill="none">
                      <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-3"></use>
                   </svg>
                   ARSENIJS FABRICA
                </h2>
-               <div class="text-sm mx-auto text-tertiary opacity-60 leading-snug font-Giga tracking-wide sm:text-lg sm:max-w-[460px]">
+               <div class="mx-auto font-Giga text-sm leading-snug tracking-wide text-tertiary opacity-60 sm:max-w-[460px] sm:text-lg">
                   <p class="mb-5 xl:mb-10">is a natural and modern cosmetics.</p>
                   <p class="mb-5">
                      The story on which the Arsenijs fabrica brand is based is about a 12-year-old redheaded boy, who in the evenings on the first
@@ -203,59 +203,59 @@
                </div>
             </div>
             <img
-               class="block w-full max-w-[440px] mx-auto h-auto mb-12 sm:mb-16 lg:mb-0 lg:mx-0 lg:ml-auto xl:max-w-[560px] xl:-mt-16"
+               class="mx-auto mb-12 block h-auto w-full max-w-[440px] sm:mb-16 lg:mx-0 lg:mb-0 lg:ml-auto xl:-mt-16 xl:max-w-[560px]"
                src="@/assets/img/about__hero.png"
                loading="lazy"
                alt="picture"
                width="1030"
                height="1190" />
          </div>
-         <div class="justify-center gap-6 sm:flex lg:justify-start lg:-mt-28 xl:-mt-48 xl:mb-5">
+         <div class="justify-center gap-6 sm:flex lg:-mt-28 lg:justify-start xl:-mt-48 xl:mb-5">
             <div class="relative">
                <svg
-                  class="absolute -top-14 left-1/2 -translate-x-1/2 w-20 h-20 rotate-[26deg] sm:left-[30%] sm:-top-12 sm:rotate-[20deg]"
+                  class="absolute -top-14 left-1/2 h-20 w-20 -translate-x-1/2 rotate-[26deg] sm:-top-12 sm:left-[30%] sm:rotate-[20deg]"
                   fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-4"></use>
                </svg>
-               <img class="hidden w-40 h-40 sm:block" src="@/assets/img/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
+               <img class="hidden h-40 w-40 sm:block" src="@/assets/img/yana-bruk__ava.png" alt="picture" loading="lazy" width="330" height="330" />
             </div>
             <div>
-               <p class="hidden mb-2 text-xs font-medium text-[#8b91a6] sm:block">@yanaabruk</p>
+               <p class="mb-2 hidden text-xs font-medium text-[#8b91a6] sm:block">@yanaabruk</p>
                <img
-                  class="block w-52 h-auto mx-auto mb-5 sm:hidden"
+                  class="mx-auto mb-5 block h-auto w-52 sm:hidden"
                   src="@/assets/img/about__logo.png"
                   alt="picture"
                   loading="lazy"
                   width="400"
                   height="100" />
                <img
-                  class="hidden w-52 h-auto mx-auto mb-5 sm:block sm:mx-0 md:w-56"
+                  class="mx-auto mb-5 hidden h-auto w-52 sm:mx-0 sm:block md:w-56"
                   src="@/assets/img/about__logo--left.png"
                   alt="picture"
                   loading="lazy"
                   width="400"
                   height="100" />
                <p
-                  class="text-sm text-center opacity-60 text-tertiary leading-snug font-Giga tracking-wide max-w-[300px] mx-auto sm:text-left sm:mx-0 md:text-base md:max-w-[350px]">
+                  class="mx-auto max-w-[300px] text-center font-Giga text-sm leading-snug tracking-wide text-tertiary opacity-60 sm:mx-0 sm:text-left md:max-w-[350px] md:text-base">
                   this is the first and unique collaboration in Latvia with a famous blogger and influencer Yana Bruk
                </p>
             </div>
          </div>
       </div>
-      <div class="relative container">
+      <div class="container relative">
          <div
-            class="overflow-hidden relative flex justify-center items-center w-full p-5 bg-primary rounded-[35px] text-white text-center max-w-[480px] h-[500px] mx-auto sm:max-w-[640px] lg:max-w-none">
+            class="relative mx-auto flex h-[500px] w-full max-w-[480px] items-center justify-center overflow-hidden rounded-[35px] bg-primary p-5 text-center text-white sm:max-w-[640px] lg:max-w-none">
             <svg
-               class="absolute -top-9 -left-3 w-[150px] sm:w-[180px] sm:-top-7 sm:-left-10 md:w-[230px] md:-top-3 md:-left-16 lg:w-[260px] lg:-top-1 lg:-left-2"
+               class="absolute -left-3 -top-9 w-[150px] sm:-left-10 sm:-top-7 sm:w-[180px] md:-left-16 md:-top-3 md:w-[230px] lg:-left-2 lg:-top-1 lg:w-[260px]"
                fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-1"></use>
             </svg>
-            <svg class="absolute -top-8 -right-4 z-10 w-[150px] md:w-[250px] md:-right-20 md:-top-2 lg:w-[300px] lg:-right-12 lg:top-10" fill="none">
+            <svg class="absolute -right-4 -top-8 z-10 w-[150px] md:-right-20 md:-top-2 md:w-[250px] lg:-right-12 lg:top-10 lg:w-[300px]" fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-2"></use>
             </svg>
 
             <img
-               class="hidden sm:block absolute z-0 top-16 -right-20 opacity-25 w-full md:-right-40 md:top-12 lg:max-w-[600px] lg:-right-24 xl:-right-20"
+               class="absolute -right-20 top-16 z-0 hidden w-full opacity-25 sm:block md:-right-40 md:top-12 lg:-right-24 lg:max-w-[600px] xl:-right-20"
                src="@/assets/img/about__hero-1.png"
                alt="picture"
                loading="lazy" />
@@ -270,23 +270,23 @@
                   for the greening of the planet
                </p>
                <nuxt-link
-                  class="flex justify-center items-center w-40 h-20 bg-secondary text-white rounded-[55px] font-bold border border-tertiary hover:bg-white hover:text-primary transition-all mx-auto text-sm"
+                  class="mx-auto flex h-20 w-40 items-center justify-center rounded-[55px] border border-tertiary bg-secondary text-sm font-bold text-white transition-all hover:bg-white hover:text-primary"
                   to="/">
                   SHOP NOW
                </nuxt-link>
             </div>
 
             <svg
-               class="absolute -left-12 bottom-0 md:w-[300px] md:h-[210px] lg:w-[350px] lg:h-[260px] lg:-left-10 xl:h-[290px] xl:-left-0"
+               class="absolute -left-12 bottom-0 md:h-[210px] md:w-[300px] lg:-left-10 lg:h-[260px] lg:w-[350px] xl:-left-0 xl:h-[290px]"
                fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-3"></use>
             </svg>
             <svg
-               class="hidden absolute left-7 -bottom-10 sm:block md:-bottom-4 md:left-16 lg:w-[200px] lg:h-[180px] lg:left-40 xl:left-60 xl:h-[220px]"
+               class="absolute -bottom-10 left-7 hidden sm:block md:-bottom-4 md:left-16 lg:left-40 lg:h-[180px] lg:w-[200px] xl:left-60 xl:h-[220px]"
                fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-5"></use>
             </svg>
-            <svg class="absolute right-10 -bottom-10 w-[100px] md:w-[150px] md:-bottom-0 lg:w-[220px] lg:h-[170px] xl:h-[190px]" fill="none">
+            <svg class="absolute -bottom-10 right-10 w-[100px] md:-bottom-0 md:w-[150px] lg:h-[170px] lg:w-[220px] xl:h-[190px]" fill="none">
                <use xlink:href="@/assets/img/sprite.svg#about-img-4"></use>
             </svg>
          </div>
@@ -294,43 +294,43 @@
    </section>
    <section class="pt-14 sm:pt-24">
       <div class="container">
-         <h2 class="mb-9 font-Beret text-primary text-[50px] leading-none text-center md:mb-12 lg:mb-16 lg:text-left">
+         <h2 class="mb-9 text-center font-Beret text-[50px] leading-none text-primary md:mb-12 lg:mb-16 lg:text-left">
             <span>
                We work
-               <svg class="inline w-14 h-14 rotate-12" fill="none">
+               <svg class="inline h-14 w-14 rotate-12" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconHeath"></use>
                </svg>
             </span>
             <span> with love</span>
          </h2>
          <div
-            class="flex flex-col items-center gap-5 mb-8 sm:grid sm:grid-cols-2 sm:gap-7 sm:justify-items-center lg:grid-cols-4 lg:justify-items-start lg:mb-20">
-            <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
-               <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
+            class="mb-8 flex flex-col items-center gap-5 sm:grid sm:grid-cols-2 sm:justify-items-center sm:gap-7 lg:mb-20 lg:grid-cols-4 lg:justify-items-start">
+            <div class="flex max-w-[280px] flex-col gap-3 text-center text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
+               <svg class="mx-auto block h-9 w-9 lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-1"></use>
                </svg>
-               <h3 class="font-semibold text-xl">Quality</h3>
+               <h3 class="text-xl font-semibold">Quality</h3>
                <p class="opacity-70">We are the #1 firm by handmade soap and value to our clients. We like what we do.</p>
             </div>
-            <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
-               <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
+            <div class="flex max-w-[280px] flex-col gap-3 text-center text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
+               <svg class="mx-auto block h-9 w-9 lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-2"></use>
                </svg>
-               <h3 class="font-semibold text-xl">Efficiency</h3>
+               <h3 class="text-xl font-semibold">Efficiency</h3>
                <p class="opacity-70">We take care about our clients time. Just call us — and we will help you with all the questions.</p>
             </div>
-            <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
-               <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
+            <div class="flex max-w-[280px] flex-col gap-3 text-center text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
+               <svg class="mx-auto block h-9 w-9 lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-3"></use>
                </svg>
-               <h3 class="font-semibold text-xl">Experience</h3>
+               <h3 class="text-xl font-semibold">Experience</h3>
                <p class="opacity-70">All our professionals have more than 5 years experiences. They use their knowledge in work.</p>
             </div>
-            <div class="flex flex-col gap-3 text-center max-w-[280px] text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
-               <svg class="block w-9 h-9 mx-auto lg:m-0" fill="none">
+            <div class="flex max-w-[280px] flex-col gap-3 text-center text-tertiary sm:max-w-[210px] md:max-w-[250px] lg:text-left">
+               <svg class="mx-auto block h-9 w-9 lg:m-0" fill="none">
                   <use xlink:href="@/assets/img/sprite.svg#iconWork-4"></use>
                </svg>
-               <h3 class="font-semibold text-xl">Presents</h3>
+               <h3 class="text-xl font-semibold">Presents</h3>
                <p class="opacity-70">We like to make people happy. We ask our clients about their wishes and prepare cool presents.</p>
             </div>
          </div>
@@ -338,8 +338,8 @@
          <div
             class="flex flex-col items-center gap-9 sm:flex-row sm:justify-center md:grid md:grid-cols-2 md:justify-items-center lg:justify-items-start">
             <div
-               class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
-               <svg class="block w-20 h-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+               class="flex max-w-[230px] flex-col items-center gap-3 text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
+               <svg class="block h-20 w-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2248_49)">
                      <mask id="mask0_2248_49" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
                         <path
@@ -384,18 +384,18 @@
                   </defs>
                </svg>
                <div>
-                  <p class="font-Beret text-lg leading-light mb-3 lg:mb-0">"Great patches, very helpful in the morning"</p>
+                  <p class="leading-light mb-3 font-Beret text-lg lg:mb-0">"Great patches, very helpful in the morning"</p>
                   <p class="lg:flex lg:items-center lg:gap-3">
-                     <svg class="block w-24 h-5 mb-1 mx-auto lg:mx-0" fill="none">
+                     <svg class="mx-auto mb-1 block h-5 w-24 lg:mx-0" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#workStar"></use>
                      </svg>
-                     <span class="text-secondary text-xs uppercase"> SOFIA </span>
+                     <span class="text-xs uppercase text-secondary"> SOFIA </span>
                   </p>
                </div>
             </div>
             <div
-               class="flex flex-col items-center gap-3 max-w-[230px] text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
-               <svg class="block w-20 h-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+               class="flex max-w-[230px] flex-col items-center gap-3 text-center text-tertiary sm:max-w-[250px] lg:max-w-[360px] lg:flex-row lg:text-left xl:max-w-none">
+               <svg class="block h-20 w-20" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_2248_60)">
                      <mask id="mask0_2248_60" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
                         <path
@@ -445,12 +445,12 @@
                   </defs>
                </svg>
                <div>
-                  <p class="font-Beret text-lg leading-light mb-3 lg:mb-0">"Just an amazing smell of soap. I will definitely order more"</p>
+                  <p class="leading-light mb-3 font-Beret text-lg lg:mb-0">"Just an amazing smell of soap. I will definitely order more"</p>
                   <p class="lg:flex lg:items-center lg:gap-3">
-                     <svg class="block w-24 h-5 mb-1 mx-auto lg:mx-0" fill="none">
+                     <svg class="mx-auto mb-1 block h-5 w-24 lg:mx-0" fill="none">
                         <use xlink:href="@/assets/img/sprite.svg#workStar"></use>
                      </svg>
-                     <span class="text-secondary text-xs uppercase"> DIANNE </span>
+                     <span class="text-xs uppercase text-secondary"> DIANNE </span>
                   </p>
                </div>
             </div>
@@ -458,22 +458,10 @@
       </div>
    </section>
    <section id="about" class="py-16 sm:py-24">
-      <block-v-about></block-v-about>
+      <block-v-about />
    </section>
 </template>
 
-<script>
-import { mapState } from "pinia";
-import { useProductStore } from "@/store/product";
-
-export default {
-   setup() {
-      useSeoMeta({
-         title: "Arsenijs Fabric | Home",
-      });
-   },
-   computed: {
-      ...mapState(useProductStore, ["products"]),
-   },
-};
+<script setup>
+const store = useProductStore();
 </script>
