@@ -27,14 +27,12 @@ export default defineNuxtConfig({
       },
    },
 
-
    app: {
       rootId: "root",
       pageTransition: false,
       layoutTransition: false,
       buildAssetsDir: isDev ? "_nuxt/" : "assets/",
    },
-
 
    sourcemap: {
       server: false,
@@ -117,5 +115,7 @@ export default defineNuxtConfig({
    },
 
    css: ["~/assets/css/app.css"],
-   modules: ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss", "nuxt-simple-robots", "nuxt-simple-sitemap"],
+   modules: isDev
+      ? ["@nuxtjs/eslint-module", "@pinia/nuxt", "@unlazy/nuxt", "nuxt-purgecss", "nuxt-simple-robots", "nuxt-simple-sitemap"]
+      : ["@pinia/nuxt", "@unlazy/nuxt", "nuxt-purgecss"],
 });
