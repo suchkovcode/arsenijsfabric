@@ -1,4 +1,3 @@
-
    <p align="center">
       <a href="https://vuefire.vuejs.org" target="_blank" rel="noopener noreferrer">
          <img width="100" src="https://vuefire.vuejs.org/logo.svg" alt="VueFire logo" />
@@ -7,13 +6,13 @@
    <br />
    <p align="center">
       <a href="https://github.com/vuejs/vue">
-         <img src="https://img.shields.io/badge/nuxt-3.10.0-brightgreen.svg" alt="vue" />
+         <img src="https://img.shields.io/badge/nuxt-3.11.2-brightgreen.svg" alt="vue" />
       </a>
       <a href="https://github.com/vuejs/pinia">
          <img src="https://img.shields.io/badge/pinia-2.1.7-brightgreen.svg" alt="pinia" />
       </a>
       <a href="https://github.com/vuejs/vue">
-         <img src="https://img.shields.io/badge/strapi-4.19.0-brightgreen.svg" alt="vue" />
+         <img src="https://img.shields.io/badge/strapi-4.23.0-brightgreen.svg" alt="vue" />
       </a>
    </p>
 
@@ -41,10 +40,10 @@
       </tr>
    <tr>
       <td>
-         <img src="./src/assets/img/md/mob.jpg" alt="Картинка мобильного" title="Картинка" />
+         <img src="./src/public/img/md/mob.jpg" alt="Картинка мобильного" title="Картинка" />
       </td>
       <td>
-         <img src="./src/assets/img/md/des.jpg" alt="Картинка компьютера" title="Картинка" />
+         <img src="./src/public/img/md/des.jpg" alt="Картинка компьютера" title="Картинка" />
       </td>
    </tr>
 </table>
@@ -56,10 +55,10 @@
       </tr>
       <tr>
          <td>
-            <img src="./src/assets/img/md/gt.jpg" alt="Картинка" />
+            <img src="./src/public/img/md/gt.jpg" alt="Картинка" />
          </td>
          <td>
-            <img src="./src/assets/img/md/w3w.jpg" alt="Картинка" />
+            <img src="./src/public/img/md/w3w.jpg" alt="Картинка" />
          </td>
       </tr>
    </table>
