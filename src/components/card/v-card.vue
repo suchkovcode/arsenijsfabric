@@ -1,7 +1,7 @@
 <template>
    <article class="w-full max-w-[340px] overflow-hidden rounded-3xl">
       <header class="relative">
-         <v-favorite />
+         <v-favorite :card-id="cardData.id" />
          <UnLazyImage
             class="block h-[230px] w-full object-cover md:h-[250px]"
             :blurhash="cardData.blurhash"
