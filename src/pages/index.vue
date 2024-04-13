@@ -169,14 +169,14 @@
                </svg>
                <span class="font-Beret text-[50px] leading-none text-primary lg:text-[55px]"> Bestsellers </span>
             </h2>
-            <nuxt-link
+            <NuxtLink
                class="hidden h-20 w-40 items-center justify-center rounded-[55px] bg-orange font-Beret uppercase text-secondary transition-all hover:border hover:border-tertiary hover:bg-secondary hover:text-white lg:flex"
                to="/catalog">
                ALL PRODUCTS
-            </nuxt-link>
+            </NuxtLink>
          </div>
          <app-catalog class="mb-10" :data-item="store.products" />
-         <ui-btn-load />
+         <btn-load />
       </div>
    </section>
    <section id="aboutUs" class="relative overflow-hidden bg-violet py-16 lg:py-20 xl:py-24 2xl:pt-32">
@@ -269,11 +269,11 @@
                   Every 5% we donate to charity <br />
                   for the greening of the planet
                </p>
-               <nuxt-link
+               <NuxtLink
                   class="mx-auto flex h-20 w-40 items-center justify-center rounded-[55px] border border-tertiary bg-secondary text-sm font-bold text-white transition-all hover:bg-white hover:text-primary"
                   to="/">
                   SHOP NOW
-               </nuxt-link>
+               </NuxtLink>
             </div>
 
             <svg
@@ -458,7 +458,7 @@
       </div>
    </section>
    <section id="about" class="py-16 sm:py-24">
-      <block-v-about />
+      <v-about />
    </section>
 </template>
 
