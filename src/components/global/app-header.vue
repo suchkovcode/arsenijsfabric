@@ -152,7 +152,7 @@
                </svg>
                <span
                   class="absolute -bottom-3 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs leading-none text-white">
-                  0
+                  {{ favorite.cards.length }}
                </span>
             </button>
             <button class="relative cursor-pointer" type="button" @click="store.updateBacketCanvas(true)">
@@ -161,7 +161,7 @@
                </svg>
                <span
                   class="absolute -bottom-3 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs leading-none text-white">
-                  0
+                  {{ backet.cards.length }}
                </span>
             </button>
          </div>
@@ -171,6 +171,8 @@
 
 <script setup>
 const store = useAppStore();
+const favorite = useBacketStore();
+const backet = useBacketStore();
 
 const arrowDefault =
    "lg:relative lg:block lg:after:content-[''] lg:after:absolute lg:after:block lg:after:w-[8px] lg:after:h-px lg:after:bg-tertiary lg:after:rotate-45 lg:after:transition-all lg:before:content-[''] lg:before:absolute lg:before:right-[-13px] lg:before:block lg:before:w-[8px] lg:before:h-px lg:before:bg-tertiary lg:before:rotate-[130deg] lg:before:transition-all pb-[3px]";
