@@ -112,6 +112,7 @@
    </footer>
    <canvas-menu />
    <canvas-backet />
+   <canvas-favorite />
 </template>
 
 <script setup>
