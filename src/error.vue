@@ -6,11 +6,11 @@
             This page does not exist <br />
             or has it been removed
          </p>
-         <router-link
+         <NuxtLink
             class="mx-auto flex h-11 w-full max-w-[240px] items-center justify-center rounded-[55px] border border-tertiary bg-secondary font-Beret uppercase tracking-wide text-white transition-all hover:bg-white hover:text-secondary"
             to="/">
             Go back
-         </router-link>
+         </NuxtLink>
       </div>
    </section>
 </template>
