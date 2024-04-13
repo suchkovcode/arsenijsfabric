@@ -40,4 +40,19 @@ const props = defineProps({
       required: true,
    },
 });
+
+const store = useBacketStore();
+const card = ref({
+   id: props.cardData.uid,
+   count: 1,
+});
+
+const addCardBacket = () => {
+   if (props.cardData.isStock) {
+      const cardData = { ...card.value };
+      store.addCardBacket(cardData);
+      card.value.count = 1;
+      card.value.size = "small";
+   }
+};
 </script>
