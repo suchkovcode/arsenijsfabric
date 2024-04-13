@@ -80,7 +80,6 @@ export default defineNuxtConfig({
       lintOnStart: false,
    },
 
-
    postcss: {
       plugins: {
          "tailwindcss": {},
@@ -90,25 +89,23 @@ export default defineNuxtConfig({
       },
    },
 
-
    purgecss: {
       enabled: isDev ? false : true,
       content: ["./src/**/*.vue"],
-      safelist: ["html", "head", "body", "root",  /\w+-(?:\[\d+(px|deg)\])?/],
+      safelist: ["html", "head", "body", "root", /\w+-(?:\[\d+(px|deg)\])?/],
       fontFace: true,
       variables: true,
       keyframes: true,
    },
 
    site: {
-      url: process.env.NUXT_SITE_URL || "https://arsenijsfabric.suchkov.cc/",
+      url: process.env.NUXT_SITE_URL || "https://arsenijsfabrica.suchkov.cc/",
    },
 
    unlazy: {
       ssr: isDev ? false : true,
       placeholderSize: 24,
    },
-
 
    css: ["~/assets/styles/app.scss"],
    modules: isDev
