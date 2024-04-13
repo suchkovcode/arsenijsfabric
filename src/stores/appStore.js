@@ -5,6 +5,7 @@ export const useAppStore = defineStore("appStore", {
       return {
          isActiveFavorite: false,
          isActiveBacket: false,
+         isActiveMenu: false,
          pageNumber: 1,
       };
    },
@@ -26,16 +27,12 @@ export const useAppStore = defineStore("appStore", {
          this.isActiveBacket = state;
       },
 
+      async updateMenuCanvas(state) {
+         this.isActiveMenu = state;
+      },
+
       async updateFilterData(data) {
          this.filter = data;
-      },
-
-      async logOut() {
-         this.isAuth = false;
-      },
-
-      async logIn() {
-         this.isAuth = true;
       },
    },
 });
