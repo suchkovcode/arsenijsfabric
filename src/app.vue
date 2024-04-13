@@ -1,15 +1,21 @@
 <template>
    <Html lang="en-EN">
       <Head>
-         <Title>Arsenijs Fabric | Home</Title>
          <Meta charset="utf-8" />
-         <Meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+         <Meta name="viewport" content="width=device-width, user-scalable=no" />
          <Meta http-equiv="X-UA-Compatible" content="IE=edge" />
-         <Meta name="apple-mobile-web-app-title" content="Arsenijs Fabric | Home" />
+         <Meta name="apple-mobile-web-app-title" content="Amorfy" />
          <Meta name="apple-mobile-web-app-capable" content="yes" />
          <Meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
          <Meta name="robots" content="noindex, nofollow" />
-         <Meta name="description" content="title" />
+         <Meta name="author" content="Amorfy LLC" />
+         <Meta property="og:site_name" content="amorfy.net" />
+         <Meta property="og:locale" content="ru_RU" />
+         <Meta property="fb:app_id" content="" />
+         <Meta name="twitter:domain" content="amorfy.net" />
+         <Meta name="twitter:card" content="summary_large_image" />
+         <Meta name="msapplication-config" content="/static/browserconfig.xml" />
+
          <Link rel="shortcut icon" type="image/png" href="/static/favicon.ico" />
          <Link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
          <Link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
@@ -25,9 +31,12 @@
          <Link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/static/apple-touch-icon-180x180.png" />
          <Link rel="apple-touch-icon" type="image/png" sizes="1024x1024" href="/static/apple-touch-icon-1024x1024.png" />
       </Head>
+      <Body class="h-full min-h-screen">
+         <app-header />
+         <main class="overflow-hidden">
+            <NuxtPage />
+         </main>
+         <app-footer />
+      </Body>
    </Html>
-
-   <NuxtLayout>
-      <NuxtPage />
-   </NuxtLayout>
 </template>
