@@ -1,8 +1,8 @@
 <template>
    <div
       class="favorite fixed -right-full top-0 z-50 block h-screen w-full max-w-[350px] bg-tertiary transition-[right] duration-500 lg:hidden"
-      :class="{ 'right-0 overflow-hidden': isActive }">
-      <canvas-header class="text-white" @close-canvas="updateStateActiveCanvas($event)"> Menu </canvas-header>
+      :class="{ 'right-0 overflow-hidden': store.isActiveMenu }">
+      <canvas-header class="text-white" @close-canvas="store.updateMenuCanvas($event)"> Menu </canvas-header>
       <div class="flex h-[550px] w-full flex-col justify-between gap-8 p-6 lg:p-8">
          <nav>
             <ul class="flex flex-col gap-4">
@@ -15,24 +15,24 @@
                   </span>
                   <ul class="menu__drobdown-submenu hidden flex-col gap-3 p-3">
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> All product </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> All product </NuxtLink>
                      </li>
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> Cosmetics </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> Cosmetics </NuxtLink>
                      </li>
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> Soap bouquets </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> Soap bouquets </NuxtLink>
                      </li>
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> Soap </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> Soap </NuxtLink>
                      </li>
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> Bath bombs </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> Bath bombs </NuxtLink>
                      </li>
                   </ul>
                </li>
                <li>
-                  <router-link class="relative font-Giga uppercase text-white transition-all hover:text-secondary" to="/"> ABOUT US </router-link>
+                  <NuxtLink class="relative font-Giga uppercase text-white transition-all hover:text-secondary" to="/"> ABOUT US </NuxtLink>
                </li>
                <li class="cursor-pointer">
                   <span
@@ -43,10 +43,10 @@
                   </span>
                   <ul class="menu__drobdown-submenu hidden flex-col gap-3 p-3">
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> Delivery </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> Delivery </NuxtLink>
                      </li>
                      <li>
-                        <router-link class="text-white transition-all hover:text-secondary" to="/"> Privacy policy </router-link>
+                        <NuxtLink class="text-white transition-all hover:text-secondary" to="/"> Privacy policy </NuxtLink>
                      </li>
                   </ul>
                </li>
@@ -98,24 +98,8 @@
    </div>
 </template>
 
-<script>
-import { mapActions, mapState } from "pinia";
-import { useProductStore } from "@/stores/product";
-
-export default {
-   data() {
-      return {
-         isActiveCatalog: false,
-         isActiveClient: false,
-      };
-   },
-
-   computed: {
-      ...mapState(useProductStore, ["isActive"]),
-   },
-
-   methods: {
-      ...mapActions(useProductStore, ["updateStateActiveCanvas"]),
-   },
-};
+<script setup>
+const store = useAppStore();
+const isActiveCatalog = ref(false);
+const isActiveClient = ref(false);
 </script>
