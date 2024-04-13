@@ -5,19 +5,17 @@
       <p class="favoriteItem__count block self-center font-Giga text-tertiary opacity-60 sm:ml-auto">$</p>
       <button
          class="favoriteItem__remove relative ml-auto h-6 w-6 cursor-pointer self-center rounded-full border border-tertiary opacity-50 transition-all before:absolute before:left-1/2 before:top-1/2 before:block before:h-px before:w-[14px] before:-translate-x-[7px] before:rotate-45 before:bg-tertiary before:transition-all before:content-[''] after:absolute after:left-1/2 after:top-1/2 after:block after:h-px after:w-[14px] after:-translate-x-[7px] after:-rotate-45 after:bg-tertiary after:transition-all after:content-[''] hover:border-[red] hover:before:bg-[red] hover:after:bg-[red]"
-         @click="$emit('del-favorite', false)"></button>
+         @click="$emit('delFavorite', false)"></button>
    </div>
 </template>
 
-<script>
-export default {
-   props: {
-      favoriteItem: {
-         type: Object,
-         required: true,
-      },
-   },
+<script setup>
+const emit = defineEmits(["delFavorite", "closeCanvas"]);
 
-   emits: ["del-favorite"],
-};
+const props = defineProps({
+   favoriteItem: {
+      type: Object,
+      required: true,
+   },
+});
 </script>
