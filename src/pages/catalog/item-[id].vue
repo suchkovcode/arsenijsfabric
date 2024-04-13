@@ -43,5 +43,4 @@
 
 <script setup>
 const count = ref();
-const currentCardData = ref({});
 </script>
