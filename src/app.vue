@@ -1,9 +1,10 @@
 <template>
    <Html lang="en-EN">
       <Head>
+         <Title>ARSENIJS FABRICA</Title>
          <Meta charset="utf-8" />
          <Meta name="viewport" content="width=device-width, user-scalable=no" />
-         <Meta http-equiv="X-UA-Compatible" content="IE=edge" />
+         <Meta http-equiv="x-ua-compatible" content="IE=edge" />
          <Meta name="apple-mobile-web-app-title" content="Amorfy" />
          <Meta name="apple-mobile-web-app-capable" content="yes" />
          <Meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
