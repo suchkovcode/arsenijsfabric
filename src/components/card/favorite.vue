@@ -6,7 +6,7 @@
       @mouseover="isHover = true"
       @mouseleave="isHover = false">
       <svg class="w-6 h-6" :class="{ 'fill-primary': isHover }">
-         <use xlink:href="@/assets/img/sprite.svg#iconLike"></use>
+         <use xlink:href="/img/sprite.svg#iconLike"></use>
       </svg>
    </button>
 </template>

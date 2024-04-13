@@ -33,7 +33,7 @@
    </div>
    <div class="flex items-center gap-3 mb-5 lg:hidden">
       <svg class="filter__title-icon w-4 h-4 fill-tertiary">
-         <use xlink:href="@/assets/img/sprite.svg#catalogFilter"></use>
+         <use xlink:href="/img/sprite.svg#catalogFilter"></use>
       </svg>
       <p class="cursor-pointer font-Giga text-sm text-tertiary opacity-70 lg:text-base">Filter</p>
    </div>

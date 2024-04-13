@@ -5,7 +5,7 @@
          <article class="flex flex-col gap-5 lg:flex-row lg:gap-8">
             <img
                class="mx-auto w-full max-w-[460px] rounded-xl lg:mx-0"
-               src="@/assets/img/hero__card-1.jpeg"
+               src="/img/hero__card-1.jpeg"
                alt="card picture"
                loading="lazy"
                width="400"
@@ -22,7 +22,7 @@
                   <button
                      class="flex h-11 w-full max-w-[150px] items-center justify-center gap-2 rounded-[55px] border border-tertiary bg-primary font-Beret tracking-wide text-white">
                      <svg class="h-5 w-5">
-                        <use xlink:href="@/assets/img/sprite.svg#iconBag"></use>
+                        <use xlink:href="/img/sprite.svg#iconBag"></use>
                      </svg>
                      Buy now
                   </button>

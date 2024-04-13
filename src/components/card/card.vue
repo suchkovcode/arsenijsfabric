@@ -4,7 +4,7 @@
          <card-favorite />
          <img
             class="block w-full h-[230px] object-cover md:h-[250px]"
-            src="@/assets/img/hero__card-1.jpeg"
+            src="/img/hero__card-1.jpeg"
             alt="card picture"
             loading="lazy"
             width="400"
@@ -28,7 +28,7 @@
          <button
             class="flex justify-center items-center gap-2 w-full h-11 rounded-[55px] border border-tertiary font-Beret bg-primary text-white tracking-wide">
             <svg class="w-5 h-5">
-               <use xlink:href="@/assets/img/sprite.svg#iconBag"></use>
+               <use xlink:href="/img/sprite.svg#iconBag"></use>
             </svg>
             Buy now
          </button>

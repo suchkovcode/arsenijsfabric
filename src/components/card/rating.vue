@@ -10,7 +10,7 @@
             @mouseover="hoverIcon"
             @mouseout="ratingClickData ? ratingHoverData : (rating.hoverItem = 0)"
             @click="clickItem">
-            <use xlink:href="@/assets/img/sprite.svg#iconStar"></use>
+            <use xlink:href="/img/sprite.svg#iconStar"></use>
          </svg>
       </div>
       <span class="text-tertiary">{{ ratingHoverData }}</span>

@@ -68,7 +68,7 @@
                      href="https://m.facebook.com/pages/category/Health-Beauty/arsenijs_fabrica-107780641046133/posts/"
                      aria-label="Social link">
                      <svg class="block h-5 w-5 opacity-80" aria-label="Social link">
-                        <use xlink:href="@/assets/img/sprite.svg#iconFacebook"></use>
+                        <use xlink:href="/img/sprite.svg#iconFacebook"></use>
                      </svg>
                   </a>
                </li>
@@ -78,7 +78,7 @@
                      href="https://www.instagram.com/arsenijs_fabrica/?igshid=1gpw8a87oqahf"
                      aria-label="Social link">
                      <svg class="block h-5 w-5 opacity-80">
-                        <use xlink:href="@/assets/img/sprite.svg#iconInstagram"></use>
+                        <use xlink:href="/img/sprite.svg#iconInstagram"></use>
                      </svg>
                   </a>
                </li>
@@ -88,7 +88,7 @@
                      href="https://www.tiktok.com/@arsenijsfabrica?_t=8UzCTnU8AXV&_r=1"
                      aria-label="Social link">
                      <svg class="block h-5 w-5 opacity-80">
-                        <use xlink:href="@/assets/img/sprite.svg#iconTikTok"></use>
+                        <use xlink:href="/img/sprite.svg#iconTikTok"></use>
                      </svg>
                   </a>
                </li>

@@ -38,7 +38,7 @@
                   <div class="flex flex-col justify-between py-3 text-tertiary">
                      <p class="relative font-medium leading-none xl:text-lg">
                         <svg class="absolute -top-6 left-0 w-12 h-7 xl:-top-5" fill="none">
-                           <use xlink:href="@/assets/img/sprite.svg#iconHeaderNav"></use>
+                           <use xlink:href="/img/sprite.svg#iconHeaderNav"></use>
                         </svg>
                         Bestsellers
                      </p>
@@ -53,11 +53,11 @@
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Cosmetics</span>
                               <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img/header__link-1.png"
+                                 src="/img/header__link-1.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
-                                 <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
+                                 <use xlink:href="/img/sprite.svg#iconArrow"></use>
                               </svg>
                            </NuxtLink>
                         </li>
@@ -68,11 +68,11 @@
                               </span>
                               <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img/header__link-2.png"
+                                 src="/img/header__link-2.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
-                                 <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
+                                 <use xlink:href="/img/sprite.svg#iconArrow"></use>
                               </svg>
                            </NuxtLink>
                         </li>
@@ -81,11 +81,11 @@
                               <span class="absolute top-3 left-3 z-50 text-white font-Giga font-medium xl:top-5 xl:left-5 xl:text-lg">Soap</span>
                               <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img/header__link-3.png"
+                                 src="/img/header__link-3.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
-                                 <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
+                                 <use xlink:href="/img/sprite.svg#iconArrow"></use>
                               </svg>
                            </NuxtLink>
                         </li>
@@ -96,11 +96,11 @@
                               </span>
                               <img
                                  class="block w-44 h-[140px] hover:scale-125 transition-all duration-300 object-cover xl:w-60 xl:h-48"
-                                 src="@/assets/img/header__link-4.png"
+                                 src="/img/header__link-4.png"
                                  alt="picture"
                                  loading="lazy" />
                               <svg class="absolute bottom-3 left-3 w-7 h-7 xl:bottom-5 xl:left-5" fill="none">
-                                 <use xlink:href="@/assets/img/sprite.svg#iconArrow"></use>
+                                 <use xlink:href="/img/sprite.svg#iconArrow"></use>
                               </svg>
                            </NuxtLink>
                         </li>
@@ -111,7 +111,7 @@
          </nav>
          <NuxtLink to="/" aria-label="Logo link" class="ml-11 sm:ml-[52px] lg:ml-0 lg:mr-[100px] xl:mr-0 xl:ml-[20px] text-tertiary">
             <svg class="w-24 h-10 md:w-32 md:h-11 lg:w-36 lg:h-12">
-               <use xlink:href="@/assets/img/sprite.svg#logo"></use>
+               <use xlink:href="/img/sprite.svg#logo"></use>
             </svg>
          </NuxtLink>
          <div class="flex items-center gap-4 sm:gap-6">
@@ -148,7 +148,7 @@
             </nav>
             <button class="cursor-pointer relative" type="button" @click="updateStateActiveCanvasFavorite(true)">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
-                  <use xlink:href="@/assets/img/sprite.svg#iconFavorite"></use>
+                  <use xlink:href="/img/sprite.svg#iconFavorite"></use>
                </svg>
                <span
                   class="absolute -bottom-3 -right-1 flex justify-center items-center w-5 h-5 bg-primary text-white rounded-full leading-none text-xs">
@@ -157,7 +157,7 @@
             </button>
             <button class="cursor-pointer relative" type="button" @click="updateStateActiveCanvasBacket(true)">
                <svg class="w-7 h-7 text-tertiary transition-all hover:text-secondary" fill="none">
-                  <use xlink:href="@/assets/img/sprite.svg#iconBacket"></use>
+                  <use xlink:href="/img/sprite.svg#iconBacket"></use>
                </svg>
                <span
                   class="absolute -bottom-3 -right-1 flex justify-center items-center w-5 h-5 bg-primary text-white rounded-full leading-none text-xs">

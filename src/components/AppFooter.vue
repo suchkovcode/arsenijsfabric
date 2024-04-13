@@ -4,10 +4,10 @@
          <div class="mb-9 md:mb-12 xl:col-span-2">
             <NuxtLink class="block mb-3 text-white" to="/" aria-label="Logo link">
                <svg class="block w-44 h-16 mx-auto md:w-52 md:h-20 xl:mx-0 xl:hidden">
-                  <use xlink:href="@/assets/img/sprite.svg#logo"></use>
+                  <use xlink:href="/img/sprite.svg#logo"></use>
                </svg>
                <svg class="hidden w-44 h-16 mx-auto md:w-52 md:h-20 xl:mx-0 xl:block xl:w-44">
-                  <use xlink:href="@/assets/img/sprite.svg#logoFooter"></use>
+                  <use xlink:href="/img/sprite.svg#logoFooter"></use>
                </svg>
             </NuxtLink>
             <p class="text-xs text-center text-white opacity-50 xl:text-left">2019 ARSENIJS FABRIC</p>
@@ -67,7 +67,7 @@
                         href="https://m.facebook.com/pages/category/Health-Beauty/arsenijs_fabrica-107780641046133/posts/"
                         aria-label="Social link">
                         <svg class="block w-5 h-5 opacity-80" aria-label="Social link">
-                           <use xlink:href="@/assets/img/sprite.svg#iconFacebook"></use>
+                           <use xlink:href="/img/sprite.svg#iconFacebook"></use>
                         </svg>
                      </a>
                   </li>
@@ -77,7 +77,7 @@
                         href="https://www.instagram.com/arsenijs_fabrica/?igshid=1gpw8a87oqahf"
                         aria-label="Social link">
                         <svg class="block w-5 h-5 opacity-80">
-                           <use xlink:href="@/assets/img/sprite.svg#iconInstagram"></use>
+                           <use xlink:href="/img/sprite.svg#iconInstagram"></use>
                         </svg>
                      </a>
                   </li>
@@ -87,7 +87,7 @@
                         href="https://www.tiktok.com/@arsenijsfabrica?_t=8UzCTnU8AXV&_r=1"
                         aria-label="Social link">
                         <svg class="block w-5 h-5 opacity-80">
-                           <use xlink:href="@/assets/img/sprite.svg#iconTikTok"></use>
+                           <use xlink:href="/img/sprite.svg#iconTikTok"></use>
                         </svg>
                      </a>
                   </li>

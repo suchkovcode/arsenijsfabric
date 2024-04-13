@@ -7,7 +7,7 @@
                class="relative flex justify-center items-center gap-4 mb-5 text-[50px] text-primary font-Beret leading-none lg:justify-start lg:mb-0">
                <ui-btn-back class="hidden lg:flex" />
                <svg class="absolute -top-5 left-1/2 -translate-x-1/2 w-24 h-8 lg:translate-x-0 lg:left-11" fill="none">
-                  <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-6"></use>
+                  <use xlink:href="/img/sprite.svg#indexTitleIcon-6"></use>
                </svg>
                Catalog
             </h1>
@@ -21,7 +21,7 @@
                   type="text"
                   placeholder="What to find?" />
                <svg class="absolute top-1/2 left-[15px] w-5 h-5 -translate-y-1/2 fill-none text-primary">
-                  <use xlink:href="@/assets/img/sprite.svg#iconSearch-1"></use>
+                  <use xlink:href="/img/sprite.svg#iconSearch-1"></use>
                </svg>
             </div>
             <button

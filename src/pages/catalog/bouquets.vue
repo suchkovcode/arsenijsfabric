@@ -7,7 +7,7 @@
                class="relative mb-5 flex items-center justify-center gap-4 font-Beret text-[50px] leading-none text-primary lg:mb-0 lg:justify-start">
                <ui-btn-back class="hidden lg:flex" />
                <svg class="absolute -top-5 left-1/2 h-9 w-24 -translate-x-1/2 lg:left-11 lg:translate-x-0" fill="none">
-                  <use xlink:href="@/assets/img/sprite.svg#indexTitleIcon-7"></use>
+                  <use xlink:href="/img/sprite.svg#indexTitleIcon-7"></use>
                </svg>
                Soap bouquets
             </h1>
