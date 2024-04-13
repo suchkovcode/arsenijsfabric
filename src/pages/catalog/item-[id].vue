@@ -5,7 +5,7 @@
          <article class="flex flex-col gap-5 lg:flex-row lg:gap-8">
             <img
                class="mx-auto w-full max-w-[460px] rounded-xl lg:mx-0"
-               src="/img/hero__card-1.jpeg"
+               src=""
                alt="card picture"
                loading="lazy"
                width="400"
