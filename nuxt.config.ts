@@ -1,12 +1,18 @@
 const isDev = process.env.NODE_ENV !== "production";
 
 export default defineNuxtConfig({
-   builder: "vite",
    srcDir: "./src/",
    telemetry: false,
    ssr: true,
    devServer: {
       port: 3000,
+   },
+
+   app: {
+      rootId: "root",
+      pageTransition: false,
+      layoutTransition: false,
+      buildAssetsDir: isDev ? "/_nuxt/" : "assets/",
    },
 
    hooks: {
@@ -27,18 +33,6 @@ export default defineNuxtConfig({
       },
    },
 
-   app: {
-      rootId: "root",
-      pageTransition: false,
-      layoutTransition: false,
-      buildAssetsDir: isDev ? "_nuxt/" : "assets/",
-   },
-
-   sourcemap: {
-      server: false,
-      client: false,
-   },
-
    devtools: {
       enabled: false,
 
@@ -47,12 +41,18 @@ export default defineNuxtConfig({
       },
    },
 
+   sourcemap: {
+      server: false,
+      client: false,
+   },
+
    experimental: {
+      componentIslands: false,
       payloadExtraction: false,
-      headNext: false,
-      appManifest: false,
+      headNext: true,
+      appManifest: true,
       renderJsonPayloads: false,
-      crossOriginPrefetch: false,
+      crossOriginPrefetch: true,
       sharedPrerenderData: true,
    },
 
@@ -61,17 +61,26 @@ export default defineNuxtConfig({
       noScripts: false,
    },
 
+   components: [
+      {
+         path: "~/components",
+         pathPrefix: false,
+      },
+   ],
+
    nitro: {
-      preset: "cloudflare-pages-static",
-      serveStatic: true,
+      preset: "node-server",
       prerender: {
          autoSubfolderIndex: false,
+         crawlLinks: true,
+         routes: ["/sitemap.xml"],
       },
    },
 
    eslint: {
       lintOnStart: false,
    },
+
 
    postcss: {
       plugins: {
@@ -82,33 +91,28 @@ export default defineNuxtConfig({
       },
    },
 
+
    purgecss: {
       enabled: isDev ? false : true,
       content: ["./src/**/*.vue"],
-      safelist: ["html", "head", "body", "root", /\w+-(?:\[\d+(px|deg)\])?/],
+      safelist: ["html", "head", "body", "root",  /\w+-(?:\[\d+(px|deg)\])?/],
       fontFace: true,
       variables: true,
       keyframes: true,
    },
 
    site: {
-      url: process.env.NUXT_SITE_URL || "https://arsenijsfabric.net/",
+      url: process.env.NUXT_SITE_URL || "https://arsenijsfabric.suchkov.cc/",
    },
 
-   robots: {
-      sitemap: ["/sitemap.xml"],
-      credits: false,
+   unlazy: {
+      ssr: isDev ? false : true,
+      placeholderSize: 24,
    },
 
-   sitemap: {
-      sitemaps: false,
-      xsl: false,
-      xslTips: false,
-      discoverImages: true,
-   },
 
-   css: ["~/assets/css/app.css"],
+   css: ["~/assets/styles/app.scss"],
    modules: isDev
-      ? ["@nuxtjs/eslint-module", "@pinia/nuxt", "nuxt-purgecss"]
-      : ["@pinia/nuxt", "nuxt-purgecss"],
+      ? ["@nuxtjs/eslint-module", "@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"]
+      : ["@nuxtjs/strapi", "@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"],
 });
