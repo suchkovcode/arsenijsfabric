@@ -28,13 +28,7 @@
             :to="`/catalog/item-${cardData.id}`">
             Learn more
          </NuxtLink>
-         <button
-            class="flex h-11 w-full items-center justify-center gap-2 rounded-[55px] border border-tertiary bg-primary font-Beret tracking-wide text-white">
-            <svg class="h-5 w-5">
-               <use xlink:href="/img/sprite.svg#iconBag"></use>
-            </svg>
-            Buy now
-         </button>
+         <v-btn-add :is-empty="true" />
       </footer>
    </article>
 </template>
@@ -46,7 +40,4 @@ const props = defineProps({
       required: true,
    },
 });
-
-const currentCardData = ref();
-const isHover = ref(false);
 </script>
