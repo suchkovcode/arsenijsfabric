@@ -111,6 +111,7 @@
       </div>
    </footer>
    <canvas-menu />
+   <canvas-backet />
 </template>
 
 <script setup>
