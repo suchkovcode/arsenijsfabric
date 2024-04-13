@@ -146,7 +146,7 @@
                   </nav>
                </div>
             </nav>
-            <button class="relative cursor-pointer" type="button" @click="updateStateActiveCanvasFavorite(true)">
+            <button class="relative cursor-pointer" type="button" @click="store.updateFavoriteCanvas(true)">
                <svg class="h-7 w-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="/img/sprite.svg#iconFavorite"></use>
                </svg>
@@ -155,7 +155,7 @@
                   0
                </span>
             </button>
-            <button class="relative cursor-pointer" type="button" @click="updateStateActiveCanvasBacket(true)">
+            <button class="relative cursor-pointer" type="button" @click="store.updateBacketCanvas(true)">
                <svg class="h-7 w-7 text-tertiary transition-all hover:text-secondary" fill="none">
                   <use xlink:href="/img/sprite.svg#iconBacket"></use>
                </svg>
