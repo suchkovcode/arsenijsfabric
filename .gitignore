@@ -1,21 +1,19 @@
 #Build generated and folder
 dist
 build
-admin
 node_modules
 bower_components
 .output
 .nuxt
 .nitro
 .cache
+.unlighthouse
 
 # Config files
+pnpm-lock.yaml
 package-lock.json
 yarn.lock
 
-# local env files
-.env.local
-.env.*.local
 
 # Log files
 npm-debug.log*
@@ -43,8 +41,6 @@ pnpm-debug.log*
 # Optional eslint cache
 .eslintcache
 .stylelintcache
-
-# dotenv environment variables file(s)
 
 
 # Serverless generated files
