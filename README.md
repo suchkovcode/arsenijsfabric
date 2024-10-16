@@ -40,10 +40,10 @@
       </tr>
    <tr>
       <td>
-         <img src="./app/public/img/md/mob.jpg" alt="Картинка мобильного" title="Картинка" />
+         <img src="./public/img/md/mob.jpg" alt="Картинка мобильного" title="Картинка" />
       </td>
       <td>
-         <img src="./app/public/img/md/des.jpg" alt="Картинка компьютера" title="Картинка" />
+         <img src="./public/img/md/des.jpg" alt="Картинка компьютера" title="Картинка" />
       </td>
    </tr>
 </table>
@@ -55,10 +55,10 @@
       </tr>
       <tr>
          <td>
-            <img src="./app/public/img/md/gt.jpg" alt="Картинка" />
+            <img src="./public/img/md/gt.jpg" alt="Картинка" />
          </td>
          <td>
-            <img src="./app/public/img/md/w3w.jpg" alt="Картинка" />
+            <img src="./public/img/md/w3w.jpg" alt="Картинка" />
          </td>
       </tr>
    </table>
