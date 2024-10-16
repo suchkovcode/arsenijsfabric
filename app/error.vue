@@ -14,8 +14,9 @@
       </div>
    </section>
 </template>
+
 <script setup>
-useSeoMeta({
-   title: "Arsenijs Fabric | 404",
-});
+// useSeoMeta({
+//    title: "Arsenijs Fabric | 404",
+// });
 </script>

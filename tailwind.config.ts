@@ -1,8 +1,10 @@
 import type { Config } from "tailwindcss";
 
 export default {
-   darkMode: "class",
-   content: ["./src/**/*.vue"],
+   content: ["./app/**/*.vue", "./app/**/*.js"],
+   darkMode: ["class"],
+   safelist: ["dark"],
+   prefix: "",
    theme: {
       screens: {
          "sm": "576px",

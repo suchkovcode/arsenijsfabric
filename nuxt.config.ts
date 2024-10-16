@@ -1,19 +1,9 @@
 const isDev = process.env.NODE_ENV !== "production";
 
 export default defineNuxtConfig({
-   srcDir: "./src/",
+   builder: "vite",
    telemetry: false,
    ssr: true,
-   devServer: {
-      port: 3000,
-   },
-
-   app: {
-      rootId: "root",
-      pageTransition: false,
-      layoutTransition: false,
-      buildAssetsDir: isDev ? "/_nuxt/" : "assets/",
-   },
 
    hooks: {
       "build:manifest": (manifest) => {
@@ -33,9 +23,15 @@ export default defineNuxtConfig({
       },
    },
 
+   app: {
+      rootId: "root",
+      pageTransition: false,
+      layoutTransition: false,
+      buildAssetsDir: isDev ? "/_nuxt/" : "assets/",
+   },
+
    devtools: {
       enabled: false,
-
       timeline: {
          enabled: false,
       },
@@ -46,19 +42,13 @@ export default defineNuxtConfig({
       client: false,
    },
 
-   experimental: {
-      componentIslands: false,
-      payloadExtraction: false,
-      headNext: true,
-      appManifest: true,
-      renderJsonPayloads: false,
-      crossOriginPrefetch: true,
-      sharedPrerenderData: true,
-   },
-
    features: {
       inlineStyles: false,
       noScripts: false,
+   },
+
+   future: {
+      compatibilityVersion: 4,
    },
 
    components: [
@@ -70,32 +60,40 @@ export default defineNuxtConfig({
 
    nitro: {
       preset: "node-server",
+      serveStatic: "node",
       prerender: {
          autoSubfolderIndex: false,
          crawlLinks: true,
       },
+      output: {
+         dir: ".output",
+         serverDir: ".output/server",
+         publicDir: ".output/public",
+      },
+
+      minify: false,
    },
 
    eslint: {
       lintOnStart: false,
    },
-
    postcss: {
       plugins: {
          "tailwindcss": {},
          "postcss-combine-media-query": {},
          "postcss-combine-duplicated-selectors": {},
+         "postcss-hover-media-feature": {},
          "cssnano": ["default", { discardComments: { removeAll: true }, discardEmpty: true, discardDuplicates: true, minifyFontValues: true }],
       },
    },
 
    purgecss: {
       enabled: isDev ? false : true,
-      content: ["./src/**/*.vue"],
+      content: ["./src/**/*.vue", "./src/**/*.js"],
       safelist: ["html", "head", "body", "root", /\w+-(?:\[\d+(px|deg)\])?/],
-      fontFace: true,
-      variables: true,
-      keyframes: true,
+      fontFace: false,
+      variables: false,
+      keyframes: false,
    },
 
    site: {
@@ -109,6 +107,6 @@ export default defineNuxtConfig({
 
    css: ["~/assets/styles/app.scss"],
    modules: isDev
-      ? ["@nuxtjs/eslint-module", "@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"]
+      ? ["@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"]
       : ["@nuxtjs/strapi", "@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"],
 });

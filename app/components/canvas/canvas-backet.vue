@@ -4,7 +4,7 @@
       :class="{ 'right-0 overflow-hidden': store.isActiveBacket }">
       <canvas-header @close-canvas="store.updateBacketCanvas($event)"> Your order: </canvas-header>
       <div v-if="backet.cards.length" class="mb-5 flex h-full flex-col gap-5 overflow-y-scroll p-6 pb-32">
-         <canvas-backet-item />
+         <backet-item />
       </div>
       <p v-else class="m-6 rounded-xl bg-violet p-6 text-tertiary opacity-70">Your order list is empty</p>
    </div>
