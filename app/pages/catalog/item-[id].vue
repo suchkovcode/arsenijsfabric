@@ -1,7 +1,7 @@
 <template>
    <section class="mt-16 lg:mt-24">
       <div class="container py-12">
-         <v-breadcrumbs class="mb-6" :roter-link="{ catalog: true, name: 'cards.title', to: $route.fullPath }" />
+         <v-breadcrumbs class="mb-6" :roter-link="{ catalog: true, name: 'HOT SETTING ANTI AGING Alginate Face mask', to: $route.fullPath }" />
          <article class="flex flex-col gap-5 lg:flex-row lg:gap-8">
             <img class="mx-auto w-full max-w-[460px] rounded-xl lg:mx-0" src="" alt="card picture" loading="lazy" width="400" height="400" />
             <div class="mx-auto max-w-[460px] lg:mx-0 lg:max-w-none">
