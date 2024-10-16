@@ -1,5 +1,5 @@
 <template>
-   <section class="pb-10 pt-28 lg:pb-14 lg:pt-36 xl:pb-16">
+   <section class="pb-10 pt-36 lg:pb-14 lg:pt-48 xl:pb-16">
       <div class="container">
          <block-v-breadcrumbs class="mb-8" :roter-link="{ name: 'Catalog', to: '/catalog' }" />
          <div class="mb-5 flex flex-col items-center lg:mb-10 lg:flex-row lg:justify-between">
