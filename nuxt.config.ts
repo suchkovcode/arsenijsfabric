@@ -1,112 +1,112 @@
 const isDev = process.env.NODE_ENV !== "production";
 
 export default defineNuxtConfig({
-   builder: "vite",
-   telemetry: false,
-   ssr: true,
+  builder: "vite",
+  telemetry: false,
+  ssr: true,
 
-   hooks: {
-      "build:manifest": (manifest) => {
-         for (const key in manifest) {
-            const file = manifest[key];
-            if (file.assets) {
-               file.assets = file.assets.filter(
-                  (asset) =>
-                     !asset.endsWith(".webp") &&
-                     !asset.endsWith(".jpg") &&
-                     !asset.endsWith(".png") &&
-                     !asset.endsWith(".jpeg") &&
-                     !asset.endsWith(".svg"),
-               );
-            }
-         }
-      },
-   },
+  hooks: {
+     "build:manifest": (manifest) => {
+        for (const key in manifest) {
+           const file = manifest[key];
+           if (file.assets) {
+              file.assets = file.assets.filter(
+                 (asset) =>
+                    !asset.endsWith(".webp") &&
+                    !asset.endsWith(".jpg") &&
+                    !asset.endsWith(".png") &&
+                    !asset.endsWith(".jpeg") &&
+                    !asset.endsWith(".svg"),
+              );
+           }
+        }
+     },
+  },
 
-   app: {
-      rootId: "root",
-      pageTransition: false,
-      layoutTransition: false,
-      buildAssetsDir: isDev ? "/_nuxt/" : "assets/",
-   },
+  app: {
+     rootId: "root",
+     pageTransition: false,
+     layoutTransition: false,
+     buildAssetsDir: isDev ? "/_nuxt/" : "assets/",
+  },
 
-   devtools: {
-      enabled: false,
-      timeline: {
-         enabled: false,
-      },
-   },
+  devtools: {
+     enabled: false,
+     timeline: {
+        enabled: false,
+     },
+  },
 
-   sourcemap: {
-      server: false,
-      client: false,
-   },
+  sourcemap: {
+     server: false,
+     client: false,
+  },
 
-   features: {
-      inlineStyles: false,
-      noScripts: false,
-   },
+  features: {
+     inlineStyles: false,
+     noScripts: false,
+  },
 
-   future: {
-      compatibilityVersion: 4,
-   },
+  future: {
+     compatibilityVersion: 4,
+  },
 
-   components: [
-      {
-         path: "~/components",
-         pathPrefix: false,
-      },
-   ],
+  components: [
+     {
+        path: "~/components",
+        pathPrefix: false,
+     },
+  ],
 
-   nitro: {
-      preset: "node-server",
-      serveStatic: "node",
-      prerender: {
-         autoSubfolderIndex: false,
-         crawlLinks: true,
-      },
-      output: {
-         dir: ".output",
-         serverDir: ".output/server",
-         publicDir: ".output/public",
-      },
+  nitro: {
+     preset: "node-server",
+     serveStatic: "node",
+     prerender: {
+        autoSubfolderIndex: false,
+        crawlLinks: true,
+     },
+     output: {
+        dir: ".output",
+        serverDir: ".output/server",
+        publicDir: ".output/public",
+     },
 
-      minify: false,
-   },
+     minify: false,
+  },
 
-   eslint: {
-      lintOnStart: false,
-   },
-   postcss: {
-      plugins: {
-         "tailwindcss": {},
-         "postcss-combine-media-query": {},
-         "postcss-combine-duplicated-selectors": {},
-         "postcss-hover-media-feature": {},
-         "cssnano": ["default", { discardComments: { removeAll: true }, discardEmpty: true, discardDuplicates: true, minifyFontValues: true }],
-      },
-   },
+  eslint: {
+     lintOnStart: false,
+  },
 
-   purgecss: {
-      enabled: isDev ? false : true,
-      content: ["./src/**/*.vue", "./src/**/*.js"],
-      safelist: ["html", "head", "body", "root", /\w+-(?:\[\d+(px|deg)\])?/],
-      fontFace: false,
-      variables: false,
-      keyframes: false,
-   },
+  postcss: {
+     plugins: {
+        "tailwindcss": {},
+        "postcss-combine-media-query": {},
+        "postcss-combine-duplicated-selectors": {},
+        "postcss-hover-media-feature": {},
+        "cssnano": ["default", { discardComments: { removeAll: true }, discardEmpty: true, discardDuplicates: true, minifyFontValues: true }],
+     },
+  },
 
-   site: {
-      url: process.env.NUXT_SITE_URL || "https://arsenijsfabrica.suchkov.cc/",
-   },
+  purgecss: {
+     enabled: isDev ? false : true,
+     content: ["./src/**/*.vue", "./src/**/*.js"],
+     safelist: ["html", "head", "body", "root", /\w+-(?:\[\d+(px|deg)\])?/],
+     fontFace: false,
+     variables: false,
+     keyframes: false,
+  },
 
-   unlazy: {
-      ssr: isDev ? false : true,
-      placeholderSize: 24,
-   },
+  site: {
+     url: process.env.NUXT_SITE_URL || "https://arsenijsfabrica.suchkov.cc/",
+  },
 
-   css: ["~/assets/styles/app.scss"],
-   modules: isDev
-      ? ["@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"]
-      : ["@nuxtjs/strapi", "@pinia/nuxt", "@unlazy/nuxt", "@pinia-plugin-persistedstate/nuxt"],
+  unlazy: {
+     ssr: isDev ? false : true,
+     placeholderSize: 24,
+  },
+
+  css: ["~/assets/styles/app.scss"],
+  modules: ["@unlazy/nuxt", "@pinia/nuxt", "pinia-plugin-persistedstate/nuxt"],
+  compatibilityDate: "2025-02-06",
 });

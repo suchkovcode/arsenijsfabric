@@ -1,20 +1,33 @@
-   <p align="center">
-      <a href="https://vuefire.vuejs.org" target="_blank" rel="noopener noreferrer">
-         <img width="100" src="https://vuefire.vuejs.org/logo.svg" alt="VueFire logo" />
-      </a>
-   </p>
-   <br />
-   <p align="center">
-      <a href="https://github.com/vuejs/vue">
-         <img src="https://img.shields.io/badge/nuxt-3.13.2-brightgreen.svg" alt="vue" />
-      </a>
-      <a href="https://github.com/vuejs/pinia">
-         <img src="https://img.shields.io/badge/pinia-2.2.4-brightgreen.svg" alt="pinia" />
-      </a>
-      <a href="https://github.com/vuejs/vue">
-         <img src="https://img.shields.io/badge/strapi-5.1.0-brightgreen.svg" alt="vue" />
-      </a>
-   </p>
+<p align="center">
+   <a href="https://vuefire.vuejs.org" target="_blank" rel="noopener noreferrer">
+      <img width="100" src="https://vuefire.vuejs.org/logo.svg" alt="VueFire logo" />
+   </a>
+</p>
+<br />
+<p align="center">
+   <a href="https://github.com/vuejs/vue">
+      <img src="https://img.shields.io/badge/nuxt-3.15.4-brightgreen.svg" alt="vue" />
+   </a>
+   <a href="https://github.com/vuejs/pinia">
+      <img src="https://img.shields.io/badge/pinia-2.2.7-brightgreen.svg" alt="pinia" />
+   </a>
+   <a href="https://github.com/vuejs/vue">
+      <img src="https://img.shields.io/badge/strapi-4.25.20-brightgreen.svg" alt="vue" />
+   </a>
+</p>
+
+
+### 💻 Tech Stack:
+<img alt="nuxt" src="https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82" />&nbsp;
+<img alt="vue" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" />&nbsp;
+<img alt="html5" src="https://img.shields.io/badge/html-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=fff" />&nbsp;
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />&nbsp;
+<img alt="TailwindCSS" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />&nbsp;
+<img alt="ESLint" src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" />&nbsp;
+<img alt='stylelint' src='https://img.shields.io/badge/stylelint-100000?style=for-the-badge&logo=stylelint&logoColor=FFFFFF&labelColor=000000&color=000000'/>&nbsp;
+<img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" />&nbsp;
+<img alt="Strapi" src="https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white" />&nbsp;
+
 
 ## Feature
 
